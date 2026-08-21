@@ -1,444 +1,129 @@
-\# AI Product Ops Research — 100-App Integration Readiness
+# AI Product Ops Research — 100-App Integration Readiness
 
+An evidence-driven research and analysis pipeline for evaluating third-party applications for agent-toolkit integration readiness.
 
+The project analyzes **100 applications** across multiple categories and converts developer documentation, API information, authentication requirements, MCP support, access restrictions, and verification results into a structured dataset that can support product integration prioritization.
 
-\## Overview
+---
 
+## Overview
 
+When deciding which applications should be supported as agent-toolkit integrations, simply knowing that an application has an API is not enough.
 
-This project is an evidence-driven research pipeline designed to evaluate
+An integration may be technically possible but still difficult or costly to build because of:
 
-third-party applications for agent-toolkit integration readiness.
+- Authentication requirements
+- API access restrictions
+- Account requirements
+- Plan or subscription requirements
+- Permission requirements
+- Gated credentials
+- Limited API coverage
+- Missing documentation
+- Conflicting documentation
+- Unclear MCP support
+- Insufficient evidence
 
+This project addresses that problem through an **evidence-driven research pipeline**.
 
+Instead of making classifications based only on assumptions or the existence of an API, the system collects supporting evidence and evaluates each application against a consistent set of integration-readiness criteria.
 
-The system researches official developer documentation, collects evidence,
+The final output is a product-oriented dataset that can help answer:
 
-analyzes integration characteristics, performs human verification, and
+> **Which applications should we prioritize for integration, and what would make each integration difficult to build?**
 
-converts the findings into product-level recommendations.
+---
 
+# Problem Statement
 
+For an agent-toolkit platform, integration prioritization involves more than identifying applications with available APIs.
 
-The research covers 100 applications across multiple categories.
+Two applications may both expose APIs, but their integration effort can be very different.
 
+For example:
 
+- One application may provide a public API with straightforward authentication.
+- Another may require a paid plan.
+- Another may require account approval.
+- Another may expose an API but provide incomplete authentication documentation.
+- Another may support MCP while its underlying API access remains unclear.
+- Another may have documentation that cannot be automatically retrieved and therefore requires human verification.
 
-\---
+Without structuring these differences, product teams may prioritize integrations based on incomplete information.
 
+### Project Goal
 
+Build a repeatable research pipeline that evaluates these factors consistently and converts the results into **evidence-backed product recommendations**.
 
-\## Problem
+---
 
-
-
-When deciding which applications to support as agent toolkits, API
-
-availability alone is not enough.
-
-
-
-An integration can be technically possible but still difficult to build
-
-because of:
-
-
-
-\- Authentication requirements
-
-\- API access restrictions
-
-\- Account or plan requirements
-
-\- Permission requirements
-
-\- Gated credentials
-
-\- Missing or conflicting documentation
-
-\- Unclear MCP support
-
-
-
-The goal of this project is to make those factors explicit and
-
-prioritizable.
-
-
-
-\---
-
-
-
-\## Research Questions
-
-
+# Research Questions
 
 For each application, the system evaluates:
 
-
-
-1\. What authentication methods are available?
-
-2\. Is the application self-serve?
-
-3\. What type of API is available?
-
-4\. How broad is the API?
-
-5\. Is MCP support confirmed?
-
-6\. Is the integration technically buildable?
-
-7\. What is the main implementation blocker?
-
-8\. What evidence supports the classification?
-
-
-
-\---
-
-
-
-\## Methodology
-
-
-
-The pipeline follows:
-
-
-
-&#x20;   App Dataset
-
-&#x20;        ↓
-
-&#x20;   Documentation Discovery
-
-&#x20;        ↓
-
-&#x20;   Evidence Collection
-
-&#x20;        ↓
-
-&#x20;   Rule-Based Analysis
-
-&#x20;        ↓
-
-&#x20;   Human Verification
-
-&#x20;        ↓
-
-&#x20;   Final Dataset
-
-&#x20;        ↓
-
-&#x20;   Pattern Analysis
-
-&#x20;        ↓
-
-&#x20;   Product Recommendations
-
-
-
-Evidence is stored with source URLs so that classifications can be
-
-reviewed rather than treated as unsupported assumptions.
-
-
-
-\---
-
-
-
-\## Dataset
-
-
-
-The final research dataset contains:
-
-
-
-\- 100 applications
-
-\- 14 structured fields
-
-\- Evidence URLs
-
-\- Authentication information
-
-\- Self-service classification
-
-\- API classification
-
-\- MCP status
-
-\- Buildability
-
-\- Main blocker
-
-\- Analysis method
-
-
-
-The master dataset is:
-
-
-
-`results/final\_master\_dataset.csv`
-
-
-
-\---
-
-
-
-\## Key Findings
-
-
-
-\### Buildability
-
-
-
-79 of 100 applications were classified as buildable.
-
-
-
-\### MCP
-
-
-
-51 of 100 applications had MCP support classified as confirmed.
-
-
-
-\### Self-service
-
-
-
-30 of 100 applications were clearly classified as self-serve.
-
-
-
-32 were conditional on account, plan, permission, or similar requirements.
-
-
-
-10 were classified as gated.
-
-
-
-28 remained uncertain under the current rules.
-
-
-
-\### Easy Wins
-
-
-
-26 applications were identified as easy-win candidates using the current
-
-rule:
-
-
-
-\*\*Buildable + clearly self-serve\*\*
-
-
-
-These candidates provide a practical starting point for integration
-
-prioritization.
-
-
-
-\---
-
-
-
-\## Main Integration Blockers
-
-
-
-The most common blockers identified were:
-
-
-
-1\. Public API and authentication mechanism not clearly identified
-
-2\. API access depending on account or plan conditions
-
-3\. Insufficient API or authentication evidence
-
-4\. Credentials or API access being gated
-
-5\. MCP being identified while API/authentication evidence remained incomplete
-
-
-
-This suggests that access and authentication clarity can be a larger
-
-source of integration friction than API availability itself.
-
-
-
-\---
-
-
-
-\## Accuracy and Verification
-
-
-
-The analysis was iteratively improved:
-
-
-
-| Version | Sample Accuracy |
-
-|---|---:|
-
-| First pass | 22.22% |
-
-| Second pass | 33.33% |
-
-| V3 + human verification | 66.67% |
-
-
-
-The accuracy figure is based on a small human-verified sample and should
-
-therefore be treated as a directional quality indicator rather than a
-
-statistically representative benchmark.
-
-
-
-An important design principle was to avoid silently guessing when
-
-documentation could not be retrieved or verified.
-
-
-
-\---
-
-
-
-\## Important Example
-
-
-
-Some developer documentation could not be retrieved automatically because
-
-of access restrictions such as HTTP 403 responses.
-
-
-
-Instead of treating blocked pages as evidence that an API did not exist,
-
-the system flagged those cases for verification.
-
-
-
-This prevents:
-
-
-
-\*\*No evidence → False conclusion\*\*
-
-
-
-and instead produces:
-
-
-
-\*\*No evidence → Verification required\*\*
-
-
-
-\---
-
-
-
-\## Product Recommendations
-
-
-
-\### 1. Prioritize easy wins
-
-
-
-Start with applications that combine technical buildability with
-
-self-service access.
-
-
-
-\### 2. Separate technical feasibility from commercial access
-
-
-
-An integration can be technically buildable while still requiring a
-
-specific plan, account, or permission.
-
-
-
-These should be tracked separately.
-
-
-
-\### 3. Create an access-readiness score
-
-
-
-A future prioritization score could combine:
-
-
-
-\- API availability
-
-\- Authentication clarity
-
-\- Self-service availability
-
-\- MCP availability
-
-\- Plan restrictions
-
-\- Evidence quality
-
-
-
-\### 4. Turn uncertainty into a workflow
-
-
-
-Applications with incomplete evidence should automatically enter a human
-
-verification queue rather than receiving a confident classification.
-
-
-
-\### 5. Maintain evidence over time
-
-
-
-Developer documentation changes. High-priority integrations should be
-
-periodically rechecked.
-
-
-
-\---
-
-
-
-\## Project Structure
+1. What authentication methods are available?
+2. Is the application self-serve?
+3. What type of API is available?
+4. How broad is the API?
+5. Is MCP support confirmed?
+6. Is the integration technically buildable?
+7. What is the main implementation blocker?
+8. What evidence supports the classification?
+9. Does access depend on an account, plan, permission, or other requirement?
+10. Should the application be considered an integration priority?
+
+These questions are used to transform unstructured developer documentation into structured product intelligence.
+
+---
+
+# Research Scope
+
+The research covers:
+
+- **100 applications**
+- Multiple application categories
+- Official developer documentation
+- API documentation
+- Authentication documentation
+- MCP-related documentation
+- Access and plan requirements
+- Evidence URLs
+- Human verification
+- Rule-based classification
+- Cross-application pattern analysis
+
+The final research output is stored in a structured dataset that can be used for further analysis and prioritization.
+
+---
+
+# Methodology
+
+The project follows an end-to-end research pipeline:
+
+```text
+100-App Dataset
+       ↓
+Documentation Discovery
+       ↓
+Evidence Collection
+       ↓
+Rule-Based Analysis
+       ↓
+Human Verification
+       ↓
+Final Dataset
+       ↓
+Pattern Analysis
+       ↓
+Integration Prioritization
+       ↓
+Product Recommendations
 
 
 
 ```text
+
+# Project Structure
 
 ai-product-ops/
 │
