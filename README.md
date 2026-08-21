@@ -1,5 +1,9 @@
 # AI Product Ops Research — 100-App Integration Readiness
 
+## 🔎 Interactive Case Study
+
+[View the 100-App Integration Readiness Case Study](https://shrutik4929.github.io/ai-product-ops/web/case_study.html)
+
 An evidence-driven research and analysis pipeline for evaluating third-party applications for agent-toolkit integration readiness.
 
 The project analyzes **100 applications** across multiple categories and converts developer documentation, API information, authentication requirements, MCP support, access restrictions, and verification results into a structured dataset that can support product integration prioritization.
