@@ -441,70 +441,30 @@ periodically rechecked.
 ```text
 
 ai-product-ops/
-
 │
-
 ├── agent/
-
-│   ├── research\_agent.py
-
-│   ├── evidence\_collector.py
-
-│   ├── rule\_analyzer.py
-
-│   ├── verifier.py
-
-│   ├── accuracy\_calculator.py
-
-│   ├── compare\_accuracy.py
-
-│   ├── targeted\_evidence\_collector.py
-
-│   ├── multi\_rule\_analyzer.py
-
-│   ├── v3\_analyzer.py
-
-│   ├── v3\_accuracy.py
-
-│   ├── deep\_evidence\_test.py
-
-│   ├── build\_master\_dataset.py
-
-│   ├── pattern\_analysis.py
-
-│   └── build\_case\_study.py
-
+│   ├── targeted_evidence_collector.py
+│   ├── smart_evidence_collector.py
+│   ├── v3_analyzer.py
+│   ├── pattern_analysis.py
+│   ├── build_master_dataset.py
+│   └── build_case_study.py
 │
-
 ├── data/
-
 │   └── apps.csv
-
 │
-
 ├── results/
-
-│   ├── final\_master\_dataset.csv
-
-│   ├── pattern\_analysis.json
-
-│   ├── verification\_report.json
-
-│   └── ...
-
+│   ├── final_analysis/
+│   │   └── 100 app analysis JSON files
+│   ├── final_master_dataset.csv
+│   ├── final_evidence_dataset.csv
+│   ├── pattern_analysis.json
+│   ├── human_verified.json
+│   └── verification_report.json
 │
-
 ├── web/
-
-│   └── case\_study.html
-
+│   └── case_study.html
 │
-
-├── .env
-
-├── .gitignore
-
+├── README.md
 ├── requirements.txt
-
-└── README.md
-
+└── .gitignore
