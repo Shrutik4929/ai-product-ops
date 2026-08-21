@@ -2,7 +2,7 @@
 
 ## 🔎 Interactive Case Study
 
-[View the 100-App Integration Readiness Case Study](https://shrutik4929.github.io/ai-product-ops/web/case_study.html)
+[View the 100-App Integration Readiness Case Study](file:///C:/Users/SHRUTI/AppData/Local/Temp/fc5ae1ea-a970-4d6a-8cee-c3454ef9b209_ai-product-ops-submission.zip.209/submission/web/case_study.html)
 
 An evidence-driven research and analysis pipeline for evaluating third-party applications for agent-toolkit integration readiness.
 
