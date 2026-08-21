@@ -1,0 +1,44 @@
+{
+  "id": "16",
+  "app": "LiveAgent",
+  "category": "Support and Helpdesk",
+  "website": "https://liveagent.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Unknown",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": " july â 31st august 2026 *extended live ai gents at zero cost get your 33% off + free ai agent use code summer-33m for monthly and summer-33y for yearly subscription :site.title free trial close menu loading... view all results ai agents ai chatbot ai answer assistant ai human handover ai autoresponder product help desk ticketing live chat social media call center k"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "ble billing options. you will be in good hands! join our community of happy clients and provide excellent customer support with liveagent. start 30-days free trial schedule a demo contact us cookie consent we use cookies to enhance your browsing experience and analyze our traffic. see our privacy policy . reject all manage preferences accept all cookie settings close "
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "g to a paid plan. how much does liveagent cost? liveagent pricing starts at $15 per agent/month (billed annually) with multiple tiers available including small, medium, large, and enterprise plans â each adding more advanced features like call center, social channel integration, sla, and dedicated support. how much does liveagent cost? liveagent pricing starts at $15 per"
+      }
+    ],
+    "mcp": null,
+    "breadth": null
+  },
+  "evidence_urls": [
+    "https://www.liveagent.com/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

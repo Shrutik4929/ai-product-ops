@@ -1,0 +1,45 @@
+{
+  "id": "21",
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "website": "https://slack.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "ited and subject to compliance with the slack application developer policy and slack’s brand guidelines . you must use the apis only in accordance with this contract and the slack api documentation (‘ documentation ’). you must also comply with and maintain policies for your application reasonably in line with the acceptable use policy , but you shall not be responsible for "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": "our handy support system . slack api: applications | slack go to slack changelog documentation tutorials twitter success! your apps you'll need to sign in to your slack account to create an application. don't see an app you're looking for? sign in to another workspace . slack api terms of service | legal | slack skip to main content close navigation close navigation slac"
+      }
+    ],
+    "mcp": null,
+    "breadth": "slack developer docs | slack developer docs guide skip to main content slack developer docs welcome to the slack api docs, the place where ideas turn into interactive apps, workflows get automated, and slack becomes the platform that powers your workday. new create an agent get started ​ create "
+  },
+  "evidence_urls": [
+    "https://docs.slack.dev/",
+    "https://slack.com/intl/en-in/",
+    "https://api.slack.com/developer-program",
+    "https://docs.slack.dev/",
+    "https://docs.slack.dev/",
+    "https://api.slack.com/apps",
+    "https://slack.com/intl/en-in/terms-of-service/api"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

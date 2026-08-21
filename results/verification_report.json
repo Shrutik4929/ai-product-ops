@@ -1,0 +1,80 @@
+[
+  {
+    "app": "Salesforce",
+    "agent_result": {
+      "auth_methods": [
+        "Unknown"
+      ],
+      "self_serve": "Unknown",
+      "api_type": "Unknown",
+      "api_breadth": "Unknown",
+      "mcp_available": "Not found in collected evidence",
+      "buildability": "Requires verification"
+    },
+    "human_verified": {
+      "auth_methods": [
+        "OAuth 2.0",
+        "Token"
+      ],
+      "self_serve": "Yes - Developer Edition/testing; production API access depends on edition",
+      "api_type": "REST + other APIs",
+      "api_breadth": "Broad",
+      "mcp_available": "Not confirmed from official sources checked",
+      "buildability": "Yes",
+      "main_blocker": "API access depends on Salesforce edition/org authorization"
+    },
+    "verification_status": "Verified against official documentation"
+  },
+  {
+    "app": "HubSpot",
+    "agent_result": {
+      "auth_methods": [
+        "Unknown"
+      ],
+      "self_serve": "Unknown",
+      "api_type": "Unknown",
+      "api_breadth": "Broad",
+      "mcp_available": "Not found in collected evidence",
+      "buildability": "Requires verification"
+    },
+    "human_verified": {
+      "auth_methods": [
+        "OAuth 2.0",
+        "Token"
+      ],
+      "self_serve": "Yes - free developer account and developer test accounts",
+      "api_type": "REST",
+      "api_breadth": "Broad",
+      "mcp_available": "Yes - official Developer MCP Server",
+      "buildability": "Yes",
+      "main_blocker": "Scopes/account permissions for installation and production use"
+    },
+    "verification_status": "Verified against official documentation"
+  },
+  {
+    "app": "Pipedrive",
+    "agent_result": {
+      "auth_methods": [
+        "Unknown"
+      ],
+      "self_serve": "Unknown",
+      "api_type": "Unknown",
+      "api_breadth": "Broad",
+      "mcp_available": "Not found in collected evidence",
+      "buildability": "Requires verification"
+    },
+    "human_verified": {
+      "auth_methods": [
+        "OAuth 2.0",
+        "Token"
+      ],
+      "self_serve": "Yes - developer sandbox/test environment",
+      "api_type": "REST",
+      "api_breadth": "Broad",
+      "mcp_available": "Not confirmed from official sources checked",
+      "buildability": "Yes",
+      "main_blocker": "App registration/OAuth setup and required scopes"
+    },
+    "verification_status": "Verified against official documentation"
+  }
+]

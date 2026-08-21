@@ -1,0 +1,75 @@
+{
+  "id": "62",
+  "app": "Vercel",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://vercel.com/docs/rest-api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "record key type is required and was not provided. it could be any valid dns record . 1 { 2 \"error\" : { 3 \"code\" : \"missing_type\" , 4 \"message\" : \"missing `type` parameter\" 5 } 6 } oauth2 errors these errors can occur when using any oauth2 related endpoint . client not found the oauth2 client id could not be found or doesn't exist. 1 { 2 \"error\" : { 3 \"code\" : \"not"
+      },
+      {
+        "signal": "API key",
+        "snippet": "s getting started ask ai sign up log in copy page copy page authentication & byok copy page copy page every request to ai gateway requires vercel authentication. use an ai gateway api key or openid connect (oidc) token. bring your own key (byok) provider credentials control how ai gateway authenticates to a model provider, but they don't replace request authenticat"
+      },
+      {
+        "signal": "Token",
+        "snippet": "basics the api is exposed as an http/1 and http/2 service over ssl. all endpoints live under the url https://api.vercel.com and follow the rest architecture. authentication vercel access tokens are required to authenticate and use the vercel api. include the token in the authorization header: authorization: bearer <token> create and manage access tokens in your account "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ue with email continue with google continue with github continue with chatgpt continue with saml sso continue with passkey show other options don't have an account? sign up vercel rest api reference skip to content copy wordmark copy logo download brand assets brand guidelines docs ask ai log in sign up build build with ai ai gateway ai sdk sandbox container registr"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "th email continue with google continue with github continue with chatgpt continue with saml sso continue with passkey show other options don't have an account? sign up vercel rest api reference skip to content copy wordmark copy logo download brand assets brand guidelines docs ask ai log in sign up build build with ai ai gateway ai sdk sandbox container registry workflow"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "vercel documentation skip to content copy wordmark copy logo download brand assets brand guidelines docs ask ai log in sign up build build with ai ai gateway ai sdk sandbox container registry workflow vercel agent v0 ↗ vercel mcp ai integrations deploy & scale deployments cli functions delivery network st"
+      }
+    ],
+    "mcp": "deas with vercel's ai-powered development assistant. ai sdk integrate language models with streaming and tool calling. ai gateway route to any ai provider with automatic failover. mcp servers create tools for ai agents to interact with your systems. agent resources access documentation for ai tools, mcp servers, agent skills, and more. claim deployments allow ai agent",
+    "breadth": "th email continue with google continue with github continue with chatgpt continue with saml sso continue with passkey show other options don't have an account? sign up vercel rest api reference skip to content copy wordmark copy logo download brand assets brand guidelines docs ask ai log in sign up build build with ai ai gateway ai sdk sandbox container registry workflow"
+  },
+  "evidence_urls": [
+    "https://vercel.com/docs",
+    "https://vercel.com/login?next=%2Fdevelopers",
+    "https://vercel.com/login?next=%2Fdeveloper",
+    "https://vercel.com/docs/rest-api",
+    "https://vercel.com/login?next=%2Fapi-docs",
+    "https://vercel.com/docs/rest-api/authentication/sso-token-exchange",
+    "https://vercel.com/docs/rest-api#authentication",
+    "https://vercel.com/docs/rest-api/sdk",
+    "https://vercel.com/docs/ai-gateway/authentication-and-byok",
+    "https://vercel.com/kb/security",
+    "https://vercel.com/docs/rest-api#geist-skip-nav",
+    "https://vercel.com/docs/rest-api/errors",
+    "https://vercel.com/docs/rest-api#using-the-rest-api",
+    "https://vercel.com/docs/rest-api#api-basics",
+    "https://vercel.com/docs/rest-api#accessing-team-resources",
+    "https://vercel.com/docs/rest-api#rate-limits",
+    "https://vercel.com/docs/rest-api#endpoints",
+    "https://vercel.com/docs/rest-api/access-groups/reads-an-access-group"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

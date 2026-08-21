@@ -1,0 +1,78 @@
+{
+  "id": "8",
+  "app": "Close",
+  "category": "CRM and Sales",
+  "website": "https://close.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " gives everything you or your ai agents need. rest api reference full endpoint docs with schemas, examples, and an interactive api explorer. authentication api keys for scripts or oauth 2.0 for user-facing integrations. webhooks & events real-time event notifications and a 30-day event log. mcp server model context protocol for ai agents. build an integration create "
+      },
+      {
+        "signal": "API key",
+        "snippet": "close developer platform gives everything you or your ai agents need. rest api reference full endpoint docs with schemas, examples, and an interactive api explorer. authentication api keys for scripts or oauth 2.0 for user-facing integrations. webhooks & events real-time event notifications and a 30-day event log. mcp server model context protocol for ai agents. bu"
+      },
+      {
+        "signal": "Token",
+        "snippet": "access to their own org. create an oauth app — register your application in close to get client credentials. implement the oauth 2.0 flow — let users authorize your app and obtain access tokens. build your integration — use the api reference to interact with close data on behalf of each connected customer. get listed — submit your integration to the close integrations d"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "d can be generated and deleted in the settings page. see api keys & oauth for more information. perform api calls with api key api keys use http basic client side authentication . basic authentication is a simple authentication scheme built into the http protocol. to use it, send your http requests with an authorization header that contains the word basic followed by a space an"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "tions whether you’re a close customer automating your sales process or a partner building an integration, the close developer platform gives everything you or your ai agents need. rest api reference full endpoint docs with schemas, examples, and an interactive api explorer. authentication api keys for scripts or oauth 2.0 for user-facing integrations. webhooks & eve"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "index is available at the root level at /llms.txt. append /llms.txt to any url for a page-level index, or .md for the markdown version of any page. search / ask ai developers home api reference mcp developers home api reference mcp developers home build an integration overview create an oauth app publish external links integrations directory product help product updates "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "based webhooks to track change events in real time and use that data to power your custom workflows. discover the full power and potential of the close api. view api documentation free trial free migration free support no credit card needed start your 14-day free trial on-demand demo learn the how + why of close in just a few minutes. take a product tour talk to a rea"
+      }
+    ],
+    "mcp": "an interactive api explorer. authentication api keys for scripts or oauth 2.0 for user-facing integrations. webhooks & events real-time event notifications and a 30-day event log. mcp server model context protocol for ai agents. build an integration create an oauth app, connect your product, and get listed. api clients community libraries for python, node.js, ruby, ph",
+    "breadth": "index is available at the root level at /llms.txt. append /llms.txt to any url for a page-level index, or .md for the markdown version of any page. search / ask ai developers home api reference mcp developers home api reference mcp developers home build an integration overview create an oauth app publish external links integrations directory product help product updates "
+  },
+  "evidence_urls": [
+    "https://developer.close.com/",
+    "https://close.com/api",
+    "https://close.com/",
+    "https://developer.close.com/api/overview/api-key-authentication",
+    "https://developer.close.com/api/overview",
+    "https://developer.close.com/mcp",
+    "https://developer.close.com/integrations",
+    "https://developer.close.com/integrations/create-an-oauth-app",
+    "https://developer.close.com/api/resources/webhooks",
+    "https://developer.close.com/api/overview/api-clients",
+    "https://developer.close.com/api/overview/changelog",
+    "https://developer.close.com/api/resources/events",
+    "https://developer.close.com/api/resources/reporting",
+    "https://developer.close.com/api/resources/sequences",
+    "https://developer.close.com/api/resources/bulk-actions/email/list",
+    "https://developer.close.com/integrations/publish"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

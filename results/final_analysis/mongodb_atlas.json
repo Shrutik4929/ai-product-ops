@@ -1,0 +1,99 @@
+{
+  "id": "68",
+  "app": "MongoDB Atlas",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://mongodb.com/docs/atlas/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "e atlas administration api to manage your atlas clusters, you must authenticate your api requests with one of the following authentication methods: service account access tokens ( oauth 2.0) api keys ( http digest authentication) to learn about these methods, see atlas administration api authentication methods. the following sections describe how to use service accou"
+      },
+      {
+        "signal": "API key",
+        "snippet": "established by the cloudformation stack. when the deployment completes, copy the following in the outputs section of the cloudformation stack: graphqlapikey , which is the appsync api key graphqlapiurl , which is the appsync api url lambdafunction , which is the arn of the lambda function 2 test the appsync api with a lambda resolver as its data source. you can use"
+      },
+      {
+        "signal": "Token",
+        "snippet": "e way as api keys from other model providers. authentication all requests to the embedding and reranking api must include an authorization header with your model api key using the bearer token format. authorization : bearer voyage_api_key when you use a client sdk, you set the api key when constructing a client, and the sdk sends the header on your behalf with every req"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "las go sdk. atlas embedding and reranking api the embedding and reranking api provides endpoints for accessing voyage ai's state-of-the-art embedding and reranking models. use the rest api and available client sdks to power search and retrieval in your ai applications. learn about the embedding and reranking api see the embedding and reranking api specification atla"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "sync lambda resolvers copy page you can manage data on your atlas cluster using aws appsync direct lambda resolvers. the lambda function, serving as a resolver for the aws appsync graphql api, enables seamless crud operations on your data in your atlas cluster. integrating atlas with aws appsync offers a powerful, flexible solution for building scalable, serverless"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "t libraries, which are available in almost every modern programming language and compatible with most application frameworks. each client library has detailed documentation and an api reference in that library's native programming language. tools find useful tools and integrations to aid in both development and management, including simplified database management, integr"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "cessed per minute rpm (requests per minute) : maximum number of api requests per minute if you exceed the rate limit, the api returns a 429 (rate limit exceeded) http status code. free trial usage tier 1 usage tier 2 usage tier 3 free trial rate limits without a payment method are 3 rpm and 10k tpm. to qualify for higher rate limits, add a payment method to your accou"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ion, mongodb is also highly scalable and available. learn more how can i start using mongodb? mongodb atlas is the easiest way to build with mongodb, from prototype to production. sign up today and start learning or exploring with a free-forever or flex tier cluster. upgrade to a dedicated cluster to access all platform capabilities. to start developing and testing"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "ongodb products build the next generation of applications with mongodb. run your data layer in any environment and accelerate your journey with tools and integrations. get started contact sales the world's most popular document database harness mongodb's agile, scalable document database for any use case. effortlessly evolve your data schema with no downtime, implement b"
+      },
+      {
+        "type": "gating",
+        "signal": "contact our sales team",
+        "snippet": "ately, and additional support is available on a subscription basis. mongodb community edition is open and free to use. to learn more about pricing for mongodb enterprise advanced, contact our sales team . mongodb pricing can i run mongodb on a private cloud? yes, mongodb enterprise advanced can be used to run mongodb on a private cloud or any on-premises environments. learn more "
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "e common tasks, and connect to other tools and services in your stack. tools integrations explore mongodb offerings mongodb products faq don’t see an answer to your question here? contact us faq what are the benefits of mongodb as a database? the benefits of mongodb as a database include ease of use, flexibility, and scalability. by storing data in documents that map "
+      }
+    ],
+    "mcp": "ccounts. they don't apply to delegated access granted through atlas app connections, including third-party partner applications, mongodb applications such as mongodb compass , and model context protocol (mcp) clients. if your organization requires all atlas administration api traffic to originate from specific addresses, don't enable delegated app access for that organization. de",
+    "breadth": "t libraries, which are available in almost every modern programming language and compatible with most application frameworks. each client library has detailed documentation and an api reference in that library's native programming language. tools find useful tools and integrations to aid in both development and management, including simplified database management, integr"
+  },
+  "evidence_urls": [
+    "https://www.mongodb.com/docs/",
+    "https://www.mongodb.com/docs/atlas/api/",
+    "https://www.mongodb.com/docs/atlas/graphql-api/",
+    "https://www.mongodb.com/products",
+    "https://www.mongodb.com/community",
+    "https://www.mongodb.com/docs/atlas/api/#atlas-programmatic-access",
+    "https://www.mongodb.com/docs/atlas/api/#atlas-administration-api",
+    "https://www.mongodb.com/docs/atlas/configure-api-access/#std-label-atlas-admin-api-access",
+    "https://www.mongodb.com/docs/atlas/api/atlas-admin-api/#std-label-atlas-admin-api",
+    "https://www.mongodb.com/docs/atlas/reference/api-resources-spec/v2/",
+    "https://www.mongodb.com/docs/atlas/api/#atlas-go-sdk",
+    "https://www.mongodb.com/docs/atlas/api/#atlas-embedding-and-reranking-api",
+    "https://www.mongodb.com/docs/voyageai/api-reference/overview/",
+    "https://www.mongodb.com/docs/api/doc/atlas-embedding-and-reranking-api/",
+    "https://www.mongodb.com/docs/atlas/api/#atlas-cli",
+    "https://www.mongodb.com/docs/atlas/api/#hashicorp-terraform-mongodb-atlas-provider",
+    "https://www.mongodb.com/docs/atlas/api/#cloud-development-kit-for-terraform"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

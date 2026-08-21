@@ -1,0 +1,68 @@
+{
+  "id": "46",
+  "app": "Squarespace",
+  "category": "Ecommerce",
+  "website": "https://developers.squarespace.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ontacts; maintain addresses for shipping and fulfillment. list contacts get https://api.squarespace.com /v1/contacts returns a paginated list of contacts for the website. requires oauth website scope website.contacts.read or website.contacts, or api key scope contact_readonly or contact, or oauth website scope website.profiles.read or website.profiles (oauth only"
+      },
+      {
+        "signal": "API key",
+        "snippet": "tacts get https://api.squarespace.com /v1/contacts returns a paginated list of contacts for the website. requires oauth website scope website.contacts.read or website.contacts, or api key scope contact_readonly or contact, or oauth website scope website.profiles.read or website.profiles (oauth only). list contacts âº query parameters pagesize â integer â â·â int"
+      },
+      {
+        "signal": "Token",
+        "snippet": "where next page of results begins. should be {pagination.nextpagecursor} from previous response. list contacts âº headers authorization â string â â·â required api key or oauth access token default: bearer your_api_key_or_oauth_token user-agent â string â â·â required user agent default: your_custom_app_description list contacts âº responses 200 400 403 429 a pagi"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "e blocks against the 7.1 layout model. 05 webhooks & automation subscribe to order, inventory, content, and customer events with signed delivery. 06 ai compatibility integrate our api docs directly into claude or chatgpt. what apis and tools does the platform include? get deep control with commerce apis, reseller apis, and a reliable custom code spec. commerce apis "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "panies looking to integrate our products into their offering. coming soon stay in the loop get notified about api updates, breaking changes, and new developer tools. email address sign up by pressing sign up, i consent to receive updates about squarespace developer tools and acknowledge that my information is subject to the squarespace privacy policy . ready to bui"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "e-c php ruby swift example responses 204 403 404 429 no example specified for this content type update contact patch https://api.squarespace.com /v1/contacts/{contactid} updates a contact using json merge patch. requires oauth website scope website.contacts, or api key scope contact, or oauth website scope website.profiles (oauth only). update contact âº path paramet"
+      }
+    ],
+    "mcp": null,
+    "breadth": "squarespace developer platform: apis, apps, and docs build on squarespace everything you need to build and publish external apps â reliable apis, clear documentation, and a marketplace to reach squarespace's globa"
+  },
+  "evidence_urls": [
+    "https://developers.squarespace.com/",
+    "http://developer.squarespace.com/;jsessionid=B284D9DC739BD0C9A488111A715FDD1C.v5-web002",
+    "https://developers.squarespace.com/",
+    "https://developers.squarespace.com/commerce-apis/contacts",
+    "https://developers.squarespace.com/changes/self-service-oauth-credential-management",
+    "https://developers.squarespace.com/commerce-apis/overview",
+    "https://developers.squarespace.com/webhooks/overview",
+    "https://developers.squarespace.com/quick-start",
+    "https://developers.squarespace.com/custom-code/about",
+    "https://developers.squarespace.com/custom-code/about"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

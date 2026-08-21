@@ -1,0 +1,73 @@
+{
+  "id": "18",
+  "app": "Help Scout",
+  "category": "Support and Helpdesk",
+  "website": "https://helpscout.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ook workflows list workflows run manual workflows update workflow status changelog inbox api 2.0 welcome to the second generation of our inbox api. this is an https-only api, with oauth 2 authentication and cors support running at: https://api.helpscout.net/v2 it uses json for requests, responses and error messages . the responses typically include resource links"
+      },
+      {
+        "signal": "API key",
+        "snippet": "strictions objects article articleref articlerevision articlerevisionref articlesearch callbackconfiguration category collection person redirect site siterestriction overview your api key each user has a docs api key. to generate, view, or regenerate the api key, click your avatar in the top right of your account, then click your profile . next, click security and "
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": " key is associated with a help scout user. results returned from various responses are based upon the role of the user to which the api key is tied. the api key is passed via http basic authentication and goes in the username field. a dummy password, such as x, goes in the password field. to try the api via curl on the command-line, the general form used would be: curl --user a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "l magento joakim hedlund django template victor neo wordpress / easy digital downloads integration sprout apps restrict content pro pippin's plugins intercom tom graham starter wp rest api controller brady vercher laravel spark iain poulson sla clock for macos simon roth contents ↑ back to top redirecting… redirecting… click here if you are not redirected. getting s"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "help scout developers - api documentation | help scout developers help scout developers apps beacon inbox api webhooks docs api open source beacon 1.0 legacy mailbox api 1.0 legacy chat api getting started help scout prov"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "self service",
+        "snippet": "k with your team administration tips and collaboration tools 7 articles help scout for your industry see how help scout can help you delight customers, in any industry 11 articles self service best practices help your customers help themselves 15 articles account management company settings manage account wide settings like permissions, 2fa, sso, content filtering, and "
+      }
+    ],
+    "mcp": null,
+    "breadth": "help scout developers - api documentation | help scout developers help scout developers apps beacon inbox api webhooks docs api open source beacon 1.0 legacy mailbox api 1.0 legacy chat api getting started h"
+  },
+  "evidence_urls": [
+    "https://developer.helpscout.com/",
+    "https://docs.helpscout.com/",
+    "https://www.helpscout.com/knowledge-base/",
+    "https://www.helpscout.com/",
+    "https://developer.helpscout.com/mailbox-api/",
+    "https://developer.helpscout.com/docs-api/",
+    "https://developer.helpscout.com/help-desk-api/",
+    "https://developer.helpscout.com/chat/",
+    "https://developer.helpscout.com/apps/getting-started/",
+    "https://developer.helpscout.com/apps/",
+    "https://developer.helpscout.com/beacon-2/",
+    "https://developer.helpscout.com/webhooks/",
+    "https://developer.helpscout.com/open-source/",
+    "https://developer.helpscout.com/beacons/",
+    "https://docs.helpscout.com/collection/1543-getting-started",
+    "https://docs.helpscout.com/category/1560-apps"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

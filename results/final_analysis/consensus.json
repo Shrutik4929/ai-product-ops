@@ -1,0 +1,50 @@
+{
+  "id": "94",
+  "app": "Consensus",
+  "category": "AI, Research and Media-native",
+  "website": "https://consensus.app",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "d. using https://mcp.consensus.app alone will not work. connect your client claude desktop go to settings → connectors click browse connectors search for consensus click connect — oauth sign-in will open automatically chatgpt click apps from the left sidebar search for consensus click connect and sign in with your consensus account search results display in an in"
+      },
+      {
+        "signal": "API key",
+        "snippet": "eep 20 1,000 study type, key takeaways teams 20 1,000 study type, key takeaways create a free account at consensus.app/sign-up or upgrade at consensus.app/pricing . enterprise and api key access for enterprise access with unlimited rate limits, include your api key as a bearer token: authorization: bearer your_api_key contact consensus for enterprise api access at "
+      },
+      {
+        "signal": "Token",
+        "snippet": "ee account at consensus.app/sign-up or upgrade at consensus.app/pricing . enterprise and api key access for enterprise access with unlimited rate limits, include your api key as a bearer token: authorization: bearer your_api_key contact consensus for enterprise api access at consensus.app/home/api . search tool the search tool searches consensus for peer-reviewed resear"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "or relevant papers (legacy). for ai agents: visit https://docs.consensus.app/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content mcp api reference v1.0 log in api reference log in query for relevant papers (legacy). query for relevant papers (legacy). copy page get deprecated https://api.consensus.app /v1/quick_search this e"
+      }
+    ],
+    "self_serve": [],
+    "mcp": "down and endpoints in openapi. jump to content mcp api reference v1.0 log in mcp log in getting started with the consensus mcp getting started with the consensus mcp the consensus mcp server enables ai assistants like chatgpt, claude, and other mcp-compatible clients to search over 200 million peer-reviewed academic research papers directly from the conversation. gett",
+    "breadth": "or relevant papers (legacy). for ai agents: visit https://docs.consensus.app/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content mcp api reference v1.0 log in api reference log in query for relevant papers (legacy). query for relevant papers (legacy). copy page get deprecated https://api.consensus.app /v1/quick_search this e"
+  },
+  "evidence_urls": [
+    "https://docs.consensus.app/reference/v1_quick_search",
+    "https://docs.consensus.app/reference/v1_quick_search",
+    "https://docs.consensus.app/docs/mcp"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

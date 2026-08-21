@@ -1,0 +1,61 @@
+{
+  "id": "38",
+  "app": "Pinterest",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.pinterest.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "version data. create content build apps and experiences that allow pinterest users to create and manage organic content (pins and boards) on pinterest. build & manage ads use pinterest api to manage ad campaigns, set up targeting, and report on campaign performance. manage product catalogs pinterest api for shopping allows you to create and manage your product catal"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "vorite products. when they find something they love, they’re willing to pay more. learn about super shoppers and shopping products for businesses on pinterest. learn more catalogs api reference developer documentation to implement catalog feeds, products, and product groups. learn more developer documentation for shopping overview on how to get started with multiple pint"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "bout available metrics and targeting options in pinterest api. learn more ready to get started? connect app pinterest developers skip to content developer platform create your new developer account pinterest developers skip to content developer platform use cases create to your heart's content create different types of pins on pinterest the best pins are visually compelling,"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ted saved explore when autocomplete results are available use up and down arrows to review and enter to select. touch device users, explore by touch or with swipe gestures. log in sign up fotografia , 8 pins · , 8y technology , 1 pin · , 8y olhos , 5 pins · , 8y pat johnson (docs) - profile | pinterest skip to content pat johnson docs follow created saved explore w"
+      }
+    ],
+    "mcp": null,
+    "breadth": "vorite products. when they find something they love, they’re willing to pay more. learn about super shoppers and shopping products for businesses on pinterest. learn more catalogs api reference developer documentation to implement catalog feeds, products, and product groups. learn more developer documentation for shopping overview on how to get started with multiple pint"
+  },
+  "evidence_urls": [
+    "https://developers.pinterest.com/",
+    "https://developer.pinterest.com/",
+    "https://developers.pinterest.com/",
+    "https://www.pinterest.com/developer/",
+    "https://www.pinterest.com/docs/",
+    "https://developers.pinterest.com/terms/",
+    "https://developers.pinterest.com/usecase/conversions/",
+    "https://developers.pinterest.com/usecase/ads/",
+    "https://developers.pinterest.com/usecase/catalogs/",
+    "https://developers.pinterest.com/usecase/analyze/",
+    "https://developers.pinterest.com/account-setup/",
+    "https://developers.pinterest.com/usecase/content/",
+    "https://developers.pinterest.com/success/visit-california/",
+    "https://developers.pinterest.com/blog/2023/10/05/pin-creation-update-a-simplified-format-with-new-features/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

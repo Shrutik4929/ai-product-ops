@@ -1,0 +1,93 @@
+{
+  "id": "29",
+  "app": "Aircall",
+  "category": "Communications and Messaging",
+  "website": "https://aircall.io",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "e company level, which means they can only be set by an admin user. it is possible to configure several instances of an integration on one aircall account. aircall implemented the oauth 2.0 authentication protocol so you can easily build an app on top of aircall and deploy it on aircall's marketplace. beyond the added security and scalability, the aircall oauth flow "
+      },
+      {
+        "signal": "API key",
+        "snippet": "\"ping\": \"pong\" } basic auth ï¹£ aircall customers as an aircall customer, an api_id and api_token are needed to use aircall public api: go to your company's settings page . in the api keys section, click on add a new api key and get your api_token and api_token . do not forget to copy/paste your api_token somewhere safe, we won't be able to retrieve it for you as a"
+      },
+      {
+        "signal": "Token",
+        "snippet": "you get an oauth authorization code from the oauth flow, you need to convert it into a public api access_token with the following request. this access_token will then be used as a bearer token in the authorization header of each public api requests you will make and does not expire. body params client_id string the client_id provided by aircall. more information in the "
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "ot store it in plain text! if you are building an app for several companies using aircall, please refer to the oauth section . public api requests must be authenticated using http basic authentication . the api_id is the username and the api_token is the password for each public api requests. the authorization http header is constructed as follows: the api_id and api_token are "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "> aircall developer platform build the next generation of ai communication access all the tools you need to build on the leading communication and intelligence platform ai api mcp rest api webhooks embed sdk start building 0101101001011010010110100101101001011010010110100101101001011010010110100101101001011010010110100101101001011010010110100101101001011010010110100"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "developers | aircall icon-light created with sketch. icon-dark created with sketch. api references guides start building aircall for developers for ai agents: visit https://developer.aircall.io/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": " a solution exclusively for one client prototyping and testing before committing to a public integration key characteristics authentication api key audience single aircall account developer account ❌ not available app listing ❌ not available tech partner program ❌ not required review process none setup time minutes getting started with a private app log into your aircall das"
+      },
+      {
+        "type": "self_serve",
+        "signal": "developer sandbox",
+        "snippet": "ad more → see all updates → join a global ecosystem of technology partners thousands of developers and technology companies have built on aircall. get access to dedicated support, developer sandboxes, and co-marketing opportunities, and reach 20,000+ businesses through our app marketplace. get started read partner stories 01101001011010010110100101101001011010010110100101101"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": " the following steps describe how to register a server endpoint to start receiving webhook events. up to 100 webhooks can be registered per account! login on your aircall account (sign up here if you don't have one). go to the integrations' page ( integrations & api section in aircall dashboard) search for âwebhookâ and click on integration âwebhookâ in â"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "x-aircallapi-limit limit of requests for the api key used. x-aircallapi-remaining remaining requests for this api key. x-aircallapi-reset timestamp when the counter will be reset. contact us on support.aircall.io if you need to make more requests per minute, we will add a higher rate limit to your api keys! pagination when retrieving a list of objects with a [get] req"
+      }
+    ],
+    "mcp": null,
+    "breadth": "developers | aircall icon-light created with sketch. icon-dark created with sketch. api references guides start building aircall for developers for ai agents: visit https://developer.aircall.io/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. "
+  },
+  "evidence_urls": [
+    "https://developers.aircall.io/",
+    "https://developer.aircall.io/",
+    "https://aircall.io/",
+    "https://developers.aircall.io/api-references",
+    "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works",
+    "https://developers.aircall.io/api-references/",
+    "https://developer.aircall.io/docs/public-vs-private-app",
+    "https://developers.aircall.io/api-references/#analytics-overview",
+    "https://developers.aircall.io/api-references/#trigger-an-outbound-call",
+    "https://developers.aircall.io/api-references/#announcements",
+    "https://developer.aircall.io/docs/introduction",
+    "https://developers.aircall.io/tutorials/webhooks-guide/",
+    "https://developers.aircall.io/tutorials/send-insights-to-agents/",
+    "https://developers.aircall.io/tutorials/build-a-smart-routing-system/",
+    "https://developer.aircall.io/#content",
+    "https://developer.aircall.io/docs/introduction"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

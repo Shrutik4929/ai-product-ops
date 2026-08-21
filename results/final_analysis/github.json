@@ -1,0 +1,60 @@
+{
+  "id": "61",
+  "app": "GitHub",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.github.com/rest",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": " ssh using the ssh protocol, you can connect and authenticate to remote servers and services. with ssh keys, you can connect to github without supplying your username and personal access token at each visit. you can also use an ssh key to sign commits. learn about authentication about two-factor authentication two-factor authentication (2fa) is an extra layer of securit"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "sktop project management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing "
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "ject management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing electron"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "actor authentication with 2fa enabled, you'll be asked to provide your 2fa authentication code, as well as your password, when you sign in to github. showing 1-9 of 65 github rest api documentation - github docs skip to main content github docs version: free, pro, & team search or ask copilot search or ask copilot select language: current language is english search or ask co"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "to github docs more docs codeql query writing electron npm github well-architected developers · github skip to content navigation menu sign in appearance settings search / sign in sign up appearance settings you signed in with another tab or window. reload to refresh your session. you signed out in another tab or window. reload to refresh your session. you switched"
+      }
+    ],
+    "mcp": null,
+    "breadth": " project management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing "
+  },
+  "evidence_urls": [
+    "https://developers.github.com/",
+    "https://docs.github.com/en",
+    "https://github.com/developers",
+    "https://github.com/docs",
+    "https://github.com/api-docs",
+    "https://docs.github.com/en/authentication",
+    "https://docs.github.com/en/rest",
+    "https://docs.github.com/en/graphql"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

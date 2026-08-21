@@ -1,0 +1,69 @@
+{
+  "id": "96",
+  "app": "Devin",
+  "category": "AI, Research and Media-native",
+  "website": "https://docs.devin.ai",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "-step guide! browse mcp use cases explore practical examples of devin with mcps like datadog, sentry, linear, figma, and more. ​ configuration tips for mcps that authenticate with oauth, devin will prompt you to visit a url to connect your account. how the connection is shared depends on the server’s access setting: organization : all members share a single authe"
+      },
+      {
+        "signal": "API key",
+        "snippet": ", npx , uvx , docker ). arguments : command-line arguments passed to the server. environment variables : key-value pairs set in the server’s process environment. use these to pass api keys, tokens, or configuration values. example — a custom stdio server using npx : { \"transport\" : \"stdio\" , \"command\" : \"npx\" , \"args\" : [ \"-y\" , \"@example/my-mcp-server\" ], \"env_var"
+      },
+      {
+        "signal": "Token",
+        "snippet": "onnect a service account rather than a personal account. personal : each organization member authenticates individually with their own account. example — a remote http server with bearer token auth: { \"transport\" : \"http\" , \"url\" : \"https://mcp.internal-service.example.com/mcp\" , \"auth_method\" : \"auth_header\" , \"headers\" : { \"authorization\" : \"bearer your-api-token\" } }"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "tarted api overview cloud cli desktop enterprise use cases api federal getting started api overview copy page copy page learn how to programmatically interact with devin using our rest apis copy page copy page the devin api enables you to integrate devin into your applications, automate workflows, and build powerful tools. use service users with role-based access co"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ring the deprecation period but do not receive new features. we recommend migrating to the current api for role-based access control, session attribution, and new capabilities. v1 api documentation — session management with legacy api keys v2 api documentation — enterprise management with legacy api keys migration guide — step-by-step migration from v1/v2 ​ error handling al"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "te through browsing tasks via the interactive browser. you can find devin's tools in the sidebar or by clicking any progress steps in the session ​ getting access to access devin, sign up at app.devin.ai . individual and teams plans are available. you can also install devin for terminal to use devin directly from your command line: tagging devin on a slack or teams"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "for? organization admins can add any mcp server using the add a custom mcp button. if you don’t have admin permissions, use suggest mcp integration to request one. having trouble? contact us via our support page or via support@cognition.ai . ​ setting up a custom mcp server if the mcp you need isn’t in the marketplace, organization admins can add any mcp server using "
+      }
+    ],
+    "mcp": "google docs (through zapier) and more pull in context from and interact with airtable, stripe, and hubspot a lot more! ​ get started with mcps navigate to settings > connections > mcp servers to browse and enable mcps. use devin for data analysis in slack by connecting devin to database mcps check out our step-by-step guide! browse mcp use cases explore practical exam",
+    "breadth": "ng further. skip to main content devin docs home page english search... ⌘ k ask assistant search... navigation get started introducing devin cloud cli desktop enterprise use cases api federal get started introducing devin copy page copy page devin is the ai software engineer, built to help ambitious engineering teams crush their backlogs. copy page copy page ex"
+  },
+  "evidence_urls": [
+    "https://docs.devin.ai/get-started/devin-intro",
+    "https://docs.devin.ai/work-with-devin/mcp",
+    "https://docs.devin.ai/product-guides/oidc",
+    "https://docs.devin.ai/api-reference/overview",
+    "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
+    "https://docs.devin.ai/work-with-devin/devin-mcp",
+    "https://docs.devin.ai/work-with-devin/devin-session-tools"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "7",
+  "app": "Zoho CRM",
+  "category": "CRM and Sales",
+  "website": "https://zoho.com/crm",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "tput contracts. unified interface consistent patterns across all zoho applications. drop-in compatible works immediately with agent frameworks and tools. secure, permission-scoped oauth-based authorization ensures proper access control. how it works mcp provides a standardized way for ai agents to interact with zoho applications and third-party services step 1: a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "py to demonstrate zoho crm through a web-conference at your convenience. the demo is a one hour session. to schedule your personal session, please contact sales@zohocorp.com. zoho rest apis | zoho developer zoho rest apis build integrations for zoho using any programming language and infrastructure. extract or input data in an xml or json format between zoho and any"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "y programming language and infrastructure. extract or input data in an xml or json format between zoho and third-party apps. explore zoho apis ready to start building? create your developer account interested in monetizing your solutions? join our marketplace partner program to list and sell your solutions on zoho marketplace. learn more white label apps rebrand zoho to refl"
+      },
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "e for all supported os versions. cancel work smarter. together. see how zoho workdrive helps teams store, share, and collaborate securely â all in one place. request demo 15-day free trial zoho crm | top-rated sales crm software by customers the easiest ai crm for growth. intelligent automation meets intuitive design. built with ai at its core, zoho crm supercharges"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": " ease. transform your ideas into solutions. explore developer tools, platforms, and ai solutions to create apps, integrations, extensions, and autonomous agents for your business. sign up for free no code low code pro code integrate customize extend < what do you want to build? /> zoho developer helps you build custom apps, integrate systems, and create industry-sp"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "ew user up to 100 tb/team 250 gb upload limit per file best deal free - 5gb secure cloud storage for individual use get started enterprise (more than 200 users) get a custom quote contact sales local taxes (vat, gst, etc.) will be charged in addition to the prices mentioned. view more ensure data compliance workdrive is gdpr and hipaa-compliant and meets industry-specifi"
+      }
+    ],
+    "mcp": "ho mcp is a product built around the model context protocol (mcp), a standardized interface that allows ai agents to interact with business software. with zoho mcp, you can create mcp servers that expose tools, actions, and contextual data from zoho apps in a way ai agents can understand and act upon, regardless of which llm they use. while mcp is the open protocol th",
+    "breadth": "flowsâ all in one secure, ai-powered platform. industry function size industry from providing a collaborative workspace to securing corporate content, zoho workdrive caters to a wide range of business needs across industries. \"workdrive is a big data solution because, by focusing on teams, it gives a greater push to meet the organizational and corporate objectives. i r"
+  },
+  "evidence_urls": [
+    "https://www.zoho.com/developer/",
+    "https://docs.zoho.com/",
+    "https://www.zoho.com/workdrive/?src=zdocs",
+    "https://www.zoho.com/en-in/crm/",
+    "https://www.zoho.com/developer/rest-api.html?src=developer-homepage",
+    "https://www.zoho.com/mcp/?src=developer-homepage",
+    "https://www.zoho.com/developer/signup.html",
+    "https://www.zoho.com/developer/apps.html?src=developer-homepage",
+    "https://www.zoho.com/developer/integrations.html?src=developer-homepage",
+    "https://www.zoho.com/developer/extensions.html?src=developer-homepage",
+    "https://www.zoho.com/verticalstudio/?src=developer-homepage",
+    "https://www.zoho.com/agents/?src=developer-homepage",
+    "https://www.zoho.com/flow/?src=developer-homepage",
+    "https://www.zoho.com/en-in/creator/?src=developer-homepage",
+    "https://catalyst.zoho.com/?src=developer-homepage",
+    "https://www.zoho.com/phonebridge/?src=developer-homepage",
+    "https://www.zoho.com/marketplace/become-a-partner.html?src=developer-homepage",
+    "https://www.zoho.com/developer/white-label-solutions.html?src=developer-homepage",
+    "https://community.zoho.com/developer/?src=developer-homepage"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

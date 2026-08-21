@@ -1,0 +1,58 @@
+{
+  "id": "87",
+  "app": "Xero",
+  "category": "Finance and Fintech",
+  "website": "https://developer.xero.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Potentially buildable via MCP",
+  "main_blocker": "MCP server identified, but API/auth evidence is incomplete.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "eloper tools to create powerful integrations for small business. get started check out the ai toolkit custom connections â xero developer this app works with javascript enabled. oauth 2.0 â xero developer this app works with javascript enabled. accounting api overview â xero developer this app works with javascript enabled. getting started guide â xero develo"
+      },
+      {
+        "signal": "Token",
+        "snippet": "ions in au, nz, uk and us only. check out the custom integration faqs here . custom connections benefits for developers simple, fast and secure access: makes it easier to retrieve access tokens and call the api. no need to build an authorization flow into your app (we take care of that). goodbye refresh tokens: forget managing refresh tokens for a single integration. si"
+      }
+    ],
+    "api": [],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "xero developer platform skip to main content sign up log in main content start exhibit at xerocon london and denver in 2026 interested in connecting with thousands of accountants at the most beautiful and innovative conference for c"
+      }
+    ],
+    "mcp": "rted developer tools tools and resources to help you build and test your xero integration faster. xero's ai toolkit get started with xero's ai toolkit including openai agents sdk, mcp server, langchain and prompt examples. check out the ai toolkit developer tools and resources this includes xero apis, sdks, code samples, documentation and more. getting started guide r",
+    "breadth": "et started with xero's ai toolkit including openai agents sdk, mcp server, langchain and prompt examples. check out the ai toolkit developer tools and resources this includes xero apis, sdks, code samples, documentation and more. getting started guide resources for custom builds building your own app, agent or workflow, or for others? get access to custom conne"
+  },
+  "evidence_urls": [
+    "https://developer.xero.com/",
+    "https://developer.xero.com/documentation/guides/oauth2/custom-connections/",
+    "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "https://developer.xero.com/documentation/api/accounting/overview",
+    "https://developer.xero.com/documentation/getting-started-guide/",
+    "https://developer.xero.com/documentation/xero-app-store/app-partner-guides/certification-checkpoints",
+    "https://status.developer.xero.com/",
+    "https://developer.xero.com/#main-content",
+    "https://developer.xero.com/global-app-awards-2026",
+    "https://developer.xero.com/app/manage",
+    "https://developer.xero.com/ai",
+    "https://developer.xero.com/custom-development",
+    "https://developer.xero.com/accountants-and-bookkeepers",
+    "https://developer.xero.com/documentation/xero-app-store/app-partner-guides/grow-your-app-with-xero/",
+    "https://developer.xero.com/documentation/xero-app-store/app-partner-guides/app-listing"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

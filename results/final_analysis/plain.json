@@ -1,0 +1,73 @@
+{
+  "id": "17",
+  "app": "Plain",
+  "category": "Support and Helpdesk",
+  "website": "https://plain.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "o it. ​ linear_issue_already_linked_to_issue issue is already linked to the provided linear issue and cannot be linked again. ​ linear_organisation_cannot_be_authorised the linear oauth flow failed. detailed reasoning is included in the error. ​ mark_as_read_user_must_be_assigned_to_customer the user trying to mark the timeline as read isn’t the user that is assi"
+      },
+      {
+        "signal": "API key",
+        "snippet": ": api url: https://core-api.uk.plain.com/graphql/v1 allowed method : post required headers: content-type: application/json authorization: bearer your_token where the token is your api key. see authentication for more details. json body: query : the graphql query string variables : a json object of variables used in the graphql query operationname : the name of your"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "hql schema, but rather use graphql’s error extensions . if the query returns the value null , that typically indicates that the entity is not found (equivalent to an http 404 in a rest api). the list of error extensions that can be returned by queries: graphql_parse_failed : the graphql operation string contains a syntax error. the request should not be retried. gra"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": ": /docs/llms.txt use this file to discover all available pages before exploring further. skip to main content plain docs home page search... ⌘ k ask assistant search... navigation graphql api introduction graphql api introduction an overview of plain’s graphql api. plain is built with this very graphql api we expose to you. this means that there are no limitations "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ers solutions agentic infra ai-native headless multi-channel startup program channels slack microsoft teams discord email help center in-app forms live chat integrations resources api reference trust center privacy terms data processing vulnerability blog migrate to plain support status @plainsupport â© 2026 plain not just tickets ltd plain solutions channels resources s"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "ds { field message type } } } } variables { \"input\" : { \"customerid\" : \"c_01h14dfq4pdybh398j1e99twss\" , \"threadid\" : \"th_01h8h46ypb2s4majm382fg9423\" , \"text\" : \"customer is on the enterprise plan, will need to loop in their csm.\" , \"markdown\" : \"customer is on the **enterprise plan**, will need to loop in their csm.\" } } ​ update a note mutation mutation updatenote ( $inpu"
+      }
+    ],
+    "mcp": "u want to do something beyond what is documented here, please reach out to us or explore our schema on your own! if you’re looking to access our graphql api from an agent, try our mcp server instead. using typescript? check out our graphql sdk for a fully typed client. ​ key details our api is compatible with all common graphql clients with the following details: api ",
+    "breadth": "ers solutions agentic infra ai-native headless multi-channel startup program channels slack microsoft teams discord email help center in-app forms live chat integrations resources api reference trust center privacy terms data processing vulnerability blog migrate to plain support status @plainsupport â© 2026 plain not just tickets ltd plain solutions channels resources s"
+  },
+  "evidence_urls": [
+    "https://www.plain.com/docs/graphql/introduction",
+    "https://www.plain.com/",
+    "https://www.plain.com/docs/graphql/authentication",
+    "https://app.plain.com/developer/api-explorer/",
+    "https://www.plain.com/docs/graphql/introduction#your-first-api-call",
+    "https://www.plain.com/docs/graphql/introduction#content-area",
+    "https://www.plain.com/docs/graphql/schema",
+    "https://www.plain.com/docs/graphql/pagination",
+    "https://www.plain.com/docs/graphql/error-handling",
+    "https://www.plain.com/docs/graphql/error-codes",
+    "https://www.plain.com/docs/graphql/notes",
+    "https://www.plain.com/docs/graphql/attachments",
+    "https://www.plain.com/docs/graphql/sdk",
+    "https://app.plain.com/developer/ui-components-playground/",
+    "https://www.plain.com/docs/graphql/introduction#key-details",
+    "https://www.plain.com/docs/graphql/introduction"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

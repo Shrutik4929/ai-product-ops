@@ -1,0 +1,53 @@
+{
+  "id": "43",
+  "app": "BigCommerce",
+  "category": "Ecommerce",
+  "website": "https://developer.bigcommerce.com",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "step-by-step tutorial working with storefront cart and checkout apis . graphql storefront api this example uses request runner to make an initial request that creates a storefront api token. it is a rest api request, so you will need to copy and paste your api credentials . in the allowed_cors_origins array, include the url(s) of the storefront from which you plan to"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "view responses, you can import our api specification files into postman or any other tool that can import open api specification files. to view sample json request bodies for each rest api resource, see the api reference for that resource. rest storefront api to make your first requests in a browser with the rest storefront apis, see the step-by-step tutorial workin"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "nner, a redesigned changelog, and richer feedback tools. what are you building? a storefront build with catalyst (next.js), customize stencil themes, or go fully headless with the graphql storefront api. an app or integration create single-click apps for the bigcommerce marketplace, build custom integrations, or extend checkout. managing store data use rest and gra"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "able at the root level at /llms.txt. append /llms.txt to any url for a page-level index, or .md for the markdown version of any page. developer developer search docs / ask ai docs api reference learn community changelog developer developer docs api reference learn community changelog overview quick start sandboxes tools & sdks support api fundamentals docs storefront adm"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "rammatically. a b2b store set up b2b edition for wholesale and enterprise buyers with company accounts, quotes, and custom pricing. get started in 3 steps 1 create a sandbox store sign up for a free bigcommerce trial store to test api calls and build integrations without affecting live data. 2 generate api credentials navigate to settings > api accounts in your sto"
+      }
+    ],
+    "mcp": null,
+    "breadth": "able at the root level at /llms.txt. append /llms.txt to any url for a page-level index, or .md for the markdown version of any page. developer developer search docs / ask ai docs api reference learn community changelog developer developer docs api reference learn community changelog overview quick start sandboxes tools & sdks support api fundamentals docs storefront adm"
+  },
+  "evidence_urls": [
+    "https://docs.bigcommerce.com/developer/docs/overview/quick-start"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

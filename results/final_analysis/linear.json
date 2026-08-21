@@ -1,0 +1,53 @@
+{
+  "id": "73",
+  "app": "Linear",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.linear.app",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "GraphQL"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "and integrations for linear using the graphql api and typescript sdk. getting started graphql api learn how to use the graphql api to query and mutate your data authentication use oauth 2.0 or personal api keys to authenticate your requests to the linear api agents how to best integrate an ai agent into linear typescript sdk install the linear sdk to use strongly typ"
+      },
+      {
+        "signal": "API key",
+        "snippet": "inear using the graphql api and typescript sdk. getting started graphql api learn how to use the graphql api to query and mutate your data authentication use oauth 2.0 or personal api keys to authenticate your requests to the linear api agents how to best integrate an ai agent into linear typescript sdk install the linear sdk to use strongly typed models and operat"
+      }
+    ],
+    "api": [
+      {
+        "signal": "GraphQL",
+        "snippet": "skip to content → linear developers learn about building apps and integrations for linear using the graphql api and typescript sdk. getting started graphql api learn how to use the graphql api to query and mutate your data authentication use oauth 2.0 or personal api keys to authenticat"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": " assets for presenting the linear brand agent interaction guidelines principles and practices for designing agent interactions linear developers linear docs skip to content → home sign up open app linear docs get an overview of linear's features, integrations, and how to use them. popular start guide learn how to use the app and follow best practices for software b"
+      }
+    ],
+    "mcp": null,
+    "breadth": "skip to content → linear developers learn about building apps and integrations for linear using the graphql api and typescript sdk. getting started graphql api learn how to use the graphql api to query and mutate your data authentication use oauth 2.0 or personal api keys to authenticate yo"
+  },
+  "evidence_urls": [
+    "https://linear.app/developers",
+    "https://linear.app/docs",
+    "https://linear.app/developer",
+    "https://linear.app/api-docs",
+    "https://linear.app/documentation"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

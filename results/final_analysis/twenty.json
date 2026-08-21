@@ -1,0 +1,79 @@
+{
+  "id": "5",
+  "app": "Twenty",
+  "category": "CRM and Sales",
+  "website": "https://twenty.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ting started user guide developers search... navigation api oauth api oauth authorization code flow with pkce and client credentials for server-to-server access. twenty implements oauth 2.0 with authorization code + pkce for user-facing apps and client credentials for server-to-server access. clients are registered dynamically via rfc 7591 — no manual setup in a dash"
+      },
+      {
+        "signal": "API key",
+        "snippet": "or server-to-server access. clients are registered dynamically via rfc 7591 — no manual setup in a dashboard. ​ when to use oauth scenario auth method internal scripts, automation api key external app acting on behalf of a user oauth — authorization code server-to-server, no user context oauth — client credentials twenty app with ui extensions apps (oauth is handle"
+      },
+      {
+        "signal": "Token",
+        "snippet": " & code_verifier = your_pkce_verifier response: { \"access_token\" : \"eyjhbg...\" , \"token_type\" : \"bearer\" , \"expires_in\" : 3600 , \"refresh_token\" : \"dghpcybpcybh...\" } ​ 4. use the access token get /rest/companies authorization: bearer access_token ​ 5. refresh when expired post /oauth/token content-type: application/x-www-form-urlencoded grant_type = refresh_token & ref"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "m@apple.dev (password: tim@apple.dev ) backend twenty’s server will be up and running at http://localhost:3000 the graphql api can be accessed at http://localhost:3000/graphql the rest api can be reached at http://localhost:3000/rest ​ troubleshooting if you encounter any problem, check troubleshooting for solutions. was this page helpful? yes no ⌘ i assistant respo"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "s, use the api, self-host, or contribute to the codebase. extend twenty with custom objects, server-side logic, ui components, and ai agents — all as typescript packages. rest and graphql apis, webhooks, and oauth. run twenty on your own infrastructure. set up the monorepo locally and submit prs. was this page helpful? yes no ⌘ i assistant responses are generated u"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "etting started user guide developers search... navigation api apis api apis rest and graphql apis generated from your workspace schema. ​ schema-per-tenant apis there is no static api reference for twenty. each workspace has its own schema — when you add a custom object (say invoice ), it immediately gets rest and graphql endpoints identical to built-in objects like comp"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "is the #1 open source crm on github. you can self-host to fully own your infrastructure, or run it on our managed cloud for a zero-ops setup. how long does it take to get started? sign up for cloud in under a minute and start your 30-day trial. for larger rollouts, our 4-hour onboarding packs or certified partners get you live in 1–2 weeks. can i migrate from sales"
+      }
+    ],
+    "mcp": "nd agents, views, and navigation, all in typescript, deployable to any workspace. does twenty work with claude, chatgpt, and cursor? yes. every cloud workspace ships with a native mcp server. connect your ai assistant via oauth and it can read and write your crm data in natural language. what does twenty cost? cloud pro is $9/user/month (yearly). organization is $19/u",
+    "breadth": "etting started user guide developers search... navigation api apis api apis rest and graphql apis generated from your workspace schema. ​ schema-per-tenant apis there is no static api reference for twenty. each workspace has its own schema — when you add a custom object (say invoice ), it immediately gets rest and graphql endpoints identical to built-in objects like comp"
+  },
+  "evidence_urls": [
+    "https://developers.twenty.com/",
+    "https://developer.twenty.com/",
+    "https://docs.twenty.com/getting-started/introduction",
+    "https://docs.twenty.com/developers/introduction",
+    "https://twenty.com/",
+    "https://docs.twenty.com/developers/extend/oauth",
+    "https://docs.twenty.com/developers/extend/api",
+    "https://docs.twenty.com/developers/introduction#content-area",
+    "https://docs.twenty.com/developers/extend/webhooks",
+    "https://docs.twenty.com/developers/self-host/capabilities/docker-compose",
+    "https://docs.twenty.com/developers/self-host/capabilities/setup",
+    "https://docs.twenty.com/developers/self-host/capabilities/upgrade-guide",
+    "https://docs.twenty.com/developers/self-host/capabilities/troubleshooting",
+    "https://docs.twenty.com/developers/contribute/capabilities/local-setup",
+    "https://docs.twenty.com/developers/contribute/commands",
+    "https://docs.twenty.com/developers/contribute/style-guide",
+    "https://docs.twenty.com/developers/extend/apps/getting-started/quick-start"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

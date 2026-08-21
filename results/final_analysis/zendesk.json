@@ -1,0 +1,95 @@
+{
+  "id": "11",
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "website": "https://zendesk.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " 2024 deprecated less secure oauth grant types beginning february 17, 2025, the implicit and password grant flows can no longer be used to get oauth access tokens. if you're using oauth 2.0 to authenticate api requests, you must switch to the authorization code grant flow . see also using pkce to make zendesk oauth access tokens more secure . aug 19, 2024 deprecated "
+      },
+      {
+        "signal": "Token",
+        "snippet": "on . to configure authorization for a collection in the left sidebar, click the more actions icon ( ) next to the collection name. click edit . click the authorization tab. select bearer token using the type drop-down. enter your zendesk oauth access token. depending on your version of postman, your changes may be saved automatically. if not, click the save icon ( ). va"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "2024 added help center templating api introduced help center templating api v4 and an update to the copenhagen theme. see upgrading from templating api v3 . jul 1, 2024 deprecated basic authentication starting july 31, 2024, basic authentication using an email and password is deprecated for /api/v2/ endpoints for new accounts and for accounts that are not using this method. if "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": " an end user has set in their web browser. the command takes a locale string as an argument. for a list of supported locales and associated codes, use the following zendesk public rest api endpoint: https://support.zendesk.com/api/v2/locales/public.json . note : this code should be placed immediately after the messaging web widget code snippet. parameters newlocale "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "documentation home | zendesk developer docs zendev_horizontal zendev_horizontal documentation api reference search / home develop on the zendesk sunshine platform zendesk sunshine is our open and flexible platform, built natively on aws. you can create unique customer experiences using "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "e customer experiences using our apis and sdks, connect data sources across your technology stack, and build any app or automation you want, using the languages you love. create a developer account try out the sunshine platform with a free, 14-day trial account. create an account create your first ticket get up and running on the sunshine platform using this 10-minute api qu"
+      },
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": " ai-powered service platform move beyond deflection. deliver real resolutions. self-improving ai agents that learn, adapt and outperform. on every channel, on any platform. 14-day free trial. no credit card required. use your work email to smoothly connect customer emails and existing apps, and also invite team members. try it for free i agree to zendesk contacting me"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": " provide support for third-party technologies such as curl. requirements get a zendesk support account on a zendesk suite plan. it is automatically enabled to use the api. you can sign up for a 14-day trial account. if you're interested in becoming a zendesk developer partner, you can convert your trial account into a sponsored zendesk support account . you'll also"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "re replace fragmented legacy stacks with a unified system that embeds ai across voice and digital. deliver an enterprise-grade contact centre without the middleware or complexity. contact sales learn more report zendesk named a leader in the 2025 gartner® magic quadrant™ for the crm customer engagement centre recognised for innovation, vision and consistent execution in "
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": ") português français deutsch italiano nederlands english (denmark) english (sweden) english (australia) english (india) english (singapore) 日本語 한국어 繁體中文 (台灣) 繁體中文 (香港特區) view demo contact us ai-powered service platform move beyond deflection. deliver real resolutions. self-improving ai agents that learn, adapt and outperform. on every channel, on any platform. 14-day "
+      }
+    ],
+    "mcp": null,
+    "breadth": "documentation home | zendesk developer docs zendev_horizontal zendev_horizontal documentation api reference search / home develop on the zendesk sunshine platform zendesk sunshine is our open and flexible platform, built natively on aws. you can create unique customer experiences using "
+  },
+  "evidence_urls": [
+    "https://developer.zendesk.com/documentation/",
+    "https://developer.zendesk.com/documentation/#georedirect",
+    "https://developer.zendesk.com/api-reference/",
+    "https://www.zendesk.com/in/#georedirect",
+    "https://developer.zendesk.com/documentation/authentication/",
+    "https://developer.zendesk.com/api-reference/widget-messaging/web/core/",
+    "https://developer.zendesk.com/documentation/api-basics/",
+    "https://developer.zendesk.com/documentation/ticketing/getting-started/zendesk-api-quick-start/",
+    "https://developer.zendesk.com/documentation/api-basics/getting-started/exploring-zendesk-apis-with-postman/",
+    "https://developer.zendesk.com/documentation/custom-data/custom-objects/getting-started-with-custom-objects/",
+    "https://developer.zendesk.com/documentation/ticketing/profiles/getting-started-with-profiles/",
+    "https://developer.zendesk.com/documentation/ticketing/events/getting-started-with-events/",
+    "https://developer.zendesk.com/api-reference/introduction/introduction/",
+    "https://developer.zendesk.com/api-reference/betas/introduction/",
+    "https://developer.zendesk.com/api-reference/changelog/changelog/",
+    "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+    "https://developer.zendesk.com/api-reference/help_center/help-center-api/introduction/",
+    "https://developer.zendesk.com/api-reference/ai-agents/introduction/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

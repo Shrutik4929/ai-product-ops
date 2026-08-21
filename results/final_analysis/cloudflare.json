@@ -1,0 +1,68 @@
+{
+  "id": "64",
+  "app": "Cloudflare",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://developers.cloudflare.com/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "lete /accounts/{account_id}/sso_connectors/{sso_connector_id} begin sso connector verification post /accounts/{account_id}/sso_connectors/{sso_connector_id}/begin_verification iam oauth clients list oauth clients get /accounts/{account_id}/oauth_clients oauth client details get /accounts/{account_id}/oauth_clients/{oauth_client_id} create oauth client post /accou"
+      },
+      {
+        "signal": "API key",
+        "snippet": "account owner must configure billing at https://dash.cloudflare.com/{account_id}/billing/payment-info before calling post /registrations . api authentication — use an api token or api key with the appropriate registrar permissions for the operations you are calling. terminology: domain extension throughout this api, “extension” refers to the domain extension part o"
+      },
+      {
+        "signal": "Token",
+        "snippet": "st /{accounts_or_zones}/{account_or_zone_id}/access/organizations update your zero trust organization put /{accounts_or_zones}/{account_or_zone_id}/access/organizations revoke all access tokens for a user post /{accounts_or_zones}/{account_or_zone_id}/access/organizations/revoke_user zero trust organizations doh get your zero trust organization doh settings get /account"
+      }
+    ],
+    "api": [
+      {
+        "signal": "GraphQL",
+        "snippet": "vents aggregate aggregate events by single or multiple columns with optional date filtering get /accounts/{account_id}/cloudforce-one/events/aggregate cloudforce one threat events graphql graphql endpoint for event aggregation post /accounts/{account_id}/cloudforce-one/events/graphql cloudforce one threat events graph query graph neighborhood from r2 data catalog g"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ety of ways, including: github sponsors style guide blog read the latest get the latest news on cloudflare products, technologies, and culture. blog.cloudflare.com cloudflare docs api reference | cloudflare api skip to content cloudflare api search ctrl k auto light dark start here api reference libraries typescript 0.0.1 npm install git+ssh://git@github.com:cloudflare/c"
+      }
+    ],
+    "self_serve": [],
+    "mcp": "put /accounts/{account_id}/access/ai-controls/mcp/portals/{id} delete an mcp portal delete /accounts/{account_id}/access/ai-controls/mcp/portals/{id} zero trust access ai controls mcp servers list mcp servers get /accounts/{account_id}/access/ai-controls/mcp/servers create a new mcp server post /accounts/{account_id}/access/ai-controls/mcp/servers read the details of ",
+    "breadth": "ety of ways, including: github sponsors style guide blog read the latest get the latest news on cloudflare products, technologies, and culture. blog.cloudflare.com cloudflare docs api reference | cloudflare api skip to content cloudflare api search ctrl k auto light dark start here api reference libraries typescript 0.0.1 npm install git+ssh://git@github.com:cloudflare/c"
+  },
+  "evidence_urls": [
+    "https://developers.cloudflare.com/",
+    "https://developers.cloudflare.com/api/",
+    "https://developers.cloudflare.com/api/resources/realtime_kit/subresources/meetings/methods/refresh_participant_token",
+    "https://developers.cloudflare.com/api/resources/magic_network_monitoring/subresources/vpc_flows/subresources/tokens/methods/create",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/methods/summary_v2",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/methods/timeseries_groups_v2",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/subresources/summary/methods/bot_class",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/subresources/summary/methods/compromised",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/subresources/timeseries_groups/methods/bot_class",
+    "https://developers.cloudflare.com/api/resources/radar/subresources/leaked_credentials/subresources/timeseries_groups/methods/compromised",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/list",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/get",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/create",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/update",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/delete",
+    "https://developers.cloudflare.com/api/resources/iam/subresources/oauth_clients/methods/rotate_secret"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

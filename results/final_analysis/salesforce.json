@@ -1,0 +1,35 @@
+{
+  "id": "1",
+  "app": "Salesforce",
+  "category": "CRM and Sales",
+  "website": "https://salesforce.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Unknown",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": null
+  },
+  "evidence_urls": [
+    "https://help.salesforce.com/s/?language=en_US",
+    "https://www.salesforce.com/in/?ir=1&bc=OTH",
+    "https://www.salesforce.com/in/retail/restaurant-software/?bc=OTH",
+    "https://developer.salesforce.com/events",
+    "https://trailhead.salesforce.com/en/credentials/administratoroverview/",
+    "https://www.salesforce.com/products/free-trial/developer/?d=pb&bc=OTH",
+    "https://developer.salesforce.com/docs",
+    "https://tbid.digital.salesforce.com/oauth2/aus5v9466wdqLdY0O697/v1/authorize?response_type=code&response_mode=query&client_id=0oa5v93ebgAGqkFSn697&redirect_uri=https%3A%2F%2Fiis.digital.salesforce.com%2Fservices%2Fauth%2Fcallback&state=eyJpaXNTdGF0ZSI6IjUyYzAxNDhiYzMzZDU5OGFlNDU5NDkxNDpOQ3pJbW90a1ZLZFBkNUxCWktOWTZhb29DdTJFa2ZoTzBycGNvSi9BOEhhTEt1Q0hIQkREMUlhb1l1K0syOEVlWitYZGwxblZqMFFLWFdyZFJVbHBmNURnTmlxZVdFOUQ0TytOZkN0STI0czBNcEozRUVnSzhCRnZTNElXSU1WKzEydStYc2hwVjZrZCtkNWozRXJuOG9yOSszTT06d2pXQ1U4Q1phU3JoMGoyVTVqRE5OUT09IiwicmVmZXJyZXIiOiJodHRwczovL3d3dy5zYWxlc2ZvcmNlLmNvbS90cmFpbGJsYXplci9wcm9maWxlLz9oYXNMb2dnZWRJbj10cnVlIiwiY29ycmVsYXRpb25JZCI6ImJmNTY3YWRmLTFmODItNGRiYi1iYzAzLTc3NGQyN2RjNWE5NiIsInN0YXJ0VGltZSI6MTc4Njk5NTk4NTE5MiwiY2xpZW50SWQiOiJCYkpyVFpFN1pFcmU4RklaSnQxZ1drSjh4NXBzNndOV2hlT1dkVjFxS3NhTTZybHJ5Z25pQU8yS1FwMHlaaXdpMFllYmtWYVJuUzNmdkp2WTFucUtIIiwiaWRwcyI6WyJJZFAgLSBEb3RwIiwiSWRQIC0gR29vZ2xlIl0sImxvZ2dlZEluIjpmYWxzZSwib2ZmZXJUeXBlIjoiZnJlZS10cmlhbCIsIm9mZmVySWQiOiJmcmVlLXRyaWFsLTAwMDA1ODIwIiwibG9jYWxlIjoiRU5fSU4iLCJvZmZlclN0YXR1cyI6IlBVQkxJU0hFRCIsImlzVHJpYWxzIjp0cnVlfQ&scope=openid+profile+email&intent=login&nonce=cc9b405c-1088-41e2-a525-f7283e5effb4"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "41",
+  "app": "Shopify",
+  "category": "Ecommerce",
+  "website": "https://shopify.dev",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "officially maintain them, but they're widely used by the developer community. library language description shopify-api-node node.js node shopify connector shopify-node-api node.js oauth2 module for shopify api php-shopify php php sdk for shopify api shopify-php-sdk php php sdk for development with the shopify api basic-shopify-api php php api wrapper using guzzle "
+      },
+      {
+        "signal": "API key",
+        "snippet": "view the complete list of api status response and error codes . {} sample error codes 401 402 403 404 422 429 500 copy 1 2 3 4 http/1.1 401 unauthorized { \"errors\": \"[api] invalid api key or access token (unrecognized login or wrong password)\" } 1 2 3 4 http/1.1 402 payment required { \"errors\": \"this shop's plan does not have access to this feature\" } 1 2 3 4 http/"
+      },
+      {
+        "signal": "Token",
+        "snippet": "save @shopify/shopify-api # or yarn add @shopify/shopify-api ruby bundle add shopify_api anchor to authentication authentication all rest admin api queries require a valid shopify access token. public and custom apps created in the dev dashboard generate tokens using oauth , and custom apps made in the shopify admin are authenticated in the shopify admin . to simplify t"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ession(session) client = shopifyapi::clients::rest::admin.new( session: session ) response = client.get(path: 'shop') anchor to endpoints and requests endpoints and requests admin rest api endpoints are organized by resource type. you’ll need to use different endpoints depending on your app’s requirements. all admin rest api endpoints follow this pattern: https://{s"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "rite store data access core apis and backend tools for reading, writing, and reacting to store data. build integrations that manage your store and respond to changes in real time. graphql admin api build apps that extend and interact with the shopify admin. access products, customers, orders, inventory, and more. graphql admin api build apps that extend and interac"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "d to request access from shopify and be approved before you can start making calls. anchor to available apis available apis for a complete list of available apis, refer to shopify api reference docs . anchor to deprecated apis deprecated apis deprecated apis remain available but are unsupported and can stop working at any time. developers should migrate to supported alte"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ps the transaction secure. you should make sure that registering new accounts at your main website requires validation of the email address which is used. otherwise, someone could sign up to your main site using somebody else's email address, thus getting access to his customer account in your shopify store. anchor to faq faq i have a huge customer database. how do"
+      },
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": "to quick start quick start the quickest way to create a new app is using the shopify cli, and the shopify app template. check out the getting started guide , or the app template . create an app copy terminal 1 shopify app init -- template = https :// github . com / shopify / shopify-app-template-react-router anchor to configure the package configure the package using the"
+      }
+    ],
+    "mcp": " limited to chromium-based browsers. note these tools serve agents that shoppers bring to your store in their browser. if you're building your own agent that connects to shopify's mcp servers, refer to storefront mcp and agentic commerce . note: these tools serve agents that shoppers bring to your store in their browser. if you're building your own agent that connects",
+    "breadth": "d to request access from shopify and be approved before you can start making calls. anchor to available apis available apis for a complete list of available apis, refer to shopify api reference docs . anchor to deprecated apis deprecated apis deprecated apis remain available but are unsupported and can stop working at any time. developers should migrate to supported alte"
+  },
+  "evidence_urls": [
+    "https://shopify.dev/docs",
+    "https://shopify.dev/docs/api",
+    "https://shopify.dev/docs/api/usage",
+    "https://shopify.dev/docs/api/admin-rest",
+    "https://shopify.dev/docs/api/customer-authentication/multipass",
+    "https://shopify.dev/docs/api/admin-graphql/latest",
+    "https://shopify.dev/docs/api/events/latest",
+    "https://shopify.dev/docs/api/web-mcp",
+    "https://shopify.dev/docs/api/shopify-cli/app",
+    "https://shopify.dev/docs/api/shopify-cli/theme",
+    "https://shopify.dev/docs/api/shopify-cli/hydrogen",
+    "https://shopify.dev/changelog",
+    "https://shopify.dev/docs/api#main-content",
+    "https://shopify.dev/docs/api/shopify-cli",
+    "https://shopify.dev/docs/api/shopify-app-react-router/latest",
+    "https://shopify.dev/docs/api/libraries-and-templates"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

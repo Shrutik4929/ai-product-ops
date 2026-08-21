@@ -1,0 +1,77 @@
+{
+  "id": "36",
+  "app": "Klaviyo",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.klaviyo.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "efinitions. you can get started by checking out our postman collection guide . authentication klaviyo provides 3 methods of authentication including private key authentication and oauth (used to call server-side apis) and public key authentication (used to call client-side apis). read below for a quick overview of each method. private key authentication all /api "
+      },
+      {
+        "signal": "API key",
+        "snippet": "side apis) and public key authentication (used to call client-side apis). read below for a quick overview of each method. private key authentication all /api endpoints use private api keys with api key scopes to authenticate requests. if you do not use an api key for your requests, or if you use a key from the wrong account, your call will return an error. a 400 er"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "api reference & technical guides | klaviyo developers jump to content home guides api reference legacy v2022-10-17 v2023-01-24 v2023-02-22 v2023-06-15 v2023-07-15 v2023-08-15 v2023-09-15 v2023-"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": "s speed up development with tools designed for your workflow. sdks install a klaviyo maintained sdk to accelerate development– offered in python, php, ruby, and node. explore sdks test accounts test custom integrations and apps without the risk of impacting your production account. create test account postman make test calls using postman’s ui tool with our collection o"
+      },
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "s hire a klaviyo-certified expert to help you with a specific task, or for ongoing marketing management. hire a partner support access support through your account. email support (free trial and paid accounts) available 24/7 chat/virtual assistance availability varies by location and plan type log in get started with klaviyo jump to content home guides api reference l"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ase studies, and more. developer community icon developer community get support and inspiration from klaviyo community experts. klaviyo help center skip to main content contact us sign up what can we help you find today? search by topic featured resources account & billing advanced kdp & marketing analytics analytics audience campaigns composer content conversation"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "-15 v2024-05-15 v2024-06-15 v2024-07-15 v2024-10-15 v2025-01-15 v2025-04-15 v2025-07-15 v2025-10-15 v2026-01-15 v2026-04-15 v2026-07-15 log in home changelog help center community contact us build personalized experiences that scale. create apps and integrations using klaviyo's api that help your business grow. get started for free. explore docs join 300+ others who h"
+      }
+    ],
+    "mcp": null,
+    "breadth": "api reference & technical guides | klaviyo developers jump to content home guides api reference legacy v2022-10-17 v2023-01-24 v2023-02-22 v2023-06-15 v2023-07-15 v2023-08-15 v2023-09-15 v2023-"
+  },
+  "evidence_urls": [
+    "https://developers.klaviyo.com/en",
+    "https://help.klaviyo.com/hc/en-us",
+    "https://developers.klaviyo.com/en/docs/get_started",
+    "https://developers.klaviyo.com/en/reference/api_overview",
+    "https://developers.klaviyo.com/en/docs/changelog_",
+    "https://developers.klaviyo.com/en/docs/generate_sample_data",
+    "https://developers.klaviyo.com/en/docs/developer-tools",
+    "https://developers.klaviyo.com/en/docs/api_versioning_and_deprecation_policy",
+    "https://developers.klaviyo.com/en#content",
+    "https://developers.klaviyo.com/en",
+    "https://developers.klaviyo.com/en/",
+    "https://dash.readme.com/to/klaviyo-prod-group",
+    "https://developers.klaviyo.com/en/docs/sdk_overview",
+    "https://developers.klaviyo.com/en/docs/create_a_test_account"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

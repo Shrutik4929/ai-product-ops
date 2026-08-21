@@ -1,0 +1,74 @@
+{
+  "id": "77",
+  "app": "ClickUp",
+  "category": "Productivity and Project Management",
+  "website": "https://clickup.com/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " flow to allow others to use your app, implement the oauth2 flow so each user has their own token for accessing their clickup resources. oauth resources and specs: authentication: oauth 2.0 grant type: authorization code . learn more . authorization url: https://app.clickup.com/api access token url: https://api.clickup.com/api/v2/oauth/token 👀 note clickup uses the a"
+      },
+      {
+        "signal": "API key",
+        "snippet": "thorization url: https://app.clickup.com/api access token url: https://api.clickup.com/api/v2/oauth/token 👀 note clickup uses the authorization code grant type . use your personal api key to use the try-it feature in the api docs. step 1: create an oauth app only workspace owners or admins can create oauth apps. log in to clickup. in the upper-right corner, click y"
+      },
+      {
+        "signal": "Token",
+        "snippet": "ccessing their clickup resources. oauth resources and specs: authentication: oauth 2.0 grant type: authorization code . learn more . authorization url: https://app.clickup.com/api access token url: https://api.clickup.com/api/v2/oauth/token 👀 note clickup uses the authorization code grant type . use your personal api key to use the try-it feature in the api docs. step 1"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "eb anyway clickup for ai agents: visit https://developer.clickup.com/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home guides api docs home jump to content develop innovative solutions with the clickup api build integrations and apps with our public api. connect your ai with clickup using our mcp server. api brow"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": " vs smartsheet vs wrike vs salesforce vs notion vs airtable company about us careers customers affiliates events partners consultants reviews press brand roadmap help 24/7 support contact us get a demo import community clickup university webinars blog research soc 2 certified iso 27001 certified gdpr compliant hipaa compliant clickup for ai agents: visit https://devel"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "low are the setup instructions for some of the most popular ai assistants. claude set up claude to use the clickup mcp server! pro, team, enterprise if you're on the pro, team, or enterprise plan: in a browser or the desktop app, navigate to settings in the sidebar. scroll to connectors at the bottom and click add. in the prompt, enter the following: name: clickup remote m"
+      }
+    ],
+    "mcp": "home guides api docs home jump to content develop innovative solutions with the clickup api build integrations and apps with our public api. connect your ai with clickup using our mcp server. api browse our public api specification. mcp use clickup right from your ai assistant. webhooks trigger workflows from clickup events. oauth let people sign into their clickup ac",
+    "breadth": "public api details category select a category showing trending sort trending top new filter future planned buildingâ now beta completed posts in allâ categories all categories new api endpoints ( 68 ) api settings ( 21 ) audit logs ( 1 ) authorization ( 0 ) attachments ( 2 ) chat ( 9 ) comments ( 11 ) custom task types ( 1 ) docs ( 16 ) folders ( 4 ) goals ( 1 ) guests ("
+  },
+  "evidence_urls": [
+    "https://developers.clickup.com/",
+    "https://developer.clickup.com/",
+    "https://clickup.com/features/docs",
+    "https://developer.clickup.com/",
+    "https://developer.clickup.com/docs/authentication#build-apps-for-others---oauth-flow",
+    "https://developer.clickup.com/reference/getaccesstoken",
+    "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+    "https://developer.clickup.com/docs/trytheapi",
+    "https://developer.clickup.com/docs/open-api-spec",
+    "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server-1",
+    "https://developer.clickup.com/docs/mcp-tools",
+    "https://developer.clickup.com/#content",
+    "https://developer.clickup.com/docs/authentication",
+    "https://developer.clickup.com/docs/webhooks",
+    "https://feedback.clickup.com/public-api/",
+    "https://developer.clickup.com"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

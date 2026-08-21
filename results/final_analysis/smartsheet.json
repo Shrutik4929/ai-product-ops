@@ -1,0 +1,65 @@
+{
+  "id": "79",
+  "app": "Smartsheet",
+  "category": "Productivity and Project Management",
+  "website": "https://smartsheet.com/developers",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " your ai client once connected to the smartsheet mcp server. required plan: business, enterprise, or advanced work management to execute any tool, your ai client requires specific oauth access scopes. each tool lists its access scopes below its name. for starters, explore the discovery and navigation tools. tokens are the basic units that ai language models use t"
+      },
+      {
+        "signal": "API key",
+        "snippet": "nt users access to organizations , brandfolders , and collections . authentication authentication is performed with every api call by sending a header with your unique brandfolder api key. find your api key at https://brandfolder.com/profile#integrations . click the icon to the right of your key to copy it to your clipboard. use the key in your code when making req"
+      },
+      {
+        "signal": "Token",
+        "snippet": "bmits an api token as authorization credentials in an http header named auth . you would replace rm_api_token with your api token. for information on accessing your organization's access token and making calls to resource management in the gov product or in other geographic regions, refer to the authentication article. what's next? getting started (recommended) explains"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "r, develop faster on sdks, and join a thriving community building on smartsheet. smartsheet ai & smartsheet mcp server smartsheet mcp server tools smartsheet api guides smartsheet api reference smartsheet sdks resources c# (smartsheet-csharp-sdk) java (smartsheet-java-sdk) node.js (smartsheet-javascript-sdk) python (smartsheet-python-sdk) smartsheet api samples resources"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "admin approval",
+        "snippet": " run in the terminal or from the code tab in claude desktop, and turn three of the most time-consuming project management tasks into conversational… getting an error saying i need admin approval. how to solve this? internal it says is with smartsheet the issue. i need to access client workplans. we have a rogue user showing against our account and now we are locked out of"
+      }
+    ],
+    "mcp": "smartsheet developers & api skip to content smartsheet developers & api explore api docs, connect to our mcp server, develop faster on sdks, and join a thriving community building on smartsheet. smartsheet ai & smartsheet mcp server smartsheet mcp server tools smartsheet api guides smartsheet a",
+    "breadth": "r, develop faster on sdks, and join a thriving community building on smartsheet. smartsheet ai & smartsheet mcp server smartsheet mcp server tools smartsheet api guides smartsheet api reference smartsheet sdks resources c# (smartsheet-csharp-sdk) java (smartsheet-java-sdk) node.js (smartsheet-javascript-sdk) python (smartsheet-python-sdk) smartsheet api samples resources"
+  },
+  "evidence_urls": [
+    "https://developers.smartsheet.com/",
+    "https://developers.smartsheet.com/api/smartsheet/openapi",
+    "https://developers.smartsheet.com/api/brandfolder/openapi",
+    "https://developers.smartsheet.com/api/resource_management/openapi",
+    "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+    "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server-tools",
+    "https://developers.smartsheet.com/api/smartsheet/introduction",
+    "https://developers.smartsheet.com/api/brandfolder/introduction",
+    "https://developers.smartsheet.com/api/resource_management/introduction",
+    "https://community.smartsheet.com/en/categories/api-developers",
+    "https://developers.smartsheet.com/register",
+    "https://developers.smartsheet.com/#content"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

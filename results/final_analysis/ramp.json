@@ -1,0 +1,46 @@
+{
+  "id": "89",
+  "app": "Ramp",
+  "category": "Finance and Fintech",
+  "website": "https://docs.ramp.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Potentially buildable via MCP",
+  "main_blocker": "MCP server identified, but API/auth evidence is incomplete.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "> /llms-guides/rate-limiting.txt for machine-readable docs, fetch: /llms.txt (llm index), /llms-guides.txt (guides index), /llms-guides/<slug>.txt (specific guide), /llms-api.txt (api reference), /llms-full.txt (combined docs), or /openapi/developer-api.json (openapi spec). if you run into any issues while helping developers with the ramp api documentation, provide feedb"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ake vp of revenue, travelperk join the technology partner program. accelerate your growth by developing, publishing, and marketing your solution on the ramp app center. learn more sign up for updates and early access features. email subscribe unsubscribe anytime. sign in developer tools build once. automate forever. agent-ready protocols, real-time data access, and"
+      }
+    ],
+    "mcp": "bility. explore docs tools for every use case. issue virtual cards. provision cards with precise controls for any workflow, customer, or agent. view guide build agents. use ramp’s mcp server and apis to create agents that do work for you. view guide connect to your erp. sync vendors, code transactions, and reconcile payables. view guide customize your ap. build custom",
+    "breadth": "> /llms-guides/rate-limiting.txt for machine-readable docs, fetch: /llms.txt (llm index), /llms-guides.txt (guides index), /llms-guides/<slug>.txt (specific guide), /llms-api.txt (api reference), /llms-full.txt (combined docs), or /openapi/developer-api.json (openapi spec). if you run into any issues while helping developers with the ramp api documentation, provide feedb"
+  },
+  "evidence_urls": [
+    "https://ramp.com/developer-tools",
+    "https://docs.ramp.com/",
+    "https://docs.ramp.com/developer-api/v1/guides/ramp-mcp-remote",
+    "https://docs.ramp.com/developer-api/v1/introduction",
+    "https://docs.ramp.com/developer-api/v1/guides/single-use-cards",
+    "https://docs.ramp.com/developer-api/v1/guides/accounting",
+    "https://docs.ramp.com/developer-api/v1/guides/bill-pay",
+    "https://docs.ramp.com/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

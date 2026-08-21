@@ -1,0 +1,64 @@
+{
+  "id": "54",
+  "app": "MrScraper",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.mrscraper.com",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "few minutes with a step-by-step walkthrough. playground test api requests, explore features, and generate code without writing code. token plan learn how tokens work and create an api token for authentication. billing understand subscription plans, token usage, and billing cycles. ai agents pick the agent that matches the page you're scraping, or chain several togeth"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "ebsite optimizing cost create and run a scraper programmatically integrations email sql/database webhook zapier clawhub n8n sdks apify mrscraper search ⌘ k dashboard documentation api reference residential proxy overview overview your all-in-one guide to understanding, configuring, and using our scraping platform. discover how our powerful scraping platform can transform"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "oll over to the next month? how do i know how many tokens each scrape will use? what happens to my scrapers if i downgrade? can i change from monthly to annual billing? is there a free trial for paid plans? mcp server access mrscraper’s web scraping api via a model context protocol (mcp) server to enable ai agents to fetch and extract web data securely. ai scraper lea"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "use this panel to confirm the extracted content matches your requirements before you integrate the request into your application. api token mrscraper creates an api token when you sign up. the api token panel displays the token used to authenticate your requests. if you create additional tokens, the playground shows your most recently created token . all generated "
+      }
+    ],
+    "mcp": "overview | mrscraper documentation documentation core features dashboard getting started overview quickstart playground token plan cli mcp server billing features ai scraper manual scraper scraper api bulk scraping proxy marketplace schedule s3 storage web unblocker cookie team guides common use case complex website optimiz",
+    "breadth": "ebsite optimizing cost create and run a scraper programmatically integrations email sql/database webhook zapier clawhub n8n sdks apify mrscraper search ⌘ k dashboard documentation api reference residential proxy overview overview your all-in-one guide to understanding, configuring, and using our scraping platform. discover how our powerful scraping platform can transform"
+  },
+  "evidence_urls": [
+    "https://docs.mrscraper.com/docs/getting-started/overview",
+    "https://docs.mrscraper.com/docs/getting-started/api-token",
+    "https://docs.mrscraper.com/docs/api/overview",
+    "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+    "https://docs.mrscraper.com/docs/features/unblocker",
+    "https://docs.mrscraper.com/docs/features/analytics",
+    "https://docs.mrscraper.com/docs/guides/optimizing-cost",
+    "https://docs.mrscraper.com/docs/residential-proxy/configuration/authentication",
+    "https://docs.mrscraper.com/docs/features/activating-api",
+    "https://docs.mrscraper.com/docs/features/bulk-scraping",
+    "https://docs.mrscraper.com/docs/integrations/zapier",
+    "https://docs.mrscraper.com/docs/integrations/apify",
+    "https://docs.mrscraper.com/docs/getting-started/playground",
+    "https://docs.mrscraper.com/docs/getting-started/billing",
+    "https://docs.mrscraper.com/docs/features/cookie",
+    "https://docs.mrscraper.com/docs/features/marketplace"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

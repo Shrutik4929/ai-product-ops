@@ -1,0 +1,77 @@
+{
+  "id": "35",
+  "app": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://mailchimp.com/developer",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " 'https://<dc>.api.mailchimp.com/3.0/' \\ --header \"authorization: bearer <token>\" user api access api authentication is tied to the user that created the api key or authorized the oauth2 app. if the user is removed from the account, that authentication token will be revoked. api access is also limited by the user level (role) of the authorizing user. the role is n"
+      },
+      {
+        "signal": "API key",
+        "snippet": "sing a mailchimp transactional template. search messages by date expand post /messages/search search recently sent messages and optionally narrow by date range, tags, senders, and api keys. if no date range is specified, results within the last 7 days are returned. this method may be called up to 20 times per minute. if you need the data more often, you can use /me"
+      },
+      {
+        "signal": "Token",
+        "snippet": "dpoints, see methods and parameters . for troubleshooting api calls, see the errors docs. connecting to the api you can authenticate requests using either your api key or an oauth access token, depending on your use case. you should use an api key if you’re writing code that tightly couples your application data to your mailchimp account data; if you ever need to access"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "ticate with an api key or oauth 2 token api keys and oauth 2 tokens can be used to make authenticated requests the same way. we’ll refer to both as tokens. you can either use http basic authentication or bearer authentication. http basic authentication: basic http authentication bash curl --request get \\ --url 'https://<dc>.api.mailchimp.com/3.0/' \\ --user 'anystring:token bear"
+      }
+    ],
+    "api": [
+      {
+        "signal": "GraphQL",
+        "snippet": "n commerce stack mailchimp open commerce (formerly reaction commerce) is an open source, api-first, modular commerce stack made for technical, growth-minded retailers. quick start graphql playground documentation you’ll be in good company when you build integrations with mailchimp, you’re creating tools for a trusted and reliable platform that powers marketing, e-c"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "rything you need to integrate your data with intelligent marketing tools and event-driven transactional email and sms. mailchimp marketing api send marketing campaigns quick start api reference documentation mailchimp’s marketing api powers timely, relevant marketing campaigns with custom data pulled directly from your app. mailchimp transactional send transactional emai"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "mailchimp transactional is a powerful email delivery service that lets you send personalized, one-to-one emails like password resets, order confirmations, and welcome messages. to sign up for mailchimp transactional, you need a mailchimp account. you can try the mailchimp transactional demo with any level account, but to use the full version you must have a standar"
+      }
+    ],
+    "mcp": null,
+    "breadth": "rything you need to integrate your data with intelligent marketing tools and event-driven transactional email and sms. mailchimp marketing api send marketing campaigns quick start api reference documentation mailchimp’s marketing api powers timely, relevant marketing campaigns with custom data pulled directly from your app. mailchimp transactional send transactional emai"
+  },
+  "evidence_urls": [
+    "https://mailchimp.com/developer/",
+    "https://mailchimp.com/developer/marketing/api/",
+    "https://mailchimp.com/developer/transactional/api/",
+    "https://mailchimp.com/developer/marketing/",
+    "https://mailchimp.com/developer/open-commerce/playground/",
+    "https://mailchimp.com/developer/#main-content",
+    "https://mailchimp.com/developer/transactional/",
+    "https://mailchimp.com/developer/open-commerce/",
+    "https://mailchimp.com/developer/tools/",
+    "https://mailchimp.com/developer/release-notes/",
+    "https://mailchimp.com/developer/blog/",
+    "https://mailchimp.com/developer/marketing/guides/quick-start/",
+    "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+    "https://mailchimp.com/developer/transactional/guides/quick-start/",
+    "https://mailchimp.com/developer/transactional/docs/fundamentals/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

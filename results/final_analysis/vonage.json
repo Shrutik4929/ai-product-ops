@@ -1,0 +1,78 @@
+{
+  "id": "30",
+  "app": "Vonage",
+  "category": "Communications and Messaging",
+  "website": "https://developer.vonage.com",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "vonage account try the voice api create an application rent a number create a vonage account to work with our apis, you will need to sign up for an account . this will give you an api key and secret that you can use to access our apis. you can use the voice api to make a voice call. use the test number 123456789 as the caller id , and call the number you originally"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "p in this tutorial you will learn the basic concepts of the vonage video api platform, including how users can communicate through video, voice, and messaging. unified video video rest api basic api functionality client sdks server sdks reference app video rest api basic api functionality client sdks messaging vonage messaging apis are easy to set up and allow you t"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": " camera, microphone, bandwidth, and firewall readiness before a session. insights & analytics insights graphiql explorer to query usage data via the insights and advanced insights graphql apis. insights api guide for integrating graphql queries into your tooling. explore capabilities video playground to prototype sessions, captions, experience composer, and more wi"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "imple ivr advanced ivr ai voice agent masked calling see all reference guides reliable reference materials designed to help you quickly find precise information and answers. voice api reference ncco reference voice api webhooks reference conceptual guides high-level guides that clarify core vonage api concepts, ideal for gaining a deeper understanding before planning you"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "u begin, you will need the following: create a vonage account try the voice api create an application rent a number create a vonage account to work with our apis, you will need to sign up for an account . this will give you an api key and secret that you can use to access our apis. you can use the voice api to make a voice call. use the test number 123456789 as the"
+      },
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": " all of the necessary steps to get up and running with the vonage voice api. prerequisites before you begin, you will need the following: create a vonage account try the voice api create an application rent a number create a vonage account to work with our apis, you will need to sign up for an account . this will give you an api key and secret that you can use to access "
+      },
+      {
+        "type": "gating",
+        "signal": "contact our sales team",
+        "snippet": "ited kingdom (uk) as well as 10+ other countries across across emea, north america and south america. if you wish to use rcs messaging in countries not specifically listed, please contact our sales team rcs, or rich communication services , is a communication protocol for sending messages to, and between, devices connected to a cellular telephony network. rcs messages can include"
+      }
+    ],
+    "mcp": null,
+    "breadth": "imple ivr advanced ivr ai voice agent masked calling see all reference guides reliable reference materials designed to help you quickly find precise information and answers. voice api reference ncco reference voice api webhooks reference conceptual guides high-level guides that clarify core vonage api concepts, ideal for gaining a deeper understanding before planning you"
+  },
+  "evidence_urls": [
+    "https://developer.vonage.com/en/home",
+    "https://developer.vonage.com/en/tutorials/silent-authentication/introduction",
+    "https://developer.vonage.com/en/voice/voice-api/getting-started?source=voice",
+    "https://developer.vonage.com/en/learning-center",
+    "https://developer.vonage.com/en/voice/voice-api/code-snippets/making-calls/make-an-outbound-call-with-ncco?source=voice",
+    "https://developer.vonage.com/en/api/voice",
+    "https://developer.vonage.com/en/voice/voice-api/overview",
+    "https://developer.vonage.com/en/voice/voice-api/concepts/in-app-calling",
+    "https://developer.vonage.com/en/video/guides/migration-guides/twilio/overview",
+    "https://developer.vonage.com/en/tutorials/basic-video-chat/introduction/javascript",
+    "https://developer.vonage.com/en/api/video",
+    "https://developer.vonage.com/en/video/technical-details",
+    "https://developer.vonage.com/en/messages/concepts/rcs",
+    "https://developer.vonage.com/en/messages/guides/whatsapp-interactive-messages?source=messages",
+    "https://developer.vonage.com/en/api/messages",
+    "https://developer.vonage.com/en/api/messages"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

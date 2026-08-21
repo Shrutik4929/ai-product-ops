@@ -1,0 +1,74 @@
+{
+  "id": "63",
+  "app": "Netlify",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.netlify.com/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "hing like https://api.netlify.com/api/v1/sites . here’s an example in curl: terminal window curl -h \" user-agent: myapp (your_name@example.com) \" \\ -h \" authorization: bearer your_oauth2_access_token \" \\ https://api.netlify.com/api/v1/sites authentication section titled “authentication” netlify uses oauth2 for authentication. all requests must use https. to genera"
+      },
+      {
+        "signal": "API key",
+        "snippet": "uilt-in ai model access on netlify by nahrin jalal learn how netlify's ai gateway lets you use ai models directly in your netlify apps without creating provider accounts, managing api keys, or setting up environment variables. admin ai video introducing observability: your project insights on netlify by nahrin jalal learn how netlify’s observability feature helps y"
+      },
+      {
+        "signal": "Token",
+        "snippet": "\" \\ https://api.netlify.com/api/v1/sites authentication section titled “authentication” netlify uses oauth2 for authentication. all requests must use https. to generate a personal access token (pat): go to applications > personal access tokens . select new access token . enter a descriptive name to help you remember what the token will be used for. select allow access t"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "automate workflows and integrate seamlessly into any stack. learn more about building on netlify netlify api manage sites, deploys, dns, and more programmatically with the netlify rest api—ideal for automating workflows and integrating into your systems. netlify cli deploy sites, run local dev servers, and manage your netlify projects right from the terminal with th"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ore. this document covers the basics for interacting with the netlify api, plus instructions for deploying sites and notes on some commonly used endpoints . you can browse the openapi reference for the netlify api to explore available endpoints. visit our forums for more tips and conversation about understanding and using netlify’s api . project id, site_id, and netlify_"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "aders of any api request to verify your current rate limit status: x-ratelimit-limit: 500 x-ratelimit-remaining: 56 x-ratelimit-reset: 1372700873 if you need higher limits, please contact us . pagination section titled “pagination” all api requests that return over 100 items are paginated by default, with a limit of 100 items per page. you can specify further pages wi"
+      }
+    ],
+    "mcp": "e project context directly from your netlify dashboard. ai gateway use popular ai models within your project code and connect to them seamlessly without managing api keys. netlify mcp server share context & connect ai assistants to your netlify account for seamless deployment workflows. frameworks deploy with any modern framework already have a preferred framework? we",
+    "breadth": "ore. this document covers the basics for interacting with the netlify api, plus instructions for deploying sites and notes on some commonly used endpoints . you can browse the openapi reference for the netlify api to explore available endpoints. visit our forums for more tips and conversation about understanding and using netlify’s api . project id, site_id, and netlify_"
+  },
+  "evidence_urls": [
+    "https://developers.netlify.com/",
+    "https://developers.netlify.com/sdk/",
+    "https://docs.netlify.com/",
+    "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/#authentication",
+    "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/#restore-deploy-rollback",
+    "https://docs.netlify.com/build/frameworks/frameworks-api/",
+    "https://docs.netlify.com/build/data-and-storage/netlify-database/api/",
+    "https://docs.netlify.com/build/caching/cache-api/",
+    "https://docs.netlify.com/build/data-and-storage/netlify-blobs/",
+    "https://docs.netlify.com/build/functions/api/",
+    "https://docs.netlify.com/build/edge-functions/api/",
+    "https://docs.netlify.com/api-and-cli-guides/overview/",
+    "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/#mcp-server-support",
+    "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli/",
+    "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/#_top"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

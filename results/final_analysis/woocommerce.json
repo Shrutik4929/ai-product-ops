@@ -1,0 +1,71 @@
+{
+  "id": "42",
+  "app": "WooCommerce",
+  "category": "Ecommerce",
+  "website": "https://woocommerce.com/document/woocommerce-rest-api",
+  "auth_methods": [
+    "API key",
+    "Basic authentication"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "and mobile app expand get help expand woocommerce rest api the woocommerce rest api connects your store to external systems and services. most integrations require you to generate api keys in woocommerce and enter them in the external service to establish the connection. this document covers how to generate and manage rest api keys from a merchant perspective, with"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": " . modify this to use your own site url. in postman, you need to set the fields for request type, request url, and the settings on the authorization tab. for authorization, choose basic auth and enter your consumer key and consumer secret keys from woocommerce into the username and password fields. once done, hit send and you'll see the json response from the api if a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "re by marco lucio giannotta | may 19, 2026 giving merchants better visibility into the health of their subscriptions by darren ethier | apr 30, 2026 call for testing: experimental rest api caching in woocommerce 10.5 by konamiman | jan 23, 2026 call for testing: woocommerce mcp beta by brian coords | nov 3, 2025 understanding the interactivity api-driven future for "
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": " we don't offer support for third party libraries. if you have questions about how to use any of these libraries, contact the respective authors. tools ​ insomnia - cross-platform graphql and rest client, available for mac, windows, and linux. postman - cross-platform rest client, available for mac, windows, and linux. requestbin - allows you test webhooks. hookbin"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "kes communication between blocks simpler and less error-prone. for example, clicking an ‘add to cart’ block can seamlessly update a separate ‘cart’ block.” wordpress interactivity api reference guide this architecture means that blocks from different developers can interact with each other through a standardized interface, opening up new possibilities for third-party ext"
+      }
+    ],
+    "self_serve": [],
+    "mcp": "h woocommerce stores through a standardized protocol, opening up new possibilities for ai-assisted store management and development workflows. watch: intro to woo mcp what is mcp? model context protocol (mcp) is an open standard that allows ai applications to securely connect to external data sources and tools. woocommerce’s implementation exposes store operations as discoverable",
+    "breadth": "kes communication between blocks simpler and less error-prone. for example, clicking an ‘add to cart’ block can seamlessly update a separate ‘cart’ block.” wordpress interactivity api reference guide this architecture means that blocks from different developers can interact with each other through a standardized interface, opening up new possibilities for third-party ext"
+  },
+  "evidence_urls": [
+    "https://developer.woocommerce.com/",
+    "https://woocommerce.com/documentation/woocommerce/",
+    "https://woocommerce.com/wordpress-ecommerce/",
+    "https://woocommerce.com/wp-content/uploads/2021/05/API.png",
+    "https://woocommerce.com/document/woocommerce-rest-api/",
+    "https://developer.woocommerce.com/2026/01/23/call-for-testing-experimental-rest-api-caching-in-woocommerce-10-5/",
+    "https://developer.woocommerce.com/docs/apis/rest-api/",
+    "https://developer.woocommerce.com/2024/01/17/the-woocommerce-legacy-rest-api-extension-is-now-available-in-wordpress-org/",
+    "https://woocommerce.com/document/woocommerce-rest-api/#developer-resources",
+    "https://developer.woocommerce.com/docs/apis/rest-api/#make-a-basic-request",
+    "https://developer.woocommerce.com/docs/",
+    "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+    "https://developer.woocommerce.com/2025/10/30/understanding-the-interactivity-api-driven-future-for-woocommerce-blocks/",
+    "https://developer.woocommerce.com/2026/07/17/failed-order-stock-update/",
+    "https://developer.woocommerce.com/docs/apis/store-api/",
+    "https://woocommerce.com/document/woocommerce-rest-api/#main-navigation",
+    "https://woocommerce.com/document/woocommerce-rest-api/#doc-content",
+    "https://woocommerce.com/document/woocommerce-rest-api/#requirements",
+    "https://woocommerce.com/document/woocommerce-rest-api/#doc-title",
+    "https://woocommerce.com/document/woocommerce-rest-api/#generate-keys"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

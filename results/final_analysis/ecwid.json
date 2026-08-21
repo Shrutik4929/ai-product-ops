@@ -1,0 +1,33 @@
+{
+  "id": "47",
+  "app": "Ecwid",
+  "category": "Ecommerce",
+  "website": "https://api-docs.ecwid.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "blic apps faq about public applications submit your app idea get human support ask your questions and get answers from our api specialists. contact ecwid api support get help with api docs, update your app settings and more. join slack community connect and collaborate with the ecwid team and fellow developers. automate integrations webhooks automate your business l"
+      }
+    ],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "build with ecwid apps | ecwid documentation ⌘ ctrl k ask contact api support more ai assistant arrow-up-right-and-arrow-down-left-from-center good afternoon i'm here to help you with the docs. what is this page about? what should i read next? can y"
+  },
+  "evidence_urls": [
+    "https://docs.ecwid.com/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

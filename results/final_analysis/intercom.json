@@ -1,0 +1,89 @@
+{
+  "id": "12",
+  "app": "Intercom",
+  "category": "Support and Helpdesk",
+  "website": "https://intercom.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ags teams ticket states ticket type attributes ticket types tickets visitors whatsapp workflows models errors canvas kit reference webhook topics public apps & app store configure oauth build and publish apps app store guidelines home / rest api reference introduction changelog (2.16) intercom api admins ai content articles audiences away status reasons banners b"
+      },
+      {
+        "signal": "Token",
+        "snippet": "for private app developers private apps are apps that you can build specifically for your intercom workspace that only access your own data. you can build a private app using your access token and it does not require a review. install apps from the app store your team probably needs to integrate with other tools; we might have an app for it. install connectors to tools "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "eloper guides messenger inbox contacts tickets help center reporting using the apis webhooks fin agent api news center domains model context protocol (mcp) references object model rest api reference introduction changelog (2.16) intercom api admins ai content articles audiences away status reasons banners brands calls companies contacts content content snippets conv"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "r guides messenger inbox contacts tickets help center reporting using the apis webhooks fin agent api news center domains model context protocol (mcp) references object model rest api reference introduction changelog (2.16) intercom api admins ai content articles audiences away status reasons banners brands calls companies contacts content content snippets conversations "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "s for private app developers step 2: create an app step 3: make your first api call step 4: learn more intercom | the easiest way to see and talk to your users sign in create your developer account continue with google or tip: use your work email. this will make it easier to invite teammates and integrate with your work apps. your work email your full name create your passwo"
+      },
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": " contact us with questions via the messenger in the bottom right. next steps deploy with replit if you're ready to deploy your app you can do so right from replit. however, replit test accounts are free, but deployments are a premium feature. you can see the costs on the replit pricing page . learn more about canvas kit from the reference docs check out the other intera"
+      },
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "summit for cx leaders san francisco, ca in person & online join us on october 7 intercom | the only helpdesk designed for the ai agent era fin log in contact sales view demo start free trial the only helpdesk designed for the ai agent era intercom is the only helpdesk with a natively integrated ai agent , fin , meaning every customer conversation improves the next one"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "vacy 15 authors 47 articles a summit for cx leaders san francisco, ca in person & online join us on october 7 intercom | the only helpdesk designed for the ai agent era fin log in contact sales view demo start free trial the only helpdesk designed for the ai agent era intercom is the only helpdesk with a natively integrated ai agent , fin , meaning every customer convers"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "check your keys to make sure it has not been revoked. you can find more technical information and troubleshooting steps in the apple ios developer library . and as always, you can contact us via intercom . we're always here to help 😀 was this page helpful? help center previous page rich push notifications next page on this page step 1: create a private key step 2: ena"
+      }
+    ],
+    "mcp": "y page as markdown for llms view as markdown open this page as markdown open in chatgpt get insights from chatgpt open in claude get insights from claude connect to cursor install mcp server on cursor connect to vs code install mcp server on vs code this is documentation for version 2.16 of the rest api. all changes to version 2.16 can be viewed in the changelog . see",
+    "breadth": "r guides messenger inbox contacts tickets help center reporting using the apis webhooks fin agent api news center domains model context protocol (mcp) references object model rest api reference introduction changelog (2.16) intercom api admins ai content articles audiences away status reasons banners brands calls companies contacts content content snippets conversations "
+  },
+  "evidence_urls": [
+    "https://developers.intercom.com/",
+    "https://www.intercom.com/help/en/",
+    "https://www.intercom.com/",
+    "https://developers.intercom.com/docs/references/introduction",
+    "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/build-your-own-reports",
+    "https://www.intercom.com/help/en/collections/1865264-getting-started",
+    "https://developers.intercom.com/#content",
+    "https://developers.intercom.com/installing-intercom",
+    "https://developers.intercom.com/docs",
+    "https://app.intercom.com/a/apps/_/developer-hub",
+    "https://developers.intercom.com/installing-intercom/ios/push-notifications",
+    "https://developers.intercom.com/installing-intercom",
+    "https://developers.intercom.com/docs/build-an-integration/getting-started",
+    "https://app.intercom.com/admins/sign_up/developer",
+    "https://developers.intercom.com/docs/build-an-integration/getting-started/build-an-app-for-your-messenger",
+    "https://developers.intercom.com/docs/guides/tickets/create-a-ticket",
+    "https://developers.intercom.com/docs/guides/tickets/build-a-ticketing-app"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

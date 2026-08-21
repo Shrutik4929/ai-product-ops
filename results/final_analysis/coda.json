@@ -1,0 +1,55 @@
+{
+  "id": "78",
+  "app": "Coda",
+  "category": "Productivity and Project Management",
+  "website": "https://coda.io/developers",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "rammetadata' - $ref: '#/components/schemas/packconnectionhttpbasicmetadata' - $ref: '#/components/schemas/packconnectioncustommetadata' - $ref: '#/components/schemas/packconnectionoauth2clientcredentialsmetadata' - $ref: '#/components/schemas/packconnectiongoogleserviceaccountmetadata' - $ref: '#/components/schemas/packconnectionawsassumerolemetadata' - $ref: '#/c"
+      },
+      {
+        "signal": "API key",
+        "snippet": "r can create docs\" option in enabled in the workspace settings, they can be an editor and will get auto-promoted to doc maker upon using this endpoint. lastly, if in addition, the api key owner matches the \"auto-join email domains\" setting, they will be auto-added to the workspace and promoted to doc maker upon using this endpoint this behavior applies to the api a"
+      },
+      {
+        "signal": "Token",
+        "snippet": "rectly using your browser. note that only get endpoints are supported; for anything else, you'll have to use bearer authentication. ### restricting token authorization by default, bearer tokens created for the superhuman docs api can perform any action that the user who created the token can perform. however, superhuman docs api bearer tokens can also be created with re"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "will post about such changes as well as announce new features in the developers central section of our community, and update the api updates doc. using the api the superhuman docs rest api is designed to be straightforward to use. you can use the language and platform of your choice to make requests. to get a feel for the api, you can also use a tool like postman or"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ist pack analytics get get pack analytics summary get list pack formula analytics get get analytics last updated day miscellaneous get resolve browser link get get mutation status api docs by redocly superhuman docs api ( 1.6.0 ) developer support : care@superhuman.com url: https://superhuman.com/developers license: superhuman developer terms terms of service introd"
+      }
+    ],
+    "self_serve": [],
+    "mcp": "mulas, and controls read, insert, upsert, update, and delete rows if you plan to integrate superhuman docs with an ai tool, you may also want to consider using the superhuman docs mcp server . it's optimized for llm usage patterns and often exposes more granular methods for accessing and modifying data. getting started our getting started guide helps you learn the bas",
+    "breadth": "nge at any time without notice. for robustness, all api scripts should check for http 429 too many requests errors and back off and retry the request. limits apply per-user across all endpoints that share the same limit and across all docs. reading data (with the exceptions below): 100 requests per 6 seconds writing data (post/put/patch): 10 requests per 6 seconds writin"
+  },
+  "evidence_urls": [
+    "https://docs.superhuman.com/developers/apis/v1",
+    "https://id.superhuman.com/signin?oauth_client_type=MEDIATED_WEB&correlation_id=MrTvc-ksOcR-TShiUcmRnw&version=v4&client_id=superhumanDocs",
+    "https://coda.io/apis/v1/openapi.yaml",
+    "https://coda.io/apis/v1/openapi.json"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

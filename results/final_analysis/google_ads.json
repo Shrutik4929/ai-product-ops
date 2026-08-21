@@ -1,0 +1,44 @@
+{
+  "id": "31",
+  "app": "Google Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.google.com/google-ads",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "ild apps and agents with gemini models expand_content develop next-generation apps and agents by integrating google's most advanced reasoning and generative models and agent-first apis. web develop web ai features expand_content discover how your web applications can perform ai tasks with browser-managed ai models and apis. stacks build enterprise agents expand"
+  },
+  "evidence_urls": [
+    "https://developers.google.com/",
+    "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1261469190:1786996617981292",
+    "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-451360822:1786996622413542",
+    "https://developers.google.com/google-ads",
+    "https://developers.google.com/shopping-content/guides/quickstart",
+    "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+    "https://developers.google.com/#main-content",
+    "https://developers.google.com/community",
+    "https://developers.google.com/solutions/catalog",
+    "https://developers.google.com/products",
+    "https://developers.google.com/events",
+    "https://developers.google.com/program",
+    "https://developers.google.com/community/experts",
+    "https://developers.google.com/community/accelerators",
+    "https://developers.google.com/community/nvidia",
+    "https://developers.google.com/terms/site-terms",
+    "https://developers.google.com/google-ads#main-content"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,121 @@
+{
+  "total_apps": 100,
+  "authentication": {
+    "OAuth 2.0": 57,
+    "API key": 51,
+    "Token": 58,
+    "Basic authentication": 11,
+    "Unknown": 23
+  },
+  "self_serve": {
+    "Conditional": 32,
+    "Unknown": 28,
+    "Self-serve": 30,
+    "Gated": 10
+  },
+  "mcp": {
+    "Confirmed": 51,
+    "Not confirmed": 49
+  },
+  "buildability": {
+    "Buildable": 79,
+    "Needs verification": 21
+  },
+  "top_blockers": {
+    "Public API and authentication mechanism identified.": 35,
+    "API access depends on account/plan conditions.": 31,
+    "Insufficient API/authentication evidence.": 21,
+    "Credentials/API access are gated.": 9,
+    "MCP server identified, but API/auth evidence is incomplete.": 4
+  },
+  "categories": {
+    "Data, SEO and Scraping": {
+      "apps": 10,
+      "buildable": 9,
+      "mcp_confirmed": 6,
+      "self_serve": 2
+    },
+    "Communications and Messaging": {
+      "apps": 10,
+      "buildable": 8,
+      "mcp_confirmed": 4,
+      "self_serve": 2
+    },
+    "Productivity and Project Management": {
+      "apps": 10,
+      "buildable": 10,
+      "mcp_confirmed": 6,
+      "self_serve": 2
+    },
+    "Ecommerce": {
+      "apps": 10,
+      "buildable": 6,
+      "mcp_confirmed": 2,
+      "self_serve": 3
+    },
+    "CRM and Sales": {
+      "apps": 10,
+      "buildable": 9,
+      "mcp_confirmed": 7,
+      "self_serve": 4
+    },
+    "Finance and Fintech": {
+      "apps": 10,
+      "buildable": 5,
+      "mcp_confirmed": 5,
+      "self_serve": 2
+    },
+    "Developer, Infra and Data platforms": {
+      "apps": 10,
+      "buildable": 9,
+      "mcp_confirmed": 7,
+      "self_serve": 4
+    },
+    "AI, Research and Media-native": {
+      "apps": 10,
+      "buildable": 8,
+      "mcp_confirmed": 8,
+      "self_serve": 2
+    },
+    "Support and Helpdesk": {
+      "apps": 10,
+      "buildable": 8,
+      "mcp_confirmed": 3,
+      "self_serve": 4
+    },
+    "Marketing, Ads, Email and Social": {
+      "apps": 10,
+      "buildable": 7,
+      "mcp_confirmed": 3,
+      "self_serve": 5
+    }
+  },
+  "easy_wins": [
+    "Amazon Selling Partner",
+    "Apify",
+    "Attio",
+    "BigCommerce",
+    "Close",
+    "Datadog",
+    "GitHub",
+    "Gladly",
+    "Gorgias",
+    "Grain",
+    "Help Scout",
+    "HubSpot",
+    "Linear",
+    "LinkedIn Ads",
+    "Mailchimp",
+    "Meta Ads",
+    "Monday.com",
+    "MrScraper",
+    "Ramp",
+    "Shopify",
+    "Snowflake",
+    "Threads (Meta)",
+    "Twenty",
+    "Vercel",
+    "WhatsApp Business",
+    "Xero"
+  ]
+}

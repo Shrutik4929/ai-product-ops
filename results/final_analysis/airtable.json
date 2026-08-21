@@ -1,0 +1,57 @@
+{
+  "id": "72",
+  "app": "Airtable",
+  "category": "Productivity and Project Management",
+  "website": "https://airtable.com/developers",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "rying your airtable data in minutes from the tools your team already uses. claude best for: querying and updating your data through natural conversation. connects in one click via oauth. add airtable to claude chatgpt best for: querying and updating your data through natural conversation. connects in one click via oauth. add airtable to chatgpt claude code best f"
+      },
+      {
+        "signal": "Token",
+        "snippet": "and update automations delete automations that are off authentication our mcp server supports two authentication methods: oauth (recommended for end-user connections) and personal access tokens (pats, recommended for cli, scripts, and server-side setups). oauth is the fastest path for connecting through most known clients. after installing the mcp server, complete a one"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "xisting airtable permissions. if a user has read-only access to a base, they cannot write to it via mcp — the server enforces the same permission boundaries as the airtable ui and rest api. for tighter control, you can make an agent's access read-only by omitting data.records:write and schema.bases:write when setting up your pat or oauth consent. this is useful for "
+      }
+    ],
+    "self_serve": [],
+    "mcp": "i built to work with any agent airtable is model agnostic and works with the ai tools your team already use. you're not locked into a single provider. view the quickstart what our mcp server allows agents to do the airtable mcp server gives agents your base's full structure — field types, relationships, and views — so they can make context-aware decisions. query your ",
+    "breadth": "urrent blockers, and call out what's blocking each one. initiatives / planning project priority summary mobile app redesign p0 blocked on ios app store review client portal mvp p1 api integration with billing system incomplete onboarding flow redesign p1 waiting on user research findings navigation refresh p2 key stakeholder unavailable for final review checkou"
+  },
+  "evidence_urls": [
+    "https://airtable.com/developers/agents",
+    "https://airtable.com/developers/web",
+    "https://airtable.com/developers/agents/mcp/getting-started",
+    "https://airtable.com/developers/agents/mcp/claude",
+    "https://airtable.com/developers/agents/mcp/chatgpt",
+    "https://airtable.com/developers/agents/mcp/cursor",
+    "https://airtable.com/developers/agents/mcp/claude-code",
+    "https://airtable.com/developers/agents/mcp/cli",
+    "https://airtable.com/developers/agents/mcp/other",
+    "https://airtable.com/developers/agents/mcp/controls",
+    "https://airtable.com/developers/agents/mcp/tools",
+    "https://airtable.com/developers/agents/skills-and-plugins/getting-started",
+    "https://airtable.com/developers/agents",
+    "https://airtable.com/developers/interface-extensions",
+    "https://airtable.com/developers/scripting"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

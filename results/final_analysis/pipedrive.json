@@ -1,0 +1,69 @@
+{
+  "id": "3",
+  "app": "Pipedrive",
+  "category": "CRM and Sales",
+  "website": "https://pipedrive.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " or securities, is controlled by, or under common control with a party. “ app ” means either a marketplace app or a private app. “app development materials” means the restful api, oauth 2.0, api token and other apis, routines, protocols, tools and other materials provided by pipedrive to developer for development of an app, as more particularly described at https://p"
+      },
+      {
+        "signal": "Token",
+        "snippet": "ies, is controlled by, or under common control with a party. “ app ” means either a marketplace app or a private app. “app development materials” means the restful api, oauth 2.0, api token and other apis, routines, protocols, tools and other materials provided by pipedrive to developer for development of an app, as more particularly described at https://pipedrive.re"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "anding shares or securities, is controlled by, or under common control with a party. “ app ” means either a marketplace app or a private app. “app development materials” means the restful api, oauth 2.0, api token and other apis, routines, protocols, tools and other materials provided by pipedrive to developer for development of an app, as more particularly described a"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "e exposes us to an smb audience who is actively looking for solutions. andrus purde, co-founder/ceo of outfunnel pipedrive is an amazing tool! their developer api, well-documented api reference page and easy use of webhooks allow developers to easily build solutions in the pipedrive developer platform. kelly bernardino, software engineer at gamifier developing our pipedr"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "crm for closing deals pipedrive lets you track your sales pipeline, optimize leads, manage deals with ai and automate your entire sales process so you can focus on selling. 14-day free trial, no credit card required trusted by over 100,000 companies 500+ integrations to boost workflows built-in ai to close deals faster gdpr compliant and secure try it free contact sal"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "easily build integrations with our api and developer platform to reach over 100,000 companies through the pipedrive marketplace build apps & integrations create a test environment sign up for a sandbox account today to begin experimenting and developing in a risk free environment e-mail first name sign up for a sandbox account by signing up, you accept our terms of"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": " free trial, no credit card required trusted by over 100,000 companies 500+ integrations to boost workflows built-in ai to close deals faster gdpr compliant and secure try it free contact sales enter your work email try it free by signing up, you agree to our terms of service opens in new window and privacy notice opens in new window . you'll get product updates and offe"
+      }
+    ],
+    "mcp": "not a pipedrive user? try it free log in please log in to continue email password log in remember me forgot password? or access quickly google sso don't have an account? pipedrive mcp server | connect claude & chatgpt to your crm | pipedrive skip to main content all categories marketplace apps blog knowledge base academy all results : 0 no results found. english deuts",
+    "breadth": "e exposes us to an smb audience who is actively looking for solutions. andrus purde, co-founder/ceo of outfunnel pipedrive is an amazing tool! their developer api, well-documented api reference page and easy use of webhooks allow developers to easily build solutions in the pipedrive developer platform. kelly bernardino, software engineer at gamifier developing our pipedr"
+  },
+  "evidence_urls": [
+    "https://developers.pipedrive.com/",
+    "https://developers.pipedrive.com/",
+    "https://www.pipedrive.com/",
+    "https://developers.pipedrive.com/",
+    "https://www.pipedrive.com/en/developer-agreement",
+    "https://app.pipedrive.com/auth/login",
+    "https://www.pipedrive.com/en/features/mcp-server"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

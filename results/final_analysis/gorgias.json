@@ -1,0 +1,68 @@
+{
+  "id": "19",
+  "app": "Gorgias",
+  "category": "Support and Helpdesk",
+  "website": "https://gorgias.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "nd are available to thousands of shop owners. you need to follow a specific process which includes a review from the gorgias team. 👉 public app authentication can be done only via oauth2 for which you will need to register on our developer portal . updated 11 months ago did this page help you? yes no copy page changelog for ai agents: visit https://developers.gorg"
+      },
+      {
+        "signal": "Token",
+        "snippet": " be used if you plan to access only your own gorgias account data. you don't need to follow any special process to create a private app. for the authentication method, you can use access tokens . 👥 public apps these apps are published in our app store and are available to thousands of shop owners. you need to follow a specific process which includes a review from the go"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "urls, accepts json-encoded request bodies, returns json-encoded responses, and uses standard http response codes, authentication, and verbs. on this page, you'll find the complete rest api reference, examples, definitions of objects, and guides. 🚫 resources, resources' attributes, and resources' operations not documented in this documentation should not be used and "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "s-developers for ai agents: visit https://developers.gorgias.com/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home quickstart api reference changelog home developer documentation explore our guides and technical documentation to integrate with gorgias. start building visit app store start building on gorgias today int"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "e app to empower your support team with the tools they need. regardless of your end goal, follow these easy steps below to build an integration with us. 🤖 1. join developer portal sign up for our developer portal to start our partnership. this step is required only if you plan to build a public app. 🚧 2. build your app refer to our api documentation to find all the"
+      }
+    ],
+    "mcp": null,
+    "breadth": "s-developers for ai agents: visit https://developers.gorgias.com/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home quickstart api reference changelog home developer documentation explore our guides and technical documentation to integrate with gorgias. start building visit app store start building on gorgias today int"
+  },
+  "evidence_urls": [
+    "https://developers.gorgias.com/",
+    "https://developer.gorgias.com/",
+    "https://docs.gorgias.com/en-US",
+    "https://www.gorgias.com/",
+    "https://developers.gorgias.com/reference/introduction",
+    "https://developers.gorgias.com/reference/introduction?utm_source=help_center&utm_medium=menu&utm_campaign=footer",
+    "https://developers.gorgias.com/#content",
+    "https://developers.gorgias.com/docs/private-vs-public-app",
+    "https://developers.gorgias.com/changelog",
+    "https://developers.gorgias.com/#start-building-on-gorgias-today",
+    "https://developers.gorgias.com/#-join-developer-portal",
+    "https://partners.gorgias.com/signup",
+    "https://developers.gorgias.com/#-build-your-app",
+    "https://developers.gorgias.com/#-submit-your-app",
+    "https://developers.gorgias.com/#developer-newsletter",
+    "https://developers.gorgias.com/?utm_campaign=header&utm_medium=menu&utm_source=help-center"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

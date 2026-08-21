@@ -1,0 +1,47 @@
+{
+  "id": "51",
+  "app": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.dataforseo.com",
+  "auth_methods": [
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "s it possible to call our apis with almost any programming language, postman app, rest api platforms, and all major frameworks. regardless of the programming language, your unique api token should be passed in the ‘authorization’ header within the request in the following format: authorization: basic login:password instead of “login” and “password”, use your api cred"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": " authenticate and use the dataforseo apis. note that the api password is generated automatically by dataforseo and is different from your account password. dataforseo is using the basic authentication , which makes it possible to call our apis with almost any programming language, postman app, rest api platforms, and all major frameworks. regardless of the programming language,"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "is different from your account password. dataforseo is using the basic authentication , which makes it possible to call our apis with almost any programming language, postman app, rest api platforms, and all major frameworks. regardless of the programming language, your unique api token should be passed in the ‘authorization’ header within the request in the followi"
+      }
+    ],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "dataforseo api v.3 search ⌘ k ask ai menu example introduction welcome to dataforseo api! this is the starting point on your journey towards building powerful seo software, data analysis pipelin"
+  },
+  "evidence_urls": [
+    "https://docs.dataforseo.com/v3/",
+    "https://docs.dataforseo.com/v3/auth/",
+    "https://docs.dataforseo.com/v3/keywords_data/dataforseo_trends/subregion_interests/live/",
+    "https://docs.dataforseo.com/v3/business_data/social_media/pinterest/live/",
+    "https://docs.dataforseo.com/v3/appendix/api_errors/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "57",
+  "app": "Bright Data",
+  "category": "Data, SEO and Scraping",
+  "website": "https://brightdata.com",
+  "auth_methods": [
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "web access apis data feeds ai api reference general integrations overview authentication copy page copy page authenticate with bright data using 1 of 2 methods: api access with an api key or native access with proxy username and password. billed at the same rate. copy page copy page bright data ensures secure access to its services. bright data provides two primary"
+      },
+      {
+        "signal": "Token",
+        "snippet": "discover api, scraper studio, datasets, and the browser api. ​ installation and setup install the package via pip: pip install brightdata-sdk ​ configuration you must provide your api token. you can find it in your bright data control panel . option 1: environment variable (recommended) export brightdata_api_token = \"your_api_token_here\" option 2: direct initializati"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "o main content bright data docs home page english search... ⌘ k search... navigation introduction welcome to bright data welcome proxy infrastructure web access apis data feeds ai api reference general integrations introduction welcome to bright data copy page copy page bright data’s web data platform: residential, mobile and isp proxies, 1000+ pre-built scrapers, a data"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "pful? yes no ⌘ i bright data - all in one platform for proxies and web scraping accessibility menu skip to content en english español deutsch français 日本語 português 简体中文 한국어 start free trial user dashboard log in user dashboard contact sales start free trial account change password sign out build scrapers for any site in minutes - start free the web's data, unlocked d"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "o ways: a fully managed remote server, or a self-hosted local instance. get started for free start using the bright data mcp server with 5,000 requests per month, completely free. sign up now ​ choose your mcp server remote (hosted) mcp launch a fully managed mcp server in the cloud, no setup required. quick start local (self-hosted) mcp set up your own mcp server "
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "rm for proxies and web scraping accessibility menu skip to content en english español deutsch français 日本語 português 简体中文 한국어 start free trial user dashboard log in user dashboard contact sales start free trial account change password sign out build scrapers for any site in minutes - start free the web's data, unlocked discover, access, extract, and interact with any pub"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "$1999 billed monthly start free trial advanced support and features for critical operations enterprise for industry leaders: elite data services for top-tier business requirements contact us account manager custom packages premium sla priority support tailored onboarding sso customizations audit logs we accept these payment methods: browser api vs web unlocker browser"
+      }
+    ],
+    "mcp": "ata feeds access ready-to-use, structured datasets without building or maintaining scrapers. data feeds deliver real-time or historical web data with zero infrastructure overhead. mcp server power ai systems with live web intelligence. the mcp server connects your models to real-time public web data without scraper management or custom pipelines. for billing, account ",
+    "breadth": "o main content bright data docs home page english search... ⌘ k search... navigation introduction welcome to bright data welcome proxy infrastructure web access apis data feeds ai api reference general integrations introduction welcome to bright data copy page copy page bright data’s web data platform: residential, mobile and isp proxies, 1000+ pre-built scrapers, a data"
+  },
+  "evidence_urls": [
+    "https://docs.brightdata.com/introduction",
+    "https://brightdata.com/",
+    "https://docs.brightdata.com/api-reference/authentication",
+    "https://docs.brightdata.com/scraping-automation/introduction",
+    "https://docs.brightdata.com/ai/mcp-server/overview",
+    "https://docs.brightdata.com/api-reference/SDK",
+    "https://docs.brightdata.com/api-reference/SDK-JS",
+    "https://brightdata.com/products/web-unlocker",
+    "https://brightdata.com/products/serp-api",
+    "https://brightdata.com/products/serp-api/google-search",
+    "https://brightdata.com/products/serp-api/bing-search",
+    "https://brightdata.com/products/serp-api/duckduckgo-search",
+    "https://brightdata.com/products/serp-api/yandex-search",
+    "https://brightdata.com/products/scraping-browser",
+    "https://brightdata.com/products/web-scraper",
+    "https://brightdata.com/ai/mcp-server",
+    "https://brightdata.com/pricing/web-unlocker"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

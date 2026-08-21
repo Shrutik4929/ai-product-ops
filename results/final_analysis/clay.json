@@ -1,0 +1,86 @@
+{
+  "id": "60",
+  "app": "Clay",
+  "category": "Data, SEO and Scraping",
+  "website": "https://clay.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "iseconds (default 60000 ). clay_upload_timeout_ms bulk file-upload timeout in milliseconds (default 600000 ). ​ authentication clay login opens a browser to authorize the cli with oauth — this works from a human terminal or an agent’s shell tool. use clay whoami as the canonical check that authentication is working, and clay logout to clear a stored credential. o"
+      },
+      {
+        "signal": "API key",
+        "snippet": "rsor. ​ api use the public api to call clay from your own applications and services — backend jobs, internal tools, queues, and product features. requests authenticate with a clay api key in the clay-api-key header. api reference endpoint paths, request bodies, response schemas, and an interactive try-it console. ​ get an api key you can create an api key two ways:"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "ll clay from your own applications and services — backend jobs, internal tools, queues, and product features. requests authenticate with a clay api key in the clay-api-key header. api reference endpoint paths, request bodies, response schemas, and an interactive try-it console. ​ get an api key you can create an api key two ways: ask your agent to generate one for you af"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "at a $5b valuation. get a demo sign up latest launch: tam sourcing build systems to grow revenue infrastructure to get any data, run agentic workflows, and launch gtm plays. start free trial get a demo or install directly with paste in your coding agent copy set up the clay plugin by following the steps in https://github.com/clay-run/agent-plugins trusted by more than"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "stest way to master clay skip to main review your year with clay on clayback.clay.com university home page search university or ask ai. learn your way. ⌘ k ​ open workspace log in sign up learn and master clay with clay university featured in clay university what are you looking to explore today? courses docs use-case templates cohorts certifications start learning"
+      },
+      {
+        "type": "self_serve",
+        "signal": "self-serve",
+        "snippet": " lead volume +60% using research agents to trigger personalized campaigns to icps based on their public interests. figma increased plg conversion by automatically prospecting into self-serve accounts with both usage spikes and recent hiring signals. start free trial learn more about building plays gtm infrastructure build systems that make reps more productive start f"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "known clay tables. use table queries when your integration already knows which table it needs and wants specific fields, filters, ordering, and pagination. tables are available on enterprise plans. clay tables can act as a gtm database for your downstream systems. you can build dashboards, internal tools, qa views, scoring jobs, and interactive apps on top of data that alr"
+      },
+      {
+        "type": "gating",
+        "signal": "available on enterprise",
+        "snippet": "ed data from known clay tables. use table queries when your integration already knows which table it needs and wants specific fields, filters, ordering, and pagination. tables are available on enterprise plans. clay tables can act as a gtm database for your downstream systems. you can build dashboards, internal tools, qa views, scoring jobs, and interactive apps on top of data tha"
+      }
+    ],
+    "mcp": null,
+    "breadth": "ll clay from your own applications and services — backend jobs, internal tools, queues, and product features. requests authenticate with a clay api key in the clay-api-key header. api reference endpoint paths, request bodies, response schemas, and an interactive try-it console. ​ get an api key you can create an api key two ways: ask your agent to generate one for you af"
+  },
+  "evidence_urls": [
+    "https://developers.clay.com/",
+    "https://university.clay.com/",
+    "https://university.clay.com/docs",
+    "https://www.clay.com/",
+    "https://developers.clay.com/quickstart",
+    "https://developers.clay.com/llms.txt",
+    "https://developers.clay.com/#content-area",
+    "https://developers.clay.com/tables",
+    "https://developers.clay.com/concepts/execution-model",
+    "https://developers.clay.com/concepts/cli-basics",
+    "https://developers.clay.com/#start-here",
+    "https://developers.clay.com/#core-primitives",
+    "https://developers.clay.com/searches",
+    "https://developers.clay.com/routines",
+    "https://developers.clay.com/#choose-the-right-primitive",
+    "https://developers.clay.com/#start-with-a-recipe",
+    "https://university.clay.com/courses/clay-mcps-for-reps",
+    "https://university.clay.com/courses/clay-mcp-for-ops"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

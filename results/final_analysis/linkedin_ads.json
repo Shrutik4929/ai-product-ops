@@ -1,0 +1,76 @@
+{
+  "id": "33",
+  "app": "LinkedIn Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://learn.microsoft.com/linkedin/marketing",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "portal tools. authorization code flow configure your application in the developer portal to obtain client id and client secret . your application directs the browser to linkedin's oauth 2.0 authorization page where the member authenticates. after authentication, linkedin's authorization server passes an authorization code to your application. your application sends t"
+      },
+      {
+        "signal": "API key",
+        "snippet": "n to test this flow, use https://oauth.pstmn.io/v1/callback as your redirect url and enable authorize using browser . each application is assigned a unique client id (consumer key/api key) and client secret . please make a note of these values as they will be integrated into your application. your client secret protects your application's security so be sure to kee"
+      },
+      {
+        "signal": "Token",
+        "snippet": "cates. after authentication, linkedin's authorization server passes an authorization code to your application. your application sends this code to linkedin and linkedin returns an access token. your application uses this token to make api calls on behalf of the member. how to implement 3-legged oauth follow the steps given below to implement the 3-legged oauth for linke"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "re ai search without keys get started secure your ai app with keyless authentication resources by programming language overview python javascript java c# and .net go microsoft openapi documentation | microsoft learn skip to main content this browser is no longer supported. upgrade to microsoft edge to take advantage of the latest features, security updates, and technical sup"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ir flagship event uniting people, agents, and the world's code. leave with your next big idea, future collaborators, and the tools to make it real. register now dev days are here! sign up to host an in-person event near you to teach your community about the github copilot app and copilot cli. sign up mcp-powered ai travel agents sample the ai travel agents is a rob"
+      },
+      {
+        "type": "self_serve",
+        "signal": "self-serve",
+        "snippet": "ed only in api versions starting from 202504 ) r_member_postanalytics (supported only in api versions starting from 202506 ) events management api available to all developers as a self-serve api product on request. apply to events management api. r_events rw_events company intelligence api private api available only to previously approved developers. not currently acc"
+      }
+    ],
+    "mcp": " design your ai app to support foundation model life cycles agents with model context protocol (mcp) overview build agents using model context protocol on azure build a typescript mcp server using azure container apps create openai-powered agents using mcp build ai agent tools using remote mcp with azure functions host remote mcp servers in azure app service discover ",
+    "breadth": "rosoft foundry microsoft graph microsoft identity platform microsoft teams power platform visual studio visual studio code windows .net c++ java javascript python typescript build apis game development blog events documentation community changelog microsoft security azure dynamics 365 microsoft 365 microsoft teams windows 365 microsoft ai azure space mixed real"
+  },
+  "evidence_urls": [
+    "https://developer.microsoft.com/en-us/",
+    "https://learn.microsoft.com/en-us/docs/",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?view=li-lms-2026-08&toc=/linkedin/marketing/toc.json&bc=/linkedin/breadcrumb/toc.json",
+    "https://learn.microsoft.com/en-us/microsoft-365/developer/?wt.mc_id=devcom_m365docs_webpage_cnl",
+    "https://learn.microsoft.com/en-us/azure/developer/ai/?wt.mc_id=devcom_openai_webpage_cnl",
+    "https://learn.microsoft.com/en-us/openapi/",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/versioning?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/integration-requirements?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/event-management/event-management-usecase?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-atmention-search-api?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/lead-sync-usecase?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/matched-audiences/matched-audiences-usecase?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/audience-insights-api?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/ads/advertising-targeting/audience-insights-usecase?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-planning-api?view=li-lms-2026-08",
+    "https://learn.microsoft.com/en-us/linkedin/marketing/media-planning/media-planning-usecase?view=li-lms-2026-08"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

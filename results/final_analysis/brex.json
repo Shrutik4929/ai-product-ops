@@ -1,0 +1,63 @@
+{
+  "id": "88",
+  "app": "Brex",
+  "category": "Finance and Fintech",
+  "website": "https://developer.brex.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "t oauth will automatically initiate a browser-based authorization flow when you first connect. no manual token setup required. authorization server : https://accounts-api.brex.com/oauth2/default discovery endpoint : https://api.brex.com/.well-known/oauth-protected-resource/mcp the server supports dynamic client registration (rfc 7591) , so mcp clients don't need t"
+      },
+      {
+        "signal": "API key",
+        "snippet": "http transport can connect to https://api.brex.com/mcp . if your client supports oauth with dynamic client registration, authentication is handled automatically. otherwise, use an api key (see below). authentication the brex mcp server supports two authentication methods. oauth (recommended) mcp clients that support oauth will automatically initiate a browser-based"
+      },
+      {
+        "signal": "Token",
+        "snippet": "pport oauth, or for programmatic access, account and card admins can authenticate with a brex api token. generate one from settings → developer in the brex dashboard. pass it as a bearer token in the authorization header: authorization: bearer your_brex_access_token for example, in claude code: claude mcp add --transport http brex https://api.brex.com/mcp \\ --header \"au"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "e, are defined using the openapi specification and use standard http response codes and verbs. all apis accept and return json and require https. explore our guides and review our api documentation to see how you can integrate with brex. accounting api : view and manage accounting data budgets api : manage budgets and budget programs expenses api : view and manage card expen"
+      }
+    ],
+    "self_serve": [],
+    "mcp": " copy for llm copy page as markdown for llms view as markdown open this page as markdown open in chatgpt get insights from chatgpt open in claude get insights from claude the brex mcp server lets ai assistants interact directly with your brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more through natural langua",
+    "breadth": "overview skip to content overview apis accounting budgets & limits expenses fields onboarding payments team transactions travel webhooks brex mcp no-code options community supported libraries support overview copy cop"
+  },
+  "evidence_urls": [
+    "https://developer.brex.com/",
+    "https://www.brex.com/product/api",
+    "https://auth.cloud.redocly.com/login?challenge=36CpFs6E-nuA5bunLqTi9ODjC3JxMJOyA-U5NcoDekmuW6bu1XdiORC0wDrbtFolyrS897zxxT7B2zkmg4CBsOww-9vVuVZjaaquo7UDKoEgGNTT0jw_kdrAxld-IAtMJubszCT-dMkhzPVcQ34jOt6vmaqbOC31kqfzijR7QfJBp2O0KiKJn1bEOA1q-sivanNNR6MsLt-nw5I7uPn7y01hW9EplA-LPoAD3OmQaP_sR1djIJRp8yd8XPTbMoQjjm-cyOjn7XdfEkZwSq61qmqE7CL5ujMh98smp_m2PcS2ZMEIfKnGuvmuG30OwUSqQ5wyN3Ey6YD23yMupHkUDTLx6mC7M0nt1yt3tdleBpz1XG37QRoY7XTMTYiSbEiKkq8U_rZ3om-6VSkkLvQNdtTHPNQ3Nf1iyuWYqBa-JDw6k2ClyqZXldNPods1FRrJiK29A1lAm7rJDkEcM4si0ix0bIvKGFyHlUYUsjLiD9JNsZPdA2xQrqov6__nrRuAXURlI-lkMIeP57K1ZFOvDfL6keR_tnToeckLn0CyiC5T_iWUUhQn2pusD_K26kDV9IyHWLTj7ZX368apZk6t07wsfgcswHZuj66pKAsRwvU0_1CJKU87jKb7j8zAHn0Mo2YtXsyc5NtBT0io0Gw510gq1ThMNUuGzjVVRapnwX_gpOmT5IfOcbOHDw4So5VYxP1Gm_t4EhZYClnObbnXIef9lLAs2Z9FHthtTf23_RudkBhH1qL06C7jZFAWK4SrwcBublZFDlOaP3CycUzaLiBiJUn3Fw1p5o1Y5saFJDf0PBylFMViCuxdyzCirV14s-XBOb_8LuO1dghynVE1rlYwtL-p-kYCIZb2iHBhRPHTUP-Y9cuHlrmuOGNaFesCE8JApHLknPOCUMUtsWqa8ZyRGp12EY6QC7_U_Cn5FZpPByj9Zt0_Tg1ZOPAHYrajoeihwTU0JKwmBlLfjAfgkkI-TDhg2Nsb44EcRxR5xsu5l7wXMo-L2ngmO16R9SmQEweGx4YmaV2o1Uw1U1hdPgShInqDE-wXUsTCTq8UGPbapGuPg7ody0cTK20nC6f7H7iJ3E314UKa1t589p87crYo4s9CZVvPYJfbfxkVUfcfGy1fYvCi1Wf4Qkdv15a_q0QcSM1TbOAv77UWqCaAe0Ve4sILu8baMec3YEewYd69TclMAoiWjsosPXCOcDdcqibIbNLp4sM6GQ3nNnQkp-rhiu4mQAbsG45MgLiBW091Hd46X2F5oecoKQa8hqruLRf_Y5Gf8vGfSGD0oUEq5NhZt7GnP1Je7Y_USebO7lZzdTEdkQqb2_sHcgC086mXhqGtKn3J_uaJetA5kWPl0NG2rUTx5X3iu0rbn2l1oUDN5dfT6IKsurlLQnVCTy9V4zelbQMmlI7gQGyM_t8pm4hDiS_wZsilO7KUIFgq9o_lPp7SvvpOWmtQDxgNRjNIlnVPTL__1Lg1wPWhLBXDongKwKXReJpVMVEK_c5RBLrbr32J",
+    "https://developer.brex.com/openapi/accounting_api",
+    "https://developer.brex.com/openapi/budgets_api",
+    "https://developer.brex.com/openapi/expenses_api",
+    "https://developer.brex.com/openapi/fields_api",
+    "https://developer.brex.com/openapi/onboarding_api",
+    "https://developer.brex.com/openapi/payments_api",
+    "https://developer.brex.com/openapi/team_api",
+    "https://developer.brex.com/openapi/transactions_api",
+    "https://developer.brex.com/openapi/travel_api",
+    "https://developer.brex.com/openapi/webhooks_api",
+    "https://developer.brex.com/docs/mcp",
+    "https://developer.brex.com/#api-status",
+    "https://developer.brex.com/openapi/payments_api"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "66",
+  "app": "Neo4j",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://neo4j.com/docs/api",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Potentially buildable via MCP",
+  "main_blocker": "MCP server identified, but API/auth evidence is incomplete.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "json-rpc) over different transports - standard-i/o or http(s). most servers today are local servers, with http based servers growing in relevance, esp. with the recent addition of oauth 2.1 to the mcp specification. the offer these capabilities: tools - tools can retrieve data or take action, they take parameters and return results or errors to the client resourc"
+      }
+    ],
+    "api": [],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "xecutives executive insights ai systems idc business value study business value calculator customers customer success stories case studies, customer videos, proof points, and more contact sales developers learning centers dev center best practices, guides, tutorials, and downloads graphacademy free online courses and certifications. join the 100k+ neo4j experts. dev reso"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "ts graphsummit 2026 the knowledge layer for trustworthy ai nodes 2026 | november 12 virtual conference: engineering better intelligence pricing aura login support get started free contact us warning: javascript is disabled on your browser. parts of neo4j.com will not work properly. developer center build smarter apps, easier, with graph tools for your language python "
+      }
+    ],
+    "mcp": "th tools providing access to data, services, apis and local systems. it comes with a open source specification , and a number of sdks (python, typescript, java, etc.) to implement mcp servers and clients. the mcp architecture consists of the mcp host program which can be configured with a number of mcp servers that provide capabilities like tools, resources, and promp",
+    "breadth": "cts graph data science run graph algorithms and machine learning models to analyze your data at scale. get insights from data create applications discover the client libraries and apis to develop applications with neo4j and auradb. start developing connect data sources learn how to use connectors and other tools to connect neo4j with other data sources. connect"
+  },
+  "evidence_urls": [
+    "https://neo4j.com/developer/",
+    "https://neo4j.com/docs/",
+    "https://dist.neo4j.com/wp-content/uploads/20180827092011/api.png",
+    "https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp/",
+    "https://neo4j.com/docs/operations-manual/current/authentication-authorization/",
+    "https://neo4j.com/developer/#skip-to-content",
+    "https://neo4j.com/blog/developer/",
+    "https://neo4j.com/developer/ai/",
+    "https://neo4j.com/developer/#python",
+    "https://neo4j.com/developer/#java",
+    "https://neo4j.com/developer/#javascript",
+    "https://neo4j.com/developer/#csharp",
+    "https://neo4j.com/developer/languages/python/",
+    "https://neo4j.com/developer/languages/java/",
+    "https://neo4j.com/developer/languages/javascript/",
+    "https://neo4j.com/developer/languages/csharp/",
+    "https://neo4j.com/developer/#get-started-video-1"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

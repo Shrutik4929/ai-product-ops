@@ -1,0 +1,48 @@
+{
+  "id": "59",
+  "app": "Waterfall.io",
+  "category": "Data, SEO and Scraping",
+  "website": "https://waterfall.io",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "d enrich contacts, prospect by title and company, verify emails, and more. copy page copy page the waterfall api is available at https://api.waterfall.io . all requests require an api key in the x-api-key header. ​ endpoints endpoint type description prospector async find contacts at a target company by title and location filters. returns emails, phones (optional),"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "o main content waterfall.io api documentation home page search... ⌘ k search... navigation general guidance introduction general guidance introduction copy page copy page complete api reference for waterfall — find and enrich contacts, prospect by title and company, verify emails, and more. copy page copy page the waterfall api is available at https://api.waterfall.io . "
+      }
+    ],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "o main content waterfall.io api documentation home page search... ⌘ k search... navigation general guidance introduction general guidance introduction copy page copy page complete api reference for waterfall — find and enrich contacts, prospect by title and company, verify emails, and more. copy page copy page the waterfall api is available at https://api.waterfall.io . "
+  },
+  "evidence_urls": [
+    "https://docs.waterfall.io/v1/introduction",
+    "https://www.waterfall.io/",
+    "https://docs.waterfall.io/v1/introduction",
+    "https://docs.waterfall.io/v1/authentication",
+    "https://docs.waterfall.io/v1/api-keys-overview",
+    "https://docs.waterfall.io/v1/api-keys-list",
+    "https://docs.waterfall.io/v1/api-keys-create",
+    "https://docs.waterfall.io/v1/api-keys-modify",
+    "https://docs.waterfall.io/v1/openapi-spec",
+    "https://docs.waterfall.io/v1/book-demo",
+    "https://docs.waterfall.io/waterfall-v1-1"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

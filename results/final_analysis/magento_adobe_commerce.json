@@ -1,0 +1,74 @@
+{
+  "id": "45",
+  "app": "Magento (Adobe Commerce)",
+  "category": "Ecommerce",
+  "website": "https://developer.adobe.com/commerce",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "e, location: fieldlocation, fieldname: sealfieldname, pagenumber: sealpagenumber, }); // set the name of tsp provider being used const providername = \"<provider_name>\"; // set the access token to be used to access tsp provider hosted apis const accesstoken = \"<access_token>\"; // set the credential id const credentialid = \"<credential_id>\"; // set the pin generated while"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": " web api documentation is divided into three guides: rest, graphql, and getting started. data-slots=heading, links resources extensibility guide configuring a service as a web api rest api reference overview this documentation provides resources for working with adobe commerce web apis. discover use these sections to learn about how to use our web apis to integrate "
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "the commerce web apis allow you to integrate third-party software and build headless applications for adobe commerce. the web api documentation is divided into three guides: rest, graphql, and getting started. data-slots=heading, links resources extensibility guide configuring a service as a web api rest api reference overview this documentation provides resources "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "-variant=secondary data-backgroundcolor=background-color-gray use the interactive api environment you can now interact with the experience platform api endpoints directly from the api reference pages. get your authentication credentials and use the try it functionality in the right rail. learn more data-slots=heading, links resources experience platform documentation ove"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ibe to the creative cloud developer newsletter be the first to hear about api launches, technology updates, marketplace news, developer events, and more by joining our newsletter. sign up today extend. integrate. distribute. all on the creative cloud developer platform. extend adobe creative cloud apps creative cloud desktop apps offer apis and sdks that let you ta"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "obe enables us to do exactly that.â â lynn epstein, coo, infodesk how to get started? start with the free tier and get 500 free document transactions per month. start for free contact us the creative cloud developer platform build for creative cloud the creative cloud developer platform is a collection of apis and sdks that let you extend and integrate with creati"
+      }
+    ],
+    "mcp": null,
+    "breadth": "-variant=secondary data-backgroundcolor=background-color-gray use the interactive api environment you can now interact with the experience platform api endpoints directly from the api reference pages. get your authentication credentials and use the try it functionality in the right rail. learn more data-slots=heading, links resources experience platform documentation ove"
+  },
+  "evidence_urls": [
+    "https://developer.adobe.com/",
+    "https://experienceleague.adobe.com/en/docs",
+    "https://developer.adobe.com/commerce/",
+    "https://developer.adobe.com/apis",
+    "https://developer.adobe.com/experience-platform-apis/",
+    "https://developer.adobe.com/analytics-apis/docs/2.0/",
+    "https://developer.adobe.com/apis/",
+    "https://developer.adobe.com/commerce/webapi/",
+    "https://developer.adobe.com/ai-registry/",
+    "https://developer.adobe.com/firefly-services/docs/guides/",
+    "https://developer.adobe.com/express/",
+    "https://developer.adobe.com/app-builder/",
+    "https://developer.adobe.com/document-services/homepage",
+    "https://developer.adobe.com/creative-cloud/",
+    "https://developer.adobe.com/adobe-for-creativity/getting-started/",
+    "https://blog.developer.adobe.com/",
+    "https://blog.developer.adobe.com/en/publish/2026/06/upcoming-photoshop-ui-changes-test-your-uxp-plugin-now"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

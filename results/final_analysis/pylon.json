@@ -1,0 +1,60 @@
+{
+  "id": "15",
+  "app": "Pylon",
+  "category": "Support and Helpdesk",
+  "website": "https://usepylon.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "rols → mcp server to configure and enable the server. step 3 connect your ai tool add the server url https://mcp.usepylon.com in your ai tool of choice. the tool authenticates via oauth 2.0, and connects over stateless streamable http. frequently asked questions what is the model context protocol (mcp) and how does pylon use it? mcp is an open standard that lets ai t"
+      },
+      {
+        "signal": "API key",
+        "snippet": " pylon dashboard under settings, then ai controls, then mcp server. copy the mcp url and paste it into your ai tool's mcp configuration. authentication is handled via oauth, so no api keys or custom infrastructure are required. member or admin seat access is needed to connect. other integrations pylon connects with the tools your team lives in — slack, email, crms,"
+      },
+      {
+        "signal": "Token",
+        "snippet": " target endpoint specify the url of your endpoint as well as any custom headers you'd like sent on each webhook. for example, here you can include authorization information like a bearer token. go to triggers in settings and create a trigger with an action of \"send webhook\". use the \"when\" and \"if\" condition of the trigger to control when the webhook fires. using templa"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "tegrations crm ticketing alerting chat incident management call recording calendar data warehouse codebase pylon mcp security security overview developer api authentication errors api reference external ids custom apps embedded iframes webhooks powered by gitbook on this page for the complete documentation index, see llms.txt . this page is also available as markdown . c"
+      }
+    ],
+    "self_serve": [],
+    "mcp": " who need it. access follows the same scoping as the pylon dashboard — the mcp can never return data or make writes a user couldn't already perform in the ui. step 2 configure the mcp server in pylon in your pylon dashboard, go to settings → ai controls → mcp server to configure and enable the server. step 3 connect your ai tool add the server url https://mcp.usepylon",
+    "breadth": "tegrations crm ticketing alerting chat incident management call recording calendar data warehouse codebase pylon mcp security security overview developer api authentication errors api reference external ids custom apps embedded iframes webhooks powered by gitbook on this page for the complete documentation index, see llms.txt . this page is also available as markdown . c"
+  },
+  "evidence_urls": [
+    "https://docs.usepylon.com/pylon-docs",
+    "https://www.usepylon.com/",
+    "https://docs.usepylon.com/pylon-docs/knowledge-base/custom-authentication",
+    "https://docs.usepylon.com/pylon-docs/customer-portal/custom-authentication",
+    "https://docs.usepylon.com/pylon-docs/developer/api",
+    "https://www.usepylon.com/integrations/mcp",
+    "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+    "https://docs.usepylon.com/pylon-docs/chat-widget/javascript-api",
+    "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+    "https://docs.usepylon.com/pylon-docs/developer/custom-apps",
+    "https://docs.usepylon.com/pylon-docs/developer/embedded-iframes",
+    "https://docs.usepylon.com/pylon-docs/developer/webhooks",
+    "https://docs.usepylon.com/pylon-docs"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

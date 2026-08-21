@@ -1,0 +1,31 @@
+{
+  "id": "48",
+  "app": "Gumroad",
+  "category": "Ecommerce",
+  "website": "https://gumroad.com/api",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "sanjay yadav developer dgcs api"
+  },
+  "evidence_urls": [
+    "https://developers.gumroad.com/",
+    "https://developer.gumroad.com/",
+    "https://docs.gumroad.com/",
+    "https://gumroad.com/api"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "81",
+  "app": "Stripe",
+  "category": "Finance and Fintech",
+  "website": "https://stripe.com/docs/api",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "ces apis & sdks help documentation explore our guides and examples to integrate stripe. get started with stripe explore all products sign in or create an account to load your test api keys. test cards 4242 4242 4242 4242 payments accept payments online collect payments with invoices accept payments in-person revenue sell subscriptions offer usage-based pricing set "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": " cli build, test and manage stripe integrations from the command line. sdks build with stripe’s official sdks for a range of platforms and languages. apis browse stripe’s complete rest api reference. build with agents tailor your development environment for agent-first development workflows. mcp enable agents to use tools and securely take actions in your stripe acc"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "vices capital business financing pre-built components payment links no-code payments checkout pre-built, stripe-hosted checkout page elements secure front-end ui components stripe api reference find anything / ask ai introduction authentication errors expanding responses idempotent requests include-dependent response values (api v2) metadata pagination request ids connec"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": " as you build your integration. in a sandbox, card networks and payment providers don’t process payments. api calls return simulated objects. for example, you can retrieve and use test account , payment , customer , charge , refund , transfer , balance , and subscription objects. use test credit cards and accounts . you can’t accept real payment methods or work with rea"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "d to find a webhook signing secret : webhook secrets are separate from api keys. find them in the webhooks section of the dashboard under each webhook endpoint. key types when you sign up for a stripe account, we create three types of api keys for you: type safe to expose description restricted api key (rak) rk _ . . . no api key with permissions you control. limit"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "or on-demand access to capital. offer a manual review process for account eligibility. get feedback on your eligibility if you have any questions regarding your offer eligibility, contact us directly at capital@stripe.com . see our privacy centre for more information. stripe determines your eligibility for a financing offer based on a variety of factors related to you"
+      }
+    ],
+    "mcp": "hboard stripe for visual studio code terraform stripe discord server features workflows batch jobs event destinations stripe health alerts stripe signals file uploads ai solutions model context protocol agent skills stripe directory extend stripe overview build stripe apps use apps from stripe build extensions custom objects security and privacy security activity logs stripebot w",
+    "breadth": "vices capital business financing pre-built components payment links no-code payments checkout pre-built, stripe-hosted checkout page elements secure front-end ui components stripe api reference find anything / ask ai introduction authentication errors expanding responses idempotent requests include-dependent response values (api v2) metadata pagination request ids connec"
+  },
+  "evidence_urls": [
+    "https://docs.stripe.com/",
+    "https://docs.stripe.com/",
+    "https://docs.stripe.com/api",
+    "https://docs.stripe.com/api/authentication",
+    "https://docs.stripe.com/api/v2/core/account-tokens",
+    "https://docs.stripe.com/api/v2/core/person-tokens",
+    "https://docs.stripe.com/api/confirmation_tokens",
+    "https://docs.stripe.com/api/tokens",
+    "https://docs.stripe.com/api/shared-payment/issued-token",
+    "https://docs.stripe.com/api/shared-payment/granted-token",
+    "https://docs.stripe.com/keys#create-restricted-api-key",
+    "https://docs.stripe.com/development",
+    "https://docs.stripe.com/capital/how-stripe-capital-works",
+    "https://discord.com/invite/RuJnSBXrQn",
+    "https://docs.stripe.com/api/errors",
+    "https://docs.stripe.com/api/expanding_objects",
+    "https://docs.stripe.com/api/idempotent_requests"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "9",
+  "app": "Copper",
+  "category": "CRM and Sales",
+  "website": "https://copper.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "issions developer/v1/all read and modify user records note: more granular scopes will be added in the future 8. client libraries ¶ although it's entirely feasible to implement the oauth 2.0 flow through plain rest, it's advisable to leverage a library tailored to your chosen application language or framework. language library python requests-oauthlib java spring secu"
+      },
+      {
+        "signal": "API key",
+        "snippet": "ree 14-day trial no credit card required instant activation overview - copper developer api skip to content authentication ¶ there are two ways to access the copper developer api: api keys and oauth2.0 . api keys are suitable for individual users, while oauth2.0 is the preferred approach for partner integrations. api keys ¶ the dev api uses token based authenticati"
+      },
+      {
+        "signal": "Token",
+        "snippet": "n scopes requested by your application the user is then redirected back to your application with a temporary authorization code lastly, your application exchanges this code for an access token, which can be used to query developer api endpoints for more details, click here . 4. quickstart guide ¶ follow our quickstart guide to get up and running quickly. 5. documentatio"
+      }
+    ],
+    "api": [],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "isites ¶ to use oauth2.0 with copper, you must first register your application. this step protects requests from forgery and keeps your users secure. to register your application, contact us . you will need to provide the name and purpose of your application as well as a url to an https endpoint that will handle the secure callback. you will receive two credentials, c"
+      }
+    ],
+    "mcp": null,
+    "breadth": "then redirected back to your application with a temporary authorization code lastly, your application exchanges this code for an access token, which can be used to query developer api endpoints for more details, click here . 4. quickstart guide ¶ follow our quickstart guide to get up and running quickly. 5. documentation ¶ the detailed copper authorization flow documenta"
+  },
+  "evidence_urls": [
+    "https://developer.copper.com/",
+    "https://docs.copper.com/",
+    "https://www.copper.com:443/",
+    "https://developer.copper.com/introduction/authentication.html",
+    "https://developer.copper.com/introduction/oauth/index.html",
+    "https://developer.copper.com/introduction/oauth/quickstart.html",
+    "https://developer.copper.com/introduction/oauth/flow.html",
+    "https://developer.copper.com/#copper-developer-api",
+    "https://developer.copper.com/index.html",
+    "https://developer.copper.com/account-and-users/fetch-api-user.html",
+    "https://developer.copper.com/#changelog",
+    "https://developer.copper.com/#domain-update",
+    "https://developer.copper.com/#change-policy",
+    "https://developer.copper.com/#postman-resources",
+    "https://developer.copper.com/#import-the-collection",
+    "https://developer.copper.com/#import-and-use-the-environment",
+    "https://developer.copper.com/introduction/requests.html"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

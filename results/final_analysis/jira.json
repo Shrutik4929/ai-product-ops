@@ -1,0 +1,94 @@
+{
+  "id": "74",
+  "app": "Jira",
+  "category": "Productivity and Project Management",
+  "website": "https://developer.atlassian.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ess and when you can expect these services to be restored. aug 5 , 01:26 utc aug 4 , 2026 no incidents reported. aug 3 , 2026 issues installing, uninstalling and managing forge or oauth 2.0 apps resolved - we have confirmed that the issues relating to installing, uninstalling and managing forge and oauth 2.0 apps should now be fully resolved. aug 3 , 03:37 utc invest"
+      },
+      {
+        "signal": "API key",
+        "snippet": "as designated in the atlassian trademark guidelines at https://www.atlassian.com/legal/trademark . \" atlassian platform \" means atlassian's developer platform, including our apis, api keys, clis, sample code, access tokens, sdks and other tools described at https://developer.atlassian.com/ or included with the forge platform. \" aup \" means atlassian's acceptable us"
+      },
+      {
+        "signal": "Token",
+        "snippet": "n trademark guidelines at https://www.atlassian.com/legal/trademark . \" atlassian platform \" means atlassian's developer platform, including our apis, api keys, clis, sample code, access tokens, sdks and other tools described at https://developer.atlassian.com/ or included with the forge platform. \" aup \" means atlassian's acceptable use policy at https://www.atlassian."
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": " mcp server jira cloud platform start here for jira cloud integrations. the jira platform has functionality common to all jira apps. getting started integrating with jira platform rest api jira software cloud integrate with features specific to jira software cloud, such as boards and sprints. getting started integrating with jira software rest api jira service manag"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "grate with bitbucket cloud. getting started integrating with bitbucket rest api compass mission control for your distributed architecture. getting started integrating with compass graphql api statuspage integrate with statuspage. rest api opsgenie integrate with opsgenie. rest api other atlassian cloud documentation admin control api access atlassian cli atlassian "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "a service management ops migration public api migration rest api twg benchmark twg cli cloud platform services popular services atlassian graphql api explore the atlassian graphql api documentation. adopting forge from connect app migration app plans assets atlassian rovo a2a backup management cloud admin cloud admin user management cloud admin user provisioning commerce com"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "ce of your obligations in this section, and you will reimburse all reasonable costs incurred. you must ensure that you have an updated contact name and contact information in your developer account for security incidents. billing and payment . 10.1. fees . certain capabilities provided as part of the forge platform are subject to usage-based pricing, which is measured and bi"
+      },
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": "ty, performance and other criteria. at atlassian's request, you will comply with our review process and provide us with reasonably requested information, including (if applicable) test accounts for your marketplace apps, which we will only use for purposes of such review. atlassian may change its review processes at any time. 2.4. marketplace . this agreement does not g"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "powerful apis build exactly what you need with flexible apis and webhooks. explore the apis a free test environment get a cloud developer site to test your app. it's free forever. sign up comprehensive docs get started quickly with our detailed guides and resources. check out the docs help is always on hand learn from and engage with the 25,000+ active developers b"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "ead more added platform ready to build? power up your cloud app journey with forge start building developer and marketplace support search log in developer and marketplace support contact us for help with your atlassian apps manage your app and account app listing (including trello power-ups) submit, edit, or manage your listing accounts and payment manage your market"
+      }
+    ],
+    "mcp": " and platform tools build with ai explore ai powered development tools and integrations to enhance your development workflow build rovo agents with forge rovo dev agents atlassian mcp server jira cloud platform start here for jira cloud integrations. the jira platform has functionality common to all jira apps. getting started integrating with jira platform rest api ji",
+    "breadth": "tly handles multi-year billing terms. whatâs not changing refund amounts are unchanged. this update only corrects the reported period dates; no monetary values are affected. the majority of refund rows, approximately 86%, were already displaying the correct period and will not change. what you need to do review your reporting. if you use maintenance period dates from"
+  },
+  "evidence_urls": [
+    "https://developer.atlassian.com/",
+    "https://docs.atlassian.com/",
+    "https://www.atlassian.com/developers",
+    "https://developer.atlassian.com/cloud/",
+    "https://developer.atlassian.com/news-and-updates/",
+    "https://developer.atlassian.com/support",
+    "https://id.atlassian.com/login?continue=https%3A%2F%2Fdeveloper.atlassian.com",
+    "https://developer.atlassian.com/support/",
+    "https://developer.atlassian.com/changelog/",
+    "https://developer.status.atlassian.com/",
+    "https://developer.atlassian.com/platform/marketplace/atlassian-developer-terms/",
+    "https://blog.developer.atlassian.com/",
+    "https://community.developer.atlassian.com/",
+    "https://developer.atlassian.com/",
+    "https://developer.atlassian.com/developer-guide/start-building-with-atlassian/",
+    "https://blog.developer.atlassian.com/build-a-cloud-app-take-home-95-of-the-profits-for-the-first-year/",
+    "https://developer.atlassian.com/cloud/jira/software/getting-started-with-forge/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

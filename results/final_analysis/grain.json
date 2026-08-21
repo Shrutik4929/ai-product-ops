@@ -1,0 +1,65 @@
+{
+  "id": "100",
+  "app": "Grain",
+  "category": "AI, Research and Media-native",
+  "website": "https://grain.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "red as \"workspace api\" and will have access to all data from your workspace. wat's can be generated here, by users with access: https://grain.com/app/settings/integrations?tab=api oauth2 flow this authentication method is for developers building integrations with grain to be used by any grain users. requests authenticated with these tokens are considered as \" pers"
+      },
+      {
+        "signal": "Token",
+        "snippet": "ss_token has expired, you may generate a new one. see oauth2 refresh token authenticating calls to authenticate api calls, the client must add the following header: authorization: bearer token where token is either the access token obtained in the oauth2 flow, a personal access token or a workspace access token. versions in addition to the authorization header, you must"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "grain api grain api legacy docs if you were part of the api beta you can find the legacy docs here: (v1) personal api docs (v1) workspace api docs please be aware that v1 will be sunset and some features won't be translated to v2. as such, we don't recommend usage of v1 anymore. authentication persona"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "s does grain support? try grain today. it’s free forever. capture every meeting. enrich your transcripts. feed your ai. transcribe and summarize meetings, no bots required. 14-day free trial free and paid seats cancel anytime get started free book a demo try for free learn more start a 14-day free trial 97% of teams stay on grain after 12 months. grain api grain api l"
+      }
+    ],
+    "mcp": "ations put your meeting data to work in claude, chatgpt, or any ai tool one-click ai export bulk download enriched markdown transcripts or open them directly in claude or chatgpt. mcp server & api let your ai agents query transcripts, search across meetings, and access your full meeting history. ask anything inside grain ask questions across your entire meeting librar",
+    "breadth": "grain api grain api legacy docs if you were part of the api beta you can find the legacy docs here: (v1) personal api docs (v1) workspace api docs please be aware that v1 will be sunset and"
+  },
+  "evidence_urls": [
+    "https://developers.grain.com/",
+    "https://grain.com/",
+    "https://developers.grain.com/#generate-token",
+    "https://developers.grain.com/#refresh-token-1",
+    "https://developers.grain.com/#authentication",
+    "https://developers.grain.com/#personal-access-token",
+    "https://developers.grain.com/#workspace-access-token",
+    "https://developers.grain.com/#oauth2-flow",
+    "https://developers.grain.com/#oauth2",
+    "https://developers.grain.com/#grain-api",
+    "https://developers.grain.com/#refresh-token",
+    "https://developers.grain.com/#authenticating-calls",
+    "https://developers.grain.com/#legacy-docs",
+    "https://developers.grain.com/#diagram",
+    "https://developers.grain.com/#step-1",
+    "https://developers.grain.com/#step-2",
+    "https://developers.grain.com/#step-3"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

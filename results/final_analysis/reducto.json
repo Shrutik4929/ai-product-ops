@@ -1,0 +1,75 @@
+{
+  "id": "95",
+  "app": "Reducto",
+  "category": "AI, Research and Media-native",
+  "website": "https://reducto.ai",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " local file paths, public urls, and reducto:// references. 1 install uv curl -lssf https://astral.sh/uv/install.sh | sh 2 authenticate uvx mcp-server-reducto --login this opens an oauth device-code flow in your browser. once approved, your api key is saved to ~/.reducto/config.yaml with chmod 600 . if you already use the reducto cli , you’re authenticated already"
+      },
+      {
+        "signal": "API key",
+        "snippet": "ith deep extract reducto api one api for every document parse, extract, classify, split, and edit 30+ file types. production-ready structured json in minutes, not months. get your api key read the docs python node.js curl from reducto import reducto client = reducto() result = client.parse.run( input = \"https://cdn.reducto.ai/samples/fidelity-example.pdf\" ) for chu"
+      },
+      {
+        "signal": "Token",
+        "snippet": "r-reducto\" ], \"env\" : { \"reducto_api_key\" : \"your-api-key\" } } } } ​ hosted vs local hosted ( mcp.reducto.ai ) local ( uvx mcp-server-reducto ) install none python 3.11+, uvx auth bearer token in headers browser login or env var local file uploads public urls only local paths supported shares creds with reducto cli no yes best for web/studio users, quick demos desktop a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "hunk.content) ​ key features type safety full type hints and ide autocomplete for all methods and responses using pydantic models. simple api intuitive method names that match the rest api endpoints. error handling clear exception hierarchy with helpful error messages and status codes. async support both synchronous and asynchronous clients with the same interface. "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "o discover all available pages before exploring further. skip to main content reducto home page search... ⌘ k ask assistant search... navigation get started overview documentation api reference cookbooks sdks studio get started overview copy page copy page the agentic document platform for leading ai teams copy page copy page reducto is the agentic document platform for "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": ".chunks: print (chunk.content) quickstart get started in five minutes from sign-up to structured json output. no infrastructure to set up, no models to manage. 01 get your api key sign up at studio.reducto.ai and create an api key. set it as an environment variable. export reducto_api_key = \"your_api_key_here\" 02 install the sdk python node.js go pip install reduct"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "optimization + many more features everything else you need to make your data llm-ready. enterprise-ready from security to scale, reducto is built for the demands of production ai. contact sales 99.9%+ uptime battle-tested infrastructure you can trust in production and at scale. enterprise support and slas hands-on forward deployed support and tailored slas to meet your e"
+      }
+    ],
+    "mcp": "udio for visual pipeline building. configure, test, and deploy document workflows in your browser. agent-ready tooling: reducto integrates directly into ai agent workflows via the mcp server , cli , and native sdks. agent guide one-page reference for coding agents using reducto. mcp server give agents reducto tools directly in claude code, codex, cursor, and other mcp",
+    "breadth": "o discover all available pages before exploring further. skip to main content reducto home page search... ⌘ k ask assistant search... navigation get started overview documentation api reference cookbooks sdks studio get started overview copy page copy page the agentic document platform for leading ai teams copy page copy page reducto is the agentic document platform for "
+  },
+  "evidence_urls": [
+    "https://docs.reducto.ai/overview",
+    "https://reducto.ai/developers",
+    "https://reducto.ai/",
+    "https://docs.reducto.ai/api-reference/parse",
+    "https://docs.reducto.ai/mcp-server",
+    "https://docs.reducto.ai/overview",
+    "https://docs.reducto.ai/quickstart",
+    "https://docs.reducto.ai/workflows/chaining-endpoints",
+    "https://docs.reducto.ai/reference/checking-api-health",
+    "https://docs.reducto.ai/reference/usage-export-api",
+    "https://studio.reducto.ai/auth",
+    "https://studio.reducto.ai/",
+    "https://docs.reducto.ai/sdk/python/overview"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

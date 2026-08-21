@@ -1,0 +1,76 @@
+{
+  "id": "75",
+  "app": "Asana",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.asana.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "a developer sandbox . the developer sandbox will allow you to test premium features not included in a free account. choose your authentication method . your app may ultimately use oauth, but most developers test our api by creating a personal access token (pat) to make their first api calls. create your token or app in the developer console . use your token to ma"
+      },
+      {
+        "signal": "Token",
+        "snippet": "est premium features not included in a free account. choose your authentication method . your app may ultimately use oauth, but most developers test our api by creating a personal access token (pat) to make their first api calls. create your token or app in the developer console . use your token to make an api call. visit the api reference and learn about the different "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ation, guides, and tutorials regarding api usage, visit our guides . to view the api reference for app components , click here . 📘 quick start to begin making requests against the rest api, see the quick start guide. usage the asana api is a rest ful interface with predictable resource-oriented urls, accepts json or form-encoded requests, returns json, and uses stan"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "asana docs for ai agents: visit https://developers.asana.com/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home guides api reference app directory docs forum my apps home app directory docs forum my apps build for clarity, connectivity, and collaboration integrate tools, automate actions, and customize your wor"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer sandbox",
+        "snippet": " how our api works. here’s a brief overview of how to get started: choose your test workspace. you can test in any of your existing workspaces, create a free account, or request a developer sandbox . the developer sandbox will allow you to test premium features not included in a free account. choose your authentication method . your app may ultimately use oauth, but most dev"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "con community arrow-right icon templates arrow-right icon services customer success arrow-right icon find a partner arrow-right icon become a partner arrow-right icon desktop icon contact sales message icon view demo download icon download app products chevron-down icon solutions chevron-down icon learning & support chevron-down icon pricing desktop icon contact sales me"
+      },
+      {
+        "type": "gating",
+        "signal": "admin approval",
+        "snippet": "default license setting was changed release_preview_state_changed workspace a feature release preview was enabled or disabled. require_admin_approval_disabled division the require admin approval setting was disabled require_admin_approval_enabled division the require admin approval setting was enabled sandbox_created workspace a sandbox environment associated with this wo"
+      }
+    ],
+    "mcp": null,
+    "breadth": "asana docs for ai agents: visit https://developers.asana.com/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home guides api reference app directory docs forum my apps home app directory docs forum my apps build for clarity, connectivity, and collaboration integrate tools, automate actions, and customize your wor"
+  },
+  "evidence_urls": [
+    "https://developers.asana.com/",
+    "https://asana.com/developers",
+    "https://developers.asana.com/reference/rest-api-reference",
+    "https://developers.asana.com/docs/overview",
+    "https://developers.asana.com/docs/quick-start",
+    "https://developers.asana.com/docs/audit-log-events",
+    "https://developers.asana.com/docs/overview",
+    "https://developers.asana.com/#content",
+    "https://developers.asana.com/#quick-start",
+    "https://developers.asana.com/#tutorial-export-status-updates-to-a-csv",
+    "https://developers.asana.com/docs/export-project-statuses-to-csv",
+    "https://developers.asana.com/docs/common-use-cases#automate-workflows",
+    "https://developers.asana.com/docs/app-components",
+    "https://developers.asana.com/docs/common-use-cases#keep-two-work-tools-connected"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

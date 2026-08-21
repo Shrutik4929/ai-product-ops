@@ -1,0 +1,79 @@
+{
+  "id": "71",
+  "app": "Notion",
+  "category": "Productivity and Project Management",
+  "website": "https://developers.notion.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "e a static api token. they’re ideal for custom automations and workflows — things like syncing data, sending notifications, or building internal dashboards. public connections use oauth 2.0 for authentication. at creation time, you choose their installation scope : any workspace (any notion user can install; marketplace-eligible) or selected workspaces only (restrict"
+      },
+      {
+        "signal": "API key",
+        "snippet": "scoped to one workspace. 3 public connections — build apps for other notion users with oauth 2.0. 4 authorization — implement the oauth 2.0 flow for public connections. 5 handling api keys — secure and manage your api tokens in production. 6 preparing for users — set up databases, pages, and views automatically when users install your connection. 7 list on the mark"
+      },
+      {
+        "signal": "Token",
+        "snippet": "he oauth flow or via the add connections menu. uses the creator’s notion permissions; pages do not need to be shared with a bot. authentication static api token. oauth 2.0. static bearer token. looking for scim or saml sso? enterprise identity management (user provisioning, group management, and single sign-on) is covered in notion’s help center, not in these api docs. "
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "n endpoint: https://api.notion.com/v1/oauth/token . this endpoint is described in more detail in the api reference docs for creating a token . the request is authorized using http basic authentication. the credential is a colon-delimited combination of the connection’s client_id and client_secret , like so: client_id:client_secret find both of these values in the developer port"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "e, and what you can build. copy page copy page ​ using notion api notion connections let you connect your workspace to external tools and automate workflows through code. with the rest api, you can read, create, and update nearly everything in a workspace — pages, databases, users, comments, and more. when you create a connection, you define what it can do: which ap"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "e to discover all available pages before exploring further. skip to main content notion docs home page search... ⌘ k ask assistant search... navigation get started overview guides api reference cli reference workers admin api changelog examples get started overview copy page copy page discover what notion connections are, when to use each type, and what you can build. co"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "rganization. use the navigation on the left to find details for endpoints used in the api. the admin api is only available to organizations and workspaces that are actively on the enterprise plan . ​ creating & managing tokens every request is authenticated with an organization bot token tied to your notion organization. organization owners can manage these tokens in the o"
+      }
+    ],
+    "mcp": "uild an mcp client for notion](https://developers.notion.com/guides/mcp/build-mcp-client.md): connect a custom mcp client to notion mcp with oauth 2.0 and pkce. - [hosting a local mcp server](https://developers.notion.com/guides/mcp/hosting-open-source-mcp.md): learn how and when to use the open-source notion mcp server. - [common mcp clients](https://developers.notio",
+    "breadth": "e to discover all available pages before exploring further. skip to main content notion docs home page search... ⌘ k ask assistant search... navigation get started overview guides api reference cli reference workers admin api changelog examples get started overview copy page copy page discover what notion connections are, when to use each type, and what you can build. co"
+  },
+  "evidence_urls": [
+    "https://developers.notion.com/guides/get-started/overview",
+    "https://app.notion.com/developers",
+    "https://www.notion.com/product/docs",
+    "https://developers.notion.com/reference/intro",
+    "https://developers.notion.com/guides/get-started/personal-access-tokens",
+    "https://developers.notion.com/guides/get-started/handling-api-keys",
+    "https://developers.notion.com/reference/admin/intro",
+    "https://developers.notion.com/guides/get-started/quick-start",
+    "https://developers.notion.com/guides/get-started/authorization",
+    "https://developers.notion.com/guides/data-apis/working-with-page-content",
+    "https://developers.notion.com/guides/data-apis/working-with-views",
+    "https://developers.notion.com/guides/data-apis/working-with-comments",
+    "https://developers.notion.com/guides/get-started/overview#using-notion-api",
+    "https://developers.notion.com/guides/get-started/overview#getting-started",
+    "https://developers.notion.com/llms.txt",
+    "https://developers.notion.com/guides/get-started/overview#content-area",
+    "https://developers.notion.com/guides/get-started/overview"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

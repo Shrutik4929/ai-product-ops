@@ -1,0 +1,38 @@
+{
+  "id": "70",
+  "app": "Sentry",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.sentry.io/api",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": " now . developer sign in request to join account * password * sign in lost your password? sign in with google sign in with github sign in with azure devops register privacy policy api reference skip to content go to sentry open main menu api reference authentication paginating results permissions & scopes rate limits requests crons dashboards discover & performance envir"
+      }
+    ],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": " now . developer sign in request to join account * password * sign in lost your password? sign in with google sign in with github sign in with azure devops register privacy policy api reference skip to content go to sentry open main menu api reference authentication paginating results permissions & scopes rate limits requests crons dashboards discover & performance envir"
+  },
+  "evidence_urls": [
+    "https://developers.sentry.io/auth/login/developers/",
+    "https://developer.sentry.io/auth/login/developer/",
+    "https://docs.sentry.io/",
+    "https://sentry.io/auth/login/developers/",
+    "https://sentry.io/auth/login/developer/",
+    "https://docs.sentry.io/api/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

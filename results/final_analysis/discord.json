@@ -1,0 +1,84 @@
+{
+  "id": "26",
+  "app": "Discord",
+  "category": "Communications and Messaging",
+  "website": "https://discord.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " friends. you can't scroll anymore. better go chat. download for mac language english (us) social menu product product company company resources resources policies policies social oauth2 and permissions - documentation - discord documentation index fetch the complete documentation index at: /llms.txt use this file to discover all available pages before exploring f"
+      },
+      {
+        "signal": "API key",
+        "snippet": " the http api implements a process for limiting and preventing excessive requests in accordance with rfc 6585 . api users that regularly hit and ignore rate limits will have their api keys revoked, and be blocked from the platform. for more information on rate limiting of requests, please see the rate limits section. ​ boolean query strings certain endpoints in the"
+      },
+      {
+        "signal": "Token",
+        "snippet": "rd api can be done in one of two ways: using a bot token found on the bot page within your app’s settings. for more information on bots see bots vs user accounts . using an oauth2 bearer token gained through the oauth2 api . for all authentication types, authentication is performed with the authorization http header in the format authorization: token_type token . exampl"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "dedicated application account separate from a regular user account. bot tokens: authenticate as the bot user, not on behalf of any person are used for gateway connections and most rest api calls grant the permissions the bot was given when added to a server should be treated like passwords and never exposed publicly ​ oauth2 user token when you need to act on behalf"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ll oauth2 flow documentation, scopes, and endpoint details. permissions reference complete permissions bitfield reference and how overrides work. was this page helpful? yes no ⌘ i api reference - documentation - discord documentation index fetch the complete documentation index at: /llms.txt use this file to discover all available pages before exploring further. skip to "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": "actions programmatically. for a deeper look at what bots can do and when to use one, see the bots & companion apps platform page. ​ getting started to build a bot, you’ll need to: create an application in the discord developer portal. this is where your bot token, oauth2 credentials, and configuration live. add a bot user to your application from the bot tab. this genera"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "he ddevs server developer channels watch and follow for launches, walkthroughs, and technical sessions. make discord work for your game your players already spend time on discord. contact us to learn how we can help you turn that time into real outcomes for your game. connect with our team language english (us) social menu product product company company resources res"
+      },
+      {
+        "type": "gating",
+        "signal": "requires approval",
+        "snippet": "e object fields the invite object now includes two additional fields, target_user and target_user_type . ​ january 14, 2019 ​ ask to join & rich presence sdk ask to join no longer requires approval or whitelisting to use. you are welcome to create in-game ui, but all ask to join requests are also now handled by the discord overlay. there have also been some small additions t"
+      }
+    ],
+    "mcp": " overviews for platform-wide features and use cases, with more on the way! ai & mcp support: docs now work with ai development tools via copy-as-markdown, an llms.txt file, and an mcp server, available at https://docs.discord.com/mcp existing docs urls are stable and were preserved during the reorganization. some titles and content were updated or moved for clarity. ​",
+    "breadth": "ll oauth2 flow documentation, scopes, and endpoint details. permissions reference complete permissions bitfield reference and how overrides work. was this page helpful? yes no ⌘ i api reference - documentation - discord documentation index fetch the complete documentation index at: /llms.txt use this file to discover all available pages before exploring further. skip to "
+  },
+  "evidence_urls": [
+    "https://docs.discord.com/developers/intro",
+    "https://discord.com/developers",
+    "https://discord.com/",
+    "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+    "https://docs.discord.com/developers/reference",
+    "https://docs.discord.com/developers/intro#content-area",
+    "https://docs.discord.com/developers/intro",
+    "https://discord.com/developers/home",
+    "https://docs.discord.com/developers/bots/overview",
+    "https://docs.discord.com/developers/discord-social-sdk/overview",
+    "https://docs.discord.com/developers/activities/overview",
+    "https://docs.discord.com/developers/guides",
+    "https://docs.discord.com/developers/change-log",
+    "https://discord.com/invite/discord-developers",
+    "https://docs.discord.com/developers/quick-start/overview-of-apps",
+    "https://docs.discord.com/developers/platform/bots",
+    "https://docs.discord.com/developers/platform/interactions"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "25",
+  "app": "Pumble",
+  "category": "Communications and Messaging",
+  "website": "https://pumble.com",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "nal) to connect your ai agent with pumble. learn how to connect specific ai tools security and trust full control over your ai connection safety your agent is connected via secure api keys to prevent unauthorized access. permissions you control what your ai agent can access with different permissions. control stay in charge â update permissions, delete apps, or a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "pumbleâ¢ - login or continue with email donât have an account? sign up pumbleâ¢ - login or continue with email donât have an account? sign up pumble api reference pumbleâ¢ - free business communication tool features communication channels messages threads notifications collaboration search files guests permissions calls video voice recordi"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "pumbleâ¢ - login or continue with email donât have an account? sign up pumbleâ¢ - login or continue with email donât have an account? sign up pumble api reference pumbleâ¢ - free business communication tool features communication channels message"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "ifting through past threads and conversations. find files quickly fetch specific files without sifting through chats yourself. avoid losing important files ever again. know who to contact use channel and user info to recommend the right place to ask questions. dodge unnecessary back-and-forths. connect your ai of choice in 4 simple steps step 1 configure apps go to yo"
+      }
+    ],
+    "mcp": "us. mentions get attention in group discussions. packed with useful features from integrations to security, pumble has everything a modern team needs. integrations external guests mcp server voice messages video messages scheduling permissions integrations integrate with different apps so you can collaborate from one place. learn more external guests simplify the way ",
+    "breadth": "pumbleâ¢ - login or continue with email donât have an account? sign up pumbleâ¢ - login or continue with email donât have an account? sign up pumble api reference pumbleâ¢ - free business communication tool features communication channels messages threads notifications collaboration search files guests permissions calls video voice recordi"
+  },
+  "evidence_urls": [
+    "https://pumble.com/login?identifier=developers",
+    "https://pumble.com/login?identifier=developer",
+    "https://docs.pumble.com/",
+    "https://pumble.com/",
+    "https://pumble.com/mcp",
+    "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

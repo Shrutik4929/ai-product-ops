@@ -1,0 +1,73 @@
+{
+  "id": "2",
+  "app": "HubSpot",
+  "category": "CRM and Sales",
+  "website": "https://hubspot.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Potentially buildable via MCP",
+  "main_blocker": "MCP server identified, but API/auth evidence is incomplete.",
+  "evidence": {
+    "authentication": [],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "you need. from seamless integrations to custom data pipelines, you have the tools to read, write, sync, and scale your data on your terms. data capability developer tools and apis rest apis managing objects, properties, and associations bulk import operations importing data with imports api , hubdb import , uploading files , webhooks , and uploading website files, t"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "bsite files, templates, and modules with source code api bulk export operations exporting with exports api , audit logs with account activity api , and search apis for crm and cms graphql querying hubdb, crm objects, blogs, and knowledge base data real-time data synchronization notifying when data changes with webhooks , event data , app events , custom events comp"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "t build your first project hs get-started resources get started create your first app or template in minutes platform overview get to know hubspot’s development platform and tools api reference integrate with hubspot’s apis developer changelog learn about new changes and releases hubspot developers channel explore educational developer content hubspot community join the "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "rts api guides include practical examples and error-handling tips so you can move from setup to solution quickly. import. export. integrate. scale. ready to start building? create developer account view getting started overview visualize hubspot data | hubspot developers skip to main content skip to footer surface insights that matter flexible data interfaces in hubspot crea"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "t engineers and fellow developers in the community. it’s your space to learn, share, and even contribute your own expertise. visit the developer blog and start learning from peers sign up to receive hubspot's developer newsletter in addition to occasional special announcements, you'll get a monthly roundup with developer updates, relevant product news, and other in"
+      },
+      {
+        "type": "self_serve",
+        "signal": "create a developer account",
+        "snippet": "ooter hubspot developer tooling ai tools for hubspot developers customize agents, automate workflows, and connect external systems—all within hubspot’s ai-ready unified framework. create a developer account explore ai tools ai-assisted development build hubspot apps faster with ai coding tools. now in public beta. the developer mcp server gives you the power to create hubspot apps us"
+      }
+    ],
+    "mcp": "he legacy public app creation flow is ... read more how to build a notion database with the hubspot dev mcp and claude code may 1, 2026 consider what goes into building with a new mcp server. you're not just learning a new tool; you're learning a workflow with its own patterns, edge cases, and best practices. hubspot's dev mcp is well-designed (if i do say so myself!)",
+    "breadth": "t build your first project hs get-started resources get started create your first app or template in minutes platform overview get to know hubspot’s development platform and tools api reference integrate with hubspot’s apis developer changelog learn about new changes and releases hubspot developers channel explore educational developer content hubspot community join the "
+  },
+  "evidence_urls": [
+    "https://developers.hubspot.com/",
+    "https://www.hubspot.com/",
+    "https://developers.hubspot.com/docs/api-reference/latest/crm/understanding-the-crm",
+    "https://developers.hubspot.com/docs?hsCtaAttrib=195428514581",
+    "https://developers.hubspot.com/#main-content",
+    "https://developers.hubspot.com/#skip-to-footer",
+    "https://developers.hubspot.com/changelog",
+    "https://developers.hubspot.com/blog",
+    "https://developers.hubspot.com/docs",
+    "https://app.hubspot.com/signup-hubspot/crm?intent=developer",
+    "https://www.hubspot.com/new?hsCtaAttrib=195436592037",
+    "https://developers.hubspot.com/move-data",
+    "https://developers.hubspot.com/visualize-data",
+    "https://developers.hubspot.com/automate-data",
+    "https://developers.hubspot.com/ai-tools",
+    "https://developers.hubspot.com/blog/reimagined-marketplace-for-app-developers"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

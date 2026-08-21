@@ -1,0 +1,76 @@
+{
+  "id": "53",
+  "app": "Ahrefs",
+  "category": "Data, SEO and Scraping",
+  "website": "https://ahrefs.com/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "o third-party apps through our integration program. built on api v3. introduction overview of the integration program how it works architecture and data flow oauth guide implement oauth 2.0 authorization how to apply steps to join the program introduction overview of the integration program how it works architecture and data flow oauth guide implement oauth 2.0 autho"
+      },
+      {
+        "signal": "API key",
+        "snippet": "atforms. introduction overview, authentication, and rate limits free test queries try api endpoints without an enterprise plan explore endpoints browse all available api endpoints api keys create and manage your api keys changelog latest api updates and changes openapi spec full machine-readable spec for every endpoint introduction overview, authentication, and rat"
+      },
+      {
+        "signal": "Token",
+        "snippet": "users how to manage your integrations oauth guide all api calls require authorization and are made on behalf of an authorized ahrefs user . to do this, your app must obtain an api access token for that user. ahrefs connect uses oauth 2.0 authorization code flow with proof key for code exchange (pkce) . the process has two main steps: 1. authorize the application redirec"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "i request response 200 ok domain / dr ref. domains 1 wikipedia.org 98 2 github.com 96 3 medium.com 94 4 stackoverflow.com 93 5 producthunt.com 91 output for illustration purposes. rest api research keywords, analyze backlinks, track rankings, and monitor brand visibility across traditional search and ai platforms. introduction overview, authentication, and rate limi"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "and data flow oauth guide implement oauth 2.0 authorization how to apply steps to join the program introduction | ahrefs for developers docs search docs... ⌘k ✕ products reference api reference introduction limits consumption free test queries api keys creation and management parameters filter syntax changelog api site explorer keywords explorer site audit rank tracker s"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ts to this endpoint are free, yet require an apiv3 key.\\n\\n>apiv3 keys are free to generate and use. if you don't have an ahrefs account, here's how to get the key for free:\\n>1. [sign up](https://ahrefs.com/) for a free ahrefs account (if you don't have one)\\n>2. generate an api key in [account settings → api keys](https://app.ahrefs.com/account/api-keys)\\n>3. add"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "ngs, and monitor brand visibility across traditional search and ai platforms. introduction overview, authentication, and rate limits free test queries try api endpoints without an enterprise plan explore endpoints browse all available api endpoints api keys create and manage your api keys changelog latest api updates and changes openapi spec full machine-readable spec for "
+      }
+    ],
+    "mcp": "connect with third-party apis in a secure, consistent way. in our case, it connects ai tools with ahrefs, enabling things like this: connect to ahrefs mcp ahrefs provides a hosted mcp server that allows users with a lite plan or higher to connect their ahrefs account to supported ai tools. once connected, your setup is synced and available across all devices linked to",
+    "breadth": "and data flow oauth guide implement oauth 2.0 authorization how to apply steps to join the program introduction | ahrefs for developers docs search docs... ⌘k ✕ products reference api reference introduction limits consumption free test queries api keys creation and management parameters filter syntax changelog api site explorer keywords explorer site audit rank tracker s"
+  },
+  "evidence_urls": [
+    "https://docs.ahrefs.com/",
+    "https://docs.ahrefs.com/",
+    "https://docs.ahrefs.com/en/api/docs/introduction",
+    "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide",
+    "https://docs.ahrefs.com/en/mcp/docs/introduction",
+    "https://docs.ahrefs.com/en/api/docs/free-test-queries",
+    "https://docs.ahrefs.com/en/api/reference/site-explorer",
+    "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+    "https://docs.ahrefs.com/en/api/docs/changelog",
+    "https://docs.ahrefs.com/openapi.json",
+    "https://docs.ahrefs.com/en/mcp/docs/claude-desktop-web",
+    "https://docs.ahrefs.com/en/mcp/docs/chatgpt-web",
+    "https://docs.ahrefs.com/en/mcp/docs/claude-code",
+    "https://docs.ahrefs.com/en/ahrefs-connect/docs/introduction"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

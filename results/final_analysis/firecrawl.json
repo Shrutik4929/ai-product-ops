@@ -1,0 +1,84 @@
+{
+  "id": "56",
+  "app": "Firecrawl",
+  "category": "Data, SEO and Scraping",
+  "website": "https://firecrawl.dev",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " secret storage, never in the mcp url. this is a server url for your mcp client, not a page to open directly in a browser. sign-in connections use https://mcp.firecrawl.dev/v2/mcp-oauth instead, and your client starts the browser flow. ​ client setup for agents start keyless or use an api key. for humans sign in via browser. next: choose a tool or run the server "
+      },
+      {
+        "signal": "API key",
+        "snippet": "arch the web, scrape any page, and interact with it, all through one api. copy page copy page ​ get started ​ build directly with the api scrape your first page now. no account or api key is required for this request. curl # no api key needed to get started — add -h \"authorization: bearer $firecrawl_api_key\" for higher rate limits: curl -s -x post \"https://api.fire"
+      },
+      {
+        "signal": "Token",
+        "snippet": "arness. connect account use an api key configure an api key in your client, no browser needed. configure an api key ​ add an api key create a firecrawl api key , then send it as a bearer token: url: https://mcp.firecrawl.dev/v2/mcp authorization: bearer <firecrawl_api_key> configure the key through an environment variable or your client’s secret storage, never in the mc"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ibility. api related what sdks are available? firecrawl has official sdks for python, node.js, go, rust, java, and elixir, plus a cli for terminal workflows. you can also call the rest api directly from any language. all sdks support search, scrape, interact, and crawl. where can i find my api key? click on the dashboard button on the top navigation menu when logged"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "l available pages before exploring further. skip to main content firecrawl docs home page v2 english search... ⌘ k search... navigation get started introduction documentation sdks api reference build with ai get started introduction copy page copy page search the web, scrape any page, and interact with it, all through one api. copy page copy page ​ get started ​ build di"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "dits raise issue ⌘ i firecrawl - the context api to search, scrape, and interact with the web at scale. 🔥 introducing our most accurate /search yet. read the announcement → 168.6k sign up [ 200 ok ] [ .json ] [ scrape ] [ .md ] 2 months free - annually power ai agents with clean web data the context api to search, scrape, and interact with the web at scale. it's al"
+      },
+      {
+        "type": "self_serve",
+        "signal": "self-serve",
+        "snippet": "e plan, instead you can upgrade to our hobby, standard or growth plans for more credits and higher rate limits. do credits roll over to the next month? credits do not roll over on self-serve plans. credit rollover is available on our scale and enterprise plans. how many credits does each request cost? scrape, crawl, map, and monitor each cost 1 credit per page. search"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": " plans for more credits and higher rate limits. do credits roll over to the next month? credits do not roll over on self-serve plans. credit rollover is available on our scale and enterprise plans. how many credits does each request cost? scrape, crawl, map, and monitor each cost 1 credit per page. search costs 2 credits per 10 results. interact costs 2 credits per browser"
+      }
+    ],
+    "mcp": "-bot, javascript rendering, and dynamic content. reliable : built for production with high uptime and consistent results. fast : results in seconds, optimized for high throughput. mcp server : connect firecrawl to any ai tool via the model context protocol . bounty: 5,000 credit reward for solid feedback on firecrawl to qualify, complete a high-signal interview (thoug",
+    "breadth": "l available pages before exploring further. skip to main content firecrawl docs home page v2 english search... ⌘ k search... navigation get started introduction documentation sdks api reference build with ai get started introduction copy page copy page search the web, scrape any page, and interact with it, all through one api. copy page copy page ​ get started ​ build di"
+  },
+  "evidence_urls": [
+    "https://docs.firecrawl.dev/introduction",
+    "https://www.firecrawl.dev/",
+    "https://docs.firecrawl.dev/api-reference/v2-introduction",
+    "https://docs.firecrawl.dev/api-reference/endpoint/scrape",
+    "https://docs.firecrawl.dev/mcp-server",
+    "https://docs.firecrawl.dev/api-reference/introduction",
+    "https://docs.firecrawl.dev/advanced-scraping-guide",
+    "https://docs.firecrawl.dev/developer-guides/examples",
+    "https://docs.firecrawl.dev/introduction#build-directly-with-the-api",
+    "https://www.firecrawl.dev/signin?redirect=%2Fapp%2Fapi-keys",
+    "https://docs.firecrawl.dev/ai-onboarding",
+    "https://www.firecrawl.dev/auth.md",
+    "https://www.firecrawl.dev/blog/how-zapier-uses-firecrawl-to-power-chatbots",
+    "https://www.firecrawl.dev/token-efficiency",
+    "https://www.firecrawl.dev/scrape",
+    "https://www.firecrawl.dev/parse",
+    "https://www.firecrawl.dev/search"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

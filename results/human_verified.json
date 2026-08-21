@@ -1,0 +1,35 @@
+[
+  {
+    "app": "Salesforce",
+    "auth_methods": ["OAuth 2.0"],
+    "self_serve": "Yes - free Developer Edition",
+    "api_type": ["REST"],
+    "api_breadth": "Broad",
+    "mcp_available": "Not confirmed",
+    "buildability": "Buildable with access/setup constraints",
+    "verification_method": "Human checked official Salesforce documentation",
+    "blocked_by_agent": true
+  },
+  {
+    "app": "HubSpot",
+    "auth_methods": ["OAuth 2.0", "Token"],
+    "self_serve": "Yes - free developer account",
+    "api_type": ["REST", "GraphQL"],
+    "api_breadth": "Broad",
+    "mcp_available": "Confirmed",
+    "buildability": "Buildable",
+    "verification_method": "Human checked official HubSpot developer documentation",
+    "blocked_by_agent": false
+  },
+  {
+    "app": "Pipedrive",
+    "auth_methods": ["OAuth 2.0", "Token"],
+    "self_serve": "Conditional / plan-dependent",
+    "api_type": ["REST"],
+    "api_breadth": "Broad",
+    "mcp_available": "Confirmed",
+    "buildability": "Buildable with plan constraint",
+    "verification_method": "Human checked official Pipedrive developer documentation",
+    "blocked_by_agent": false
+  }
+]

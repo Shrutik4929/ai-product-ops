@@ -1,0 +1,81 @@
+{
+  "id": "76",
+  "app": "Monday.com",
+  "category": "Productivity and Project Management",
+  "website": "https://developer.monday.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " kv-store queue cron secrets logs alerts hosting write code, skip the servers deploy to isolated sandboxes monday manages. your syncs and tools run on our infra, not yours. access oauth2 scopes built in request granular scopes like boards:read . store keys in managed secret storage. developer mcp build and deploy using ai connect the developer mcp to any agent. sc"
+      },
+      {
+        "signal": "API key",
+        "snippet": " who can use the api? admin , member , and guest users are all able to utilize the monday.com api. admins and members have access to their own api tokens . guests cannot access an api key but can utilize api features through other authentication methods, like oauth or a shortlivedtoken. viewers , users who have been deactivated or disabled, users with unconfirmed e"
+      },
+      {
+        "signal": "Token",
+        "snippet": "as native monday.com building blocks. who can use the api? admin , member , and guest users are all able to utilize the monday.com api. admins and members have access to their own api tokens . guests cannot access an api key but can utilize api features through other authentication methods, like oauth or a shortlivedtoken. viewers , users who have been deactivated or"
+      }
+    ],
+    "api": [
+      {
+        "signal": "GraphQL",
+        "snippet": "from your own code, anywhere you need it. before you bring external agents or write code, try monday agents 02 platform api connect to your monday data from anywhere an expressive graphql api to interact with your workflows, automate processes, power integrations, and more! coverage security versioning mcp & cli before writing code, try the monday ai workflow build"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "sics for ai agents: visit https://developer.monday.com/api-reference/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home guides api reference changelog build with ai playground apps docs community need help? guides apps docs community need help? the basics the basics read what the monday platform api can do, who can use"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free developer account",
+        "snippet": "nday.com apps framework. if you’re currently on a trial and need more time, you can contact our support team to request a trial extension. for more thorough testing, we also offer free developer accounts designed specifically for app builders. you can sign up for a free developer account here and start building right away. what’s included in a developer account? developer account"
+      },
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "ep your backend in sync. learn more about webhooks webhook (trigger) workflow (action) 06 get started build your first full stack app on monday.com developer platform you 1 open a developer account 2 visit the developer center 3 make your first api call 4 connect your ide to our mcps 5 extend the ui get started → monday.com developer documentation jump to content developer p"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "me, you can contact our support team to request a trial extension. for more thorough testing, we also offer free developer accounts designed specifically for app builders. you can sign up for a free developer account here and start building right away. what’s included in a developer account? developer accounts include everything in the free plan , along with higher"
+      }
+    ],
+    "mcp": null,
+    "breadth": "sics for ai agents: visit https://developer.monday.com/api-reference/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home guides api reference changelog build with ai playground apps docs community need help? guides apps docs community need help? the basics the basics read what the monday platform api can do, who can use"
+  },
+  "evidence_urls": [
+    "https://developer.monday.com/",
+    "https://developer.monday.com/",
+    "https://developer.monday.com/api-reference/docs/basics",
+    "https://developer.monday.com/#agents",
+    "https://developer.monday.com/#api",
+    "https://developer.monday.com/api-reference/reference/webhooks",
+    "https://developer.monday.com/#content",
+    "https://developer.monday.com/#top",
+    "https://developer.monday.com/#ui",
+    "https://developer.monday.com/#framework",
+    "https://developer.monday.com/#webhooks",
+    "https://developer.monday.com/#getstarted",
+    "https://developer.monday.com/apps/docs/app-features",
+    "https://developer.monday.com/apps/docs/intro"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

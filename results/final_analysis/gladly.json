@@ -1,0 +1,68 @@
+{
+  "id": "20",
+  "app": "Gladly",
+  "category": "Support and Helpdesk",
+  "website": "https://gladly.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "nd testing environments get your integrations live quickly, without sacrificing security or flexibility. security and compliance with no extra lift soc 2-certified infrastructure, oauth authentication, and enterprise-grade privacy controls. build with confidence that your integrations meet compliance requirements out of the box. start building devotion deliver ra"
+      },
+      {
+        "signal": "Token",
+        "snippet": " to show how gladly instantly transforms your customer experiences. gladly api introducing the gladly api overview rest api lookup api testing getting started permissions creating api tokens replacing/rotating api tokens authentication rest api agents get list agents get get agent get get agent callrecorder patch update agent callrecorder public answer get search pub"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "ew token. store the new token in a secure location. delete the old token. update your applications/scripts with the new token. authentication basicauth gladly api uses token-based basic authentication . api tokens are associated with designated gladly users. to create and use an api token, your user must have the api user permission. an api token can be used to perform any api "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "main home - gladly developer gladly developer developer gladly.com toggle menu home developer api rest api chat web sdk chat ios sdk chat android sdk help center tutorials help and support a platform with people at the heart of it looking to extend gladly, use gladly’s rest apis, recei"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "integrations library . new apis if you can't wait for native integrations mentioned above, you can integrate your apps with gladly using a growing list of apis and webhook events. sign up for our release notes to be notified of new developments. gladly developer developer gladly.com toggle menu home developer api rest api chat web sdk chat ios sdk chat android sdk "
+      },
+      {
+        "type": "self_serve",
+        "signal": "self-serve",
+        "snippet": "mmand-line tool is provided to streamline the development, testing, and building of your gladly app platform applications. use cases instant order answers (wismo solved) customers self-serve real-time tracking in sidekick; agents see full order details instantly. self-service returns & exchanges customers easily check eligibility and initiate returns/replacements via "
+      }
+    ],
+    "mcp": null,
+    "breadth": "ing your production environment (or vice versa). your sandbox environment is accessible at https://{organization}.gladly.qa , where organization is your company name. for specific api endpoints, see documentation below. getting started think of this section as getting the keys to unlocking your access to the gladly apis. first, you'll need to set up an account with the n"
+  },
+  "evidence_urls": [
+    "https://developer.gladly.com/",
+    "https://www.gladly.ai/gladly-developer-platform/",
+    "https://www.gladly.ai/",
+    "https://developer.gladly.com/rest/",
+    "https://developer.gladly.com/chat/",
+    "https://developer.gladly.com/ios-sdk/",
+    "https://developer.gladly.com/android-sdk/",
+    "https://developer.gladly.com/help-center/",
+    "https://help.gladly.com/developer-tutorials/docs",
+    "https://help.gladly.com/developer-tutorials/docs/app-platform-overview"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

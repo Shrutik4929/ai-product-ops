@@ -1,0 +1,53 @@
+{
+  "id": "37",
+  "app": "systeme.io",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://systeme.io",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "ey. this key is your ticket to unlocking the api's capabilities. simply navigate to the profile settings within your systeme.io dashboard, and generate a new key under the \"public api keys\" section. once you have your key, you're all set to embark on your first api request journey! 🚧 important security notice using the api from public pages is not advisable as it e"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "public api for ai agents: visit https://developer.systeme.io/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content guides recipes api reference api reference api reference api reference public api public api copy page introduction welcome to this comprehensive guide for the systeme.io public api. our api serves as a bridg"
+      }
+    ],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": "public api for ai agents: visit https://developer.systeme.io/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content guides recipes api reference api reference api reference api reference public api public api copy page introduction welcome to this comprehensive guide for the systeme.io public api. our api serves as a bridg"
+  },
+  "evidence_urls": [
+    "https://developer.systeme.io/reference/api",
+    "https://systeme.io/79663ab9",
+    "https://developer.systeme.io/reference/api#authentication",
+    "https://developer.systeme.io/reference/api",
+    "https://developer.systeme.io/reference/api#getting-started",
+    "https://developer.systeme.io/reference/api#content",
+    "https://developer.systeme.io/reference/api_automationrules_get_collection",
+    "https://developer.systeme.io/reference/api_automationrules_post",
+    "https://developer.systeme.io/reference/api_automationrules_id_get",
+    "https://developer.systeme.io/reference/api_automationrules_id_delete",
+    "https://developer.systeme.io/reference/api_automationrules_id_patch",
+    "https://developer.systeme.io/reference/api_booking-calendarbookings_get_collection",
+    "https://developer.systeme.io/reference/api_booking-calendarevents_get_collection",
+    "https://developer.systeme.io/reference/api_communitycommunities_get_collection-1",
+    "https://developer.systeme.io/reference/api_communitycommunities_communityidmemberships_post-1",
+    "https://developer.systeme.io/reference/api_communitymemberships_get_collection-1"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

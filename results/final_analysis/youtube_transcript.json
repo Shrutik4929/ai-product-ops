@@ -1,0 +1,82 @@
+{
+  "id": "99",
+  "app": "YouTube Transcript",
+  "category": "AI, Research and Media-native",
+  "website": "https://transcriptapi.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "de tutorial complete guide to integrate transcriptapi with claude ai assistant via mcp. recommended chatgpt tutorial step-by-step guide to connect transcriptapi with chatgpt using oauth authentication. agent builder tutorial learn how to set up transcriptapi with openai agent builder for ai workflows. what is mcp? section titled âwhat is mcp?â model context p"
+      },
+      {
+        "signal": "API key",
+        "snippet": "t fits your workflow. rest api for developers building apps, workflows, automations add youtube data to any application. use with n8n, make, zapier, or your own code. 1 get a free api key at transcriptapi.com/signup 2 make your first api call: curl \" https://transcriptapi.com/api/v2/youtube/transcript?video_url=video_url \" \\ -h \" authorization: bearer sk_your_key \""
+      },
+      {
+        "signal": "Token",
+        "snippet": "ngthtext\" : \" 3:33 \" } try it live test this example and experiment with parameters in our interactive swagger ui . authentication section titled âauthenticationâ the api uses bearer token authentication. include your api key in the authorization header of every request: authorization: bearer your_api_key example: terminal window curl -x get \" https://transcriptapi."
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "s | transcriptapi transcriptapi.com youtube transcript api that just works stop fighting youtube blocks. get transcripts, search videos, browse channels, and extract playlists via rest api or youtube mcp — at scale. get started free view pricing works everywhere powering 15m+ transcripts every month your browser does not support the video tag. trusted in production "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": " ctrl k cancel select theme dark light auto transcriptapi documentation extract youtube video transcripts with a simple api call or through model context protocol get started view api reference quick access section titled âquick accessâ api reference complete guide to transcripts, search, channel, and playlist endpoints with authentication, parameters, and examples. "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": " key) based on your platformâs requirements prerequisites section titled âprerequisitesâ before setting up transcriptapi with mcp, ensure you have: a transcriptapi account ( sign up free ) an ai assistant or platform that supports mcp for oauth: a web browser for the initial authorization for api key: an active api key from your dashboard mcp server configura"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "at for llm context. download the complete docs in a single text file. download llms.txtâ â support & billing get help with billing, credits, and other account-related questions. contact us billing & credits transcriptapi youtube transcript api with search, channels & playlists | transcriptapi transcriptapi.com youtube transcript api that just works stop fighting you"
+      }
+    ],
+    "mcp": "pi account ( sign up free ) an ai assistant or platform that supports mcp for oauth: a web browser for the initial authorization for api key: an active api key from your dashboard mcp server configuration section titled âmcp server configurationâ get your mcp configuration details from the mcp dashboard or use these settings: property value server name transcript ",
+    "breadth": " ctrl k cancel select theme dark light auto transcriptapi documentation extract youtube video transcripts with a simple api call or through model context protocol get started view api reference quick access section titled âquick accessâ api reference complete guide to transcripts, search, channel, and playlist endpoints with authentication, parameters, and examples. "
+  },
+  "evidence_urls": [
+    "https://transcriptapi.com/developers",
+    "https://transcriptapi.com/developer",
+    "https://transcriptapi.com/docs/",
+    "https://transcriptapi.com/documentation",
+    "https://transcriptapi.com/",
+    "https://transcriptapi.com/docs/api/",
+    "https://transcriptapi.com/docs/api/",
+    "https://transcriptapi.com/docs/mcp/",
+    "https://transcriptapi.com/docs/mcp/chatgpt/",
+    "https://transcriptapi.com/docs/mcp/claude/",
+    "https://transcriptapi.com/docs/mcp/openai-agent-builder/",
+    "https://transcriptapi.com/docs/getting-started/",
+    "https://transcriptapi.com/docs/api/#youtube-transcript",
+    "https://transcriptapi.com/docs/mcp/#get_youtube_transcript",
+    "https://transcriptapi.com/docs/api/#search-endpoint",
+    "https://transcriptapi.com/docs/mcp/#search_youtube",
+    "https://transcriptapi.com/docs/api/#search-within-channel",
+    "https://transcriptapi.com/docs/mcp/#search_channel_videos",
+    "https://transcriptapi.com/docs/api/#channel-videos-paginated",
+    "https://transcriptapi.com/docs/mcp/#list_channel_videos"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

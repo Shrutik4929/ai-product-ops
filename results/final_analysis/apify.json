@@ -1,0 +1,76 @@
+{
+  "id": "55",
+  "app": "Apify",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.apify.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "intains a list of compatible clients. quick start you can connect to the apify mcp server in two ways: use our hosted service for a quick and easy setup using streamable http with oauth , or run the server locally for development and testing using local stdio . sse transport deprecated server-sent events (sse) transport will be removed on april 1, 2026. the apify"
+      },
+      {
+        "signal": "API key",
+        "snippet": "t permissions. ~resourcename - for this, you need to use an api token, and the resourcename refers to a resource in the api token owner's account. authentication http: bearer auth api key: apikey bearer token provided in the authorization header (e.g., authorization: bearer your_token —recommended). more info . use your api token to authenticate requests. you can f"
+      },
+      {
+        "signal": "Token",
+        "snippet": " and python clients manage auth, retries, and backoff automatically, with helpers like .call() and .listitems() to keep code tiny. secure and scalable by default authenticate with bearer tokens and rely on clear rate limits plus automatic retries — built to power serious workloads without surprises. javascript api client the official library to interact with apify api f"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ontrol apify by api start with apify api check api reference apify documentation skip to main content apify api documentation learn how to use the apify platform programmatically. rest api the apify api is built around http rest, uses predictable resource-oriented urls, returns json-encoded responses, and uses standard http response codes, authentication, and verbs."
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ver and use actors with ai agents and llms via apify mcp server. apify api interact with the apify platform from your applications. api client for javascript api client for python api reference apify sdk software toolkits for developing new actors. sdk for javascript sdk for python apify cli control the apify platform from terminal or shell scripts. cli reference apify a"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "tion-based model doesn't fit the sporadic, on-demand way the mcp server runs actors. prerequisites before connecting your ai to apify, you'll need three things: an apify account - sign up for an apify account, if you don't have one. apify api token - get your api token from the api & integrations section in apify console . this token authorizes the mcp server to ru"
+      }
+    ],
+    "mcp": " people, manage your organizations and permissions. security learn about apify platform security and data protection. mcp discover and use actors with ai agents and llms via apify mcp server. apify api interact with the apify platform from your applications. api client for javascript api client for python api reference apify sdk software toolkits for developing new ac",
+    "breadth": "ver and use actors with ai agents and llms via apify mcp server. apify api interact with the apify platform from your applications. api client for javascript api client for python api reference apify sdk software toolkits for developing new actors. sdk for javascript sdk for python apify cli control the apify platform from terminal or shell scripts. cli reference apify a"
+  },
+  "evidence_urls": [
+    "https://docs.apify.com:443/",
+    "https://docs.apify.com/",
+    "https://docs.apify.com/",
+    "https://apify.com/api",
+    "https://docs.apify.com/api",
+    "https://docs.apify.com/api/v2",
+    "https://docs.apify.com/integrations/mcp",
+    "https://docs.apify.com/integrations/mcp",
+    "https://docs.apify.com/",
+    "https://docs.apify.com/get-started",
+    "https://docs.apify.com/actors",
+    "https://docs.apify.com/storage",
+    "https://docs.apify.com/proxy",
+    "https://docs.apify.com/account",
+    "https://docs.apify.com/integrations",
+    "https://docs.apify.com/security",
+    "https://docs.apify.com/academy",
+    "https://docs.apify.com/api/client/js/docs",
+    "https://docs.apify.com/api/client/python/docs"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

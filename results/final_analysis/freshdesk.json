@@ -1,0 +1,77 @@
+{
+  "id": "13",
+  "app": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "website": "https://freshdesk.com",
+  "auth_methods": [
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "r's name or use any of the apis listed above, you need to \"authenticate your id\" or \"log in\" in the same way as you log in to your helpdesk's web portal. you can use your personal api key to authenticate the request. if you use the api key, there is no need for a password. you can use any set of characters as a dummy password. curl -v -u apikey:x -h \"content-type: "
+      },
+      {
+        "signal": "Token",
+        "snippet": "yload for missing or invalid fieldsâespecially in ticket creation or user updates. 1004 access_denied user or widget does not have permission to access this resource. ensure the api token, user permissions, and widget authentication are correct. 1005 token_alias_mismatch token alias used does not match expected configuration. regenerate or verify the widget token a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ch field technicians, plan their schedules, pass on information of the customer to them for context, and live-track progress as they solve problems on-site. with the help of these rest apis listed here, you can perform read, modify, add and delete operations on service tasks, service groups and field technicians. to view the list of apps available for field service "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "am.\" simon birch customer service manager, hobbycraft 30% queries handled by ai make the next move toward ai-powered customer service get a demo start for free freshdesk freshdesk api reference introduction overview what are apis what's new rate limit the number of api calls per hour policies changelog getting started authentication how does it work? who can access my he"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": "opy 1 curl -v -u yourapikey:x -x get 'https://domain.freshdesk.com/api/v2/discussions/categories' expand ↓ response 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 [ { \"id\" : 1 , \"name\" : \"test account forums\" , \"description\" : \"default forum category, feel free to edit or delete it.\" , \"created_at\" : \"2015-08-10t07:54:33z\" , \"updated_at\" : \"2015-08-10t07:54:33z\" }, { \"id\" : 2 ,"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "m to get the new rate limits enabled for your account. to view the old api rate limits, click here note : an account can purchase additional api calls, to increase the rate limit. contact us to know more about our pricing policy and purchase additional api calls. plan rate limit/hr blossom 3000 garden 3000 estate 5000 forest 5000 to view the limits in the older plans,"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": "he api rate limits for outbound messages cover both send and retrieve endpoints. these limits are set at 1,000 calls per minute for the pro plan and 2,000 calls per minute for the enterprise plan. to comply with whatsapp's policies, these outbound messages must use structured templates, which are: pre-approved: each template must be defined by the business and submitted to"
+      }
+    ],
+    "mcp": null,
+    "breadth": "am.\" simon birch customer service manager, hobbycraft 30% queries handled by ai make the next move toward ai-powered customer service get a demo start for free freshdesk freshdesk api reference introduction overview what are apis what's new rate limit the number of api calls per hour policies changelog getting started authentication how does it work? who can access my he"
+  },
+  "evidence_urls": [
+    "https://developers.freshdesk.com/",
+    "https://developer.freshdesk.com/",
+    "https://www.freshworks.com/freshdesk/",
+    "https://developers.freshdesk.com/api/",
+    "https://developers.freshdesk.com/web-chat-api/",
+    "https://developers.freshdesk.com/widget-api/",
+    "https://developer.freshdesk.com/api/",
+    "https://developer.freshdesk.com/web-chat-api/",
+    "https://developer.freshdesk.com/widget-api/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/",
+    "https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/freshworks-app-ecosystem/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

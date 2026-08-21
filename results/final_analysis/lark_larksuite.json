@@ -1,0 +1,32 @@
+{
+  "id": "24",
+  "app": "Lark (Larksuite)",
+  "category": "Communications and Messaging",
+  "website": "https://open.larksuite.com",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Unknown",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": null
+  },
+  "evidence_urls": [
+    "https://open.larksuite.com/developers",
+    "https://open.larksuite.com/developer",
+    "https://open.larksuite.com/docs",
+    "https://open.larksuite.com/api",
+    "https://open.larksuite.com/api-docs"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

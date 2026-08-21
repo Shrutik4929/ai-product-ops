@@ -1,0 +1,76 @@
+{
+  "id": "22",
+  "app": "Twilio",
+  "category": "Communications and Messaging",
+  "website": "https://twilio.com",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": " the following code samples wrap placeholder values in angle brackets ( <your_api_key> ). replace the brackets and the text they contain with an actual value. for example, if your api key is sg.someactualkey , change echo -n '<your_api_key>' | openssl base64 to echo -n 'sg.someactualkey' | openssl base64 . in some cases, a placeholder gets wrapped in two sets of an"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "e numbers to increase deliverability. add on data packages to get even more in-depth carrier and caller information. twilio essentials general usage learn how to interact with the rest api for account management, development testing, and fraud protection. iam manage your projects, securely authenticate rest api requests, and learn best practices for accessing twilio"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "doc. #us52039625 idc marketscape: worldwide customer data platforms focused on b2c users vendor assessment\", by tapan patel and gerry murray, december 2024, doc. #us51778724 docs: api reference, tutorials, and integration | twilio skip to content skip to navigation skip to topbar go to the twilio docs home page twilio docs twilio logo twilio docs search search search twi"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "wers humans and ai agents to work together, coordinate across channels, and pick up every customer conversation where the last one left off. start for free explore what's possible free trial no credit card required flexible pricing the infrastructure behind every magical customer moment intelligent self-service the twilio platform turns every interaction — including f"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "dentity lookup tools. verify users customer data unify clean, consented customer data from any source for real-time insights on every customer. connect data build. without limits. sign up for a free twilio account and grab one of our official server-side sdks to get started. send your first text message, phone call, or email in minutes. view docs python logo c# log"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "gment customer data platform twilio sendgrid email and marketing campaigns twilio logo an icon of a search magnifying glass data is collected based on search terms. privacy policy contact sales start for free data is collected based on search terms. privacy policy contact sales start for free the platform for conversations in the ai era the twilio platform empowers human"
+      }
+    ],
+    "mcp": null,
+    "breadth": "doc. #us52039625 idc marketscape: worldwide customer data platforms focused on b2c users vendor assessment\", by tapan patel and gerry murray, december 2024, doc. #us51778724 docs: api reference, tutorials, and integration | twilio skip to content skip to navigation skip to topbar go to the twilio docs home page twilio docs twilio logo twilio docs search search search twi"
+  },
+  "evidence_urls": [
+    "https://developers.twilio.com/series/twilio-developers-hub/landing_page",
+    "https://www.twilio.com/en-us",
+    "https://www.twilio.com:443/docs",
+    "https://www.twilio.com/en-us/developers",
+    "https://www.twilio.com/en-us/products#all-products",
+    "https://www.twilio.com/login",
+    "https://www.twilio.com/en-us/user-authentication-identity",
+    "https://www.twilio.com/en-us/user-authentication-identity/verify",
+    "https://www.twilio.com/en-us/user-authentication-identity/lookup",
+    "https://www.twilio.com/en-us/user-authentication-identity/pricing/lookup",
+    "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/getting-started-smtp",
+    "https://www.twilio.com/en-us/products#authentication",
+    "https://developers.twilio.com/series/twilio-developers-hub/landing_page#click_check_email_verification",
+    "https://developers.twilio.com/series/twilio-developers-hub/landing_page#upcoming-events",
+    "https://developers.twilio.com/series/twilio-developers-hub/landing_page#on-demand",
+    "https://developers.twilio.com/Twilio-Developers/twilio-forge-conversational-ai-in-action-q4",
+    "https://developers.twilio.com/Twilio-Developers/twilio-forge-messaging-reimagined-latam",
+    "https://developers.twilio.com/Twilio-Developers/level-up-enhance-whatsapp-chats-through-voice-calling",
+    "https://developers.twilio.com/Twilio-Developers/twilio-forge-access-granted-apj"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

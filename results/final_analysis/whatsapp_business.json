@@ -1,0 +1,72 @@
+{
+  "id": "28",
+  "app": "WhatsApp Business",
+  "category": "Communications and Messaging",
+  "website": "https://developers.facebook.com/docs/whatsapp",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "l is increasing, indicating that a creative refresh may be needed to maintain optimal performance. two api calls are required to enable the standalone webhook, using two different access tokens 1. call <app_id>/subscriptions endpoint using your app_token curl -f \"object=ad_account\" \\ -f \"callback_url=<your_https_callback_url>\" \\ -f \"fields=effective_status,creative_fati"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "configure your app's settings in the app dashboard, and build, test, and release your app. docs graph api the primary way for apps to read and write to the meta social graph. docs rest api modern, flexible, and developer-friendly way to build and integrate with meta’s diverse platforms. docs meta model api access muse spark on meta model api. start building agentic,"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ating business with faster responses that drive sales. read story barò cosmetics creating interactive, personal experiences to boost loyalty and revenue. read story more resources api reference explore the partner directory support take the next step start transforming your customer experience on whatsapp business platform. learn more meta data, march 2024 meta q3 23 ear"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "y have the most current data. while common, this process is inefficient and chips away at rate limits.... business tools, developer tools, 2026 more on the blog get our newsletter sign up for monthly updates from meta for developers. sign up facebook facebook facebook facebook products | social technologies developer center join us september 23-24 for meta connect!"
+      },
+      {
+        "type": "self_serve",
+        "signal": "self-serve",
+        "snippet": "trieve, manage, and engage with replies to their posts. read more measure your success empower users with media and account level insights. read more get started you can visit our self-serve developer documentation to learn more about integrating today. get started what our partners are saying about threads api we enabled threads for all 30,000+ sprout social customer"
+      }
+    ],
+    "mcp": "s webhooks developer documentation tags business tools developer tools 2026 explore more july 29, 2026 introducing graph api v26.0 and marketing api v26.0 july 16, 2026 meta's ads mcp server is now available for developers february 18, 2026 introducing graph api v25.0 and marketing api v25.0 get our newsletter sign up for monthly updates from meta for developers. sign",
+    "breadth": "ating business with faster responses that drive sales. read story barò cosmetics creating interactive, personal experiences to boost loyalty and revenue. read story more resources api reference explore the partner directory support take the next step start transforming your customer experience on whatsapp business platform. learn more meta data, march 2024 meta q3 23 ear"
+  },
+  "evidence_urls": [
+    "https://developers.facebook.com/",
+    "https://www.facebook.com/developers",
+    "https://www.facebook.com/developer",
+    "https://www.facebook.com/docs",
+    "https://www.facebook.com/api",
+    "https://developers.facebook.com/social-technologies/products/?filter-id=authentication-authorization",
+    "https://developers.facebook.com/social-technologies/threads-api/",
+    "https://developers.facebook.com/blog/post/2026/07/29/introducing-graph-api-v26-and-marketing-api-v26/",
+    "https://developers.facebook.com/blog/post/2026/07/21/the-case-for-webhooks/",
+    "https://developers.facebook.com/social-technologies/products/",
+    "https://developers.facebook.com/docs/",
+    "https://developers.facebook.com/tools/",
+    "https://developers.facebook.com/support/",
+    "https://developers.facebook.com/products/business-sdk/",
+    "https://developers.facebook.com/products/messenger/",
+    "https://developers.facebook.com/products/instagram/",
+    "https://developers.facebook.com/products/whatsapp/",
+    "https://developers.facebook.com/success-stories/Concepto-Movil/",
+    "https://developers.facebook.com/success-stories/Universal-Studios/",
+    "https://developers.facebook.com/success-stories/HDFC-whatsapp/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

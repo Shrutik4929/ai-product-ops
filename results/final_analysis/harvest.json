@@ -1,0 +1,70 @@
+{
+  "id": "80",
+  "app": "Harvest",
+  "category": "Productivity and Project Management",
+  "website": "https://help.getharvest.com/api-v2",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "only offer technical support for the v2 api . api introduction api v1 to api v2 migration guide general information using who am i supported currencies see all docs authentication oauth 2.0 authentication for client side applications for server side applications see all docs clients api add & update clients add & update client contacts see all docs invoices & estimat"
+      },
+      {
+        "signal": "Token",
+        "snippet": "on api authentication this is the current api v2 documentation. you can still view the legacy api v1 documentation . help topics authentication introduction the v2 api requires an access token to authenticate requests. there are two options available to you: a personal access token which is tied directly to you and is the quickest way to start playing around with the ap"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": "pts that build custom reports, sync data between different accounts, or automate tasks that would otherwise take a long time when done manually. personal access tokens replace the basic authentication method that was used in our v1 api, as this is more secure. within the developers section you’ll see a list of all your personal access tokens, when they were last used, and you’l"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": " v2 documentation introduction overview this is the current api v2 documentation. you can still view the legacy api v1 documentation . help topics overview the harvest v2 api is a rest api that allows you to interact with your harvest account programmatically. you can track time, log expenses, create projects, and more. api requests harvest requires applications to "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "harvest api v2 documentation api v2 documentation contact us welcome to the harvest api v2 help center this is the current api v2 documentation. you can still view the legacy api v1 documentation . api introduction overview postman collecti"
+      }
+    ],
+    "mcp": null,
+    "breadth": "harvest api v2 documentation api v2 documentation contact us welcome to the harvest api v2 help center this is the current api v2 documentation. you can still view the legacy api v1 documenta"
+  },
+  "evidence_urls": [
+    "https://help.getharvest.com/api/",
+    "https://help.getharvest.com/api-v2/",
+    "https://help.getharvest.com/api-v2/authentication-api/",
+    "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "https://help.getharvest.com/api-v2/",
+    "https://help.getharvest.com/api-v1/",
+    "https://help.getharvest.com/api-v2/introduction/",
+    "https://help.getharvest.com/api-v2/introduction/overview/general/",
+    "https://help.getharvest.com/api-v2/introduction/overview/postman-collection/",
+    "https://help.getharvest.com/api-v2/introduction/overview/code-samples/",
+    "https://help.getharvest.com/api-v2/introduction/overview/supported-timezones/",
+    "https://help.getharvest.com/api-v2/introduction/overview/supported-currencies/",
+    "https://help.getharvest.com/api-v2/introduction/overview/pagination/",
+    "https://help.getharvest.com/api-v2/clients-api/",
+    "https://help.getharvest.com/api-v2/clients-api/clients/contacts/",
+    "https://help.getharvest.com/api-v2/clients-api/clients/clients/",
+    "https://help.getharvest.com/api-v2/company-api/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

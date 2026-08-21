@@ -1,0 +1,72 @@
+{
+  "id": "27",
+  "app": "Telegram",
+  "category": "Communications and Messaging",
+  "website": "https://core.telegram.org",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "eamless telegram login bots, telegram websites and apps may ask users to login to a certain website via telegram when clicking on certain links or url buttons in inline keyboards. oauth authorization urlauthresultrequest #3cd623ec flags: # request_write_access: flags .0? true request_phone_number: flags .1? true match_codes_first: flags .5? true is_app: flags .6?"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "he telegram app. users interact with bots through flexible interfaces that can support any kind of task or service . for more information, see: detailed guide to bot features full api reference for developers basic tutorial: from @botfather to 'hello world' the telegram bot platform hosts more than 10 million bots and is free for both users and developers. what can you d"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": "ncodes should be invoked, passing the extracted login codes (excluding any - characters). ---functions--- account.invalidatesignincodes #ca8ae8ba codes: vector < string > = bool ; test accounts each phone number is limited to only a certain number of login attempts per day (e.g. 5, but this is subject to change), after which the api will return a flood error until the n"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "on: this suggestion is not skippable, and must be presented as a non-dismissable full-screen view, which fully prevents usage of the app until a login email is configured. sign in/sign up when user enters verification code, the auth.signin method must be used to validate it and possibly sign user in. if the code was entered correctly, but the method returns auth.au"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "e delivery methods (telegram codes, fragment codes, email codes, future auth tokens, qr codes » , and passkeys » ). developers whose third-party apps require sms authorization can contact us at sms@telegram.org, specifying #enablesms in the email subject. auth.sentcodetypesetupemailrequired : if the user logs in often enough, telegram will ask the user to verify an em"
+      }
+    ],
+    "mcp": null,
+    "breadth": "he telegram app. users interact with bots through flexible interfaces that can support any kind of task or service . for more information, see: detailed guide to bot features full api reference for developers basic tutorial: from @botfather to 'hello world' the telegram bot platform hosts more than 10 million bots and is free for both users and developers. what can you d"
+  },
+  "evidence_urls": [
+    "https://core.telegram.org/developers",
+    "https://core.telegram.org/developer",
+    "https://core.telegram.org/docs",
+    "https://core.telegram.org/api",
+    "https://core.telegram.org/api-docs",
+    "https://core.telegram.org/api#two-factor-authentication",
+    "https://core.telegram.org/api/srp",
+    "https://core.telegram.org/api#getting-started",
+    "https://core.telegram.org/api#user-authorization",
+    "https://core.telegram.org/api/auth",
+    "https://core.telegram.org/api/url-authorization",
+    "https://core.telegram.org/api#bot-api",
+    "https://core.telegram.org/api#tdlib-build-your-own-telegram",
+    "https://core.telegram.org/api#gateway-api",
+    "https://core.telegram.org/bots",
+    "https://core.telegram.org/bots/payments",
+    "https://core.telegram.org/gateway",
+    "https://core.telegram.org/api#telegram-api",
+    "https://core.telegram.org/api/obtaining_api_id"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

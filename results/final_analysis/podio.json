@@ -1,0 +1,77 @@
+{
+  "id": "6",
+  "app": "Podio",
+  "category": "CRM and Sales",
+  "website": "https://podio.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "rd flow app authentication flow api reference tutorials client libraries developer forums partner extensions terms of use how to authenticate with podio api the podio api uses the oauth2 protocol for authentication. this allows external apps to request authorization to podio without having direct access to the user's password. our api supports different oauth flow"
+      },
+      {
+        "signal": "API key",
+        "snippet": "developers - podio api documentation podio getting started the core concepts of podio api conventions and structure rate limits faq get an api key authentication api reference tutorials client libraries developer forums partner extensions terms of use getting started with podio api the podio api lets you integrate with other"
+      },
+      {
+        "signal": "Token",
+        "snippet": "d to interact with a single podio app and do not need to authenticate as a specific user. examples: automated scripts. all of these authentication methods will provide you with an access token. you will be including this access token in any subsequent requests to the api. you will do this by including an http header with the access token like so: authorization: oauth2 a"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "developers - podio api documentation podio getting started the core concepts of podio api conventions and structure rate limits faq get an api key authentication api reference tutorials client libraries developer forums partner extensions terms of use getting started with podio api the podio api lets you integrate with other services and build tools and"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "er forums partner extensions terms of use get api key generating api keys to podio it's easy to get one or more api keys for accessing your podio data. you just have to sign in or sign up with podio, and go to the api key tab in your settings. get an api key now concepts and conventions: the core concepts of podio - podio api documentation podio getting started the"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "t 1 hour window you cannot currently see when your rate limit counter is reset. if you have a project that requires a higher rate limit, visit https://support.sharefile.com/s/ and contact us with a brief description of your project, your estimated usage and the client_id of the api key you are using. tips for reducing api usage avoid making api requests inside loops. "
+      }
+    ],
+    "mcp": null,
+    "breadth": "developers - podio api documentation podio getting started the core concepts of podio api conventions and structure rate limits faq get an api key authentication api reference tutorials client libraries developer forums partner extensions terms of use getting started with podio api the podio api lets you integrate with other services and build tools and"
+  },
+  "evidence_urls": [
+    "https://developers.podio.com/",
+    "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdeveloper",
+    "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs",
+    "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdevelopers",
+    "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fapi",
+    "https://developers.podio.com/authentication",
+    "https://developers.podio.com/doc",
+    "https://developers.podio.com/index/api",
+    "https://developers.podio.com/api-key",
+    "https://developers.podio.com/index/overview",
+    "https://developers.podio.com/index/limits",
+    "https://developers.podio.com/index/faq",
+    "https://developers.podio.com/examples",
+    "https://developers.podio.com/clients",
+    "https://developers.podio.com/clients/dotnet",
+    "https://developers.podio.com/clients/ruby",
+    "https://developers.podio.com/clients/java",
+    "https://developers.podio.com/clients/python",
+    "https://developers.podio.com/examples/webhooks"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

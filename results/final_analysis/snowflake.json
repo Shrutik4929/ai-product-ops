@@ -1,0 +1,60 @@
+{
+  "id": "67",
+  "app": "Snowflake",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.snowflake.com",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "e sign-on (sso) must have mfa enabled as part of their authentication process. service users ¶ users who have the type parameter set to service must use key-pair authentication or oauth . on this page introduction to the snowflake native app framework components of the snowflake native app framework about snowflake native apps with snowpark container services pro"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "l api, you can access and update data over https and rest. for example, you can submit sql statements, create and execute stored procedures, provision users, and so on. in the sql rest api, you submit a sql statement for execution in the body of a post request. you then check execution status and fetch results with get requests. developer guide snowflake sql rest ap"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "treamlit and openai getting started with snowpark scala developer guides ¶ you can use snowpark libraries for the languages listed in the following table: language developer guide api reference java snowpark developer guide for java snowpark library for java api reference python snowpark developer guide for python snowpark library for python api reference scala snowpark "
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "test account",
+        "snippet": "instances using release channels ¶ you can allow consumers to create multiple instances of an app in their account. providers can also create multiple instances of an app in their test account. to enable multiple instances use the multiple_instances property of the application package as shown in the following commands: copy code create application package < name > mult"
+      },
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": "access the data content and application logic shared by providers. develop and test an application package ¶ to share data content and application logic with a consumer, providers create an application package. application package an application package encapsulates the data content, application logic, metadata, and setup script required by an application. an application"
+      }
+    ],
+    "mcp": null,
+    "breadth": "treamlit and openai getting started with snowpark scala developer guides ¶ you can use snowpark libraries for the languages listed in the following table: language developer guide api reference java snowpark developer guide for java snowpark library for java api reference python snowpark developer guide for python snowpark library for python api reference scala snowpark "
+  },
+  "evidence_urls": [
+    "https://docs.snowflake.com/en/",
+    "https://docs.snowflake.com/en/developer-guide/snowpark/index",
+    "https://docs.snowflake.com/en/developer",
+    "https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-about",
+    "https://docs.snowflake.com/en/developer-guide/extensibility",
+    "https://docs.snowflake.com/en/developer-guide/drivers",
+    "https://docs.snowflake.com/en/developer-guide/declarative-sharing/about",
+    "https://docs.snowflake.com/en/developer-guide/native-apps/release-channels"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

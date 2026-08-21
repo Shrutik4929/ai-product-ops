@@ -1,0 +1,62 @@
+{
+  "id": "82",
+  "app": "Plaid",
+  "category": "Finance and Fintech",
+  "website": "https://plaid.com/docs",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": " tips on how to reduce your transaction fees by increasing the uptake of customers choosing to pay by bank. tokenized account numbers institutions that interface with plaid via an oauth portal may return a tokenized account number (tan) in the auth response. a tan can be utilized by any ach processor in place of the user's actual account number, and will be recon"
+      },
+      {
+        "signal": "API key",
+        "snippet": "loring plaid api endpoints without writing code. the postman collection provides pre-formatted requests for almost all of plaid's api endpoints. all you have to do is fill in your api keys and any arguments. to get started, check out the plaid postman collection quickstart on github. client libraries see the client libraries page for more information on plaid's cli"
+      },
+      {
+        "signal": "Token",
+        "snippet": "n. but if the partner does not provide this functionality, or you wish to do it yourself, you may do your own risk assessment by calling /signal/evaluate directly using the item's access token. if you choose to use a payments provider who is not a plaid partner, you will need to obtain bank account numbers and codes directly using /auth/get . in the us, this data must b"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "d api to have more than two digits of precision -- this is common, for example, when reporting crypto balances. openapi definition file openapi is a standard format for describing restful apis that allows those apis to be integrated with tools for a wide variety of applications, including testing, client library generation, ide integration, and more. the plaid api is s"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "nces to build with plaid. quickstart learn about plaid's key concepts and run starter code get started quickstart learn about plaid's key concepts and run starter code get started api reference explore server-side api libraries and integrate with api endpoints view reference api reference explore server-side api libraries and integrate with api endpoints view reference l"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "ution coverage , then see test in sandbox . auth pricing auth is billed on a one-time fee model . to view the exact pricing you may be eligible for, apply for production access or contact sales . for more details about pricing and billing models, see plaid billing . next steps now that you understand auth, add auth to your app , or see move money with auth partners to se"
+      }
+    ],
+    "mcp": "a question... hi! i'm bill! you can ask me all about the plaid api. try asking questions like: pssst -- i also moonlight as your ide's research librarian! plug me in via the plaid mcp server . note: bill isn't perfect. he's just a robot platypus that reads our docs for fun. you should treat his answers with the same healthy skepticism you might treat any other answer ",
+    "breadth": "nces to build with plaid. quickstart learn about plaid's key concepts and run starter code get started quickstart learn about plaid's key concepts and run starter code get started api reference explore server-side api libraries and integrate with api endpoints view reference api reference explore server-side api libraries and integrate with api endpoints view reference l"
+  },
+  "evidence_urls": [
+    "https://plaid.com/docs/",
+    "https://plaid.com/docs/api/",
+    "https://plaid.com/docs/auth/",
+    "https://dashboard.plaid.com/signup",
+    "https://plaid.com/docs/liabilities/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

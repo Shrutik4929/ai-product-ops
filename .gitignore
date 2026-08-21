@@ -1,0 +1,5 @@
+.env
+.venv/
+__pycache__/
+*.pycsubmission/
+ai-product-ops-submission.zip

@@ -1,0 +1,60 @@
+{
+  "id": "49",
+  "app": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "website": "https://developer-docs.amazon.com/sp-api",
+  "auth_methods": [
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "Token",
+        "snippet": "hipping api v1 reference solicitations api solicitations api supply sources api supply sources api multi-location inventory integration guide supply sources api rate limits tokens api tokens api tracking api tracking api uploads api uploads api vehicles api vehicles api vehicles api rate limits vendor direct fulfillment apis vendor direct fulfillment dynamic sandbox "
+      }
+    ],
+    "api": [
+      {
+        "signal": "GraphQL",
+        "snippet": "gacy versions availability sandbox 2024-06-01 ( reference | model ) none sellers and vendors static release notes june 25, 2025 data kiosk api you use the data kiosk api to submit graphql queries for data from a variety of schemas to help selling partners manage their businesses. data kiosk currently hosts seller sales and traffic data. find details of the dataset "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ents: visit https://developer-docs.amazon/sp-api/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home documentation code samples api reference announcements models release notes faq github videos default german (germany) spanish (spain) french (france) italian (italy) japanese (japan) portuguese (brazil) turkish (turkey)"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "developer account",
+        "snippet": "orize applications reauthorize applications reactivate authorizations view more… integration building robust amazon sp-api applications sp-api sdks delete an application from your developer account calling the sp-api configuration details call structure development tools view more… solution provider portal manage users in solution provider portal manage your business and con"
+      }
+    ],
+    "mcp": null,
+    "breadth": "ents: visit https://developer-docs.amazon/sp-api/llms.txt for an index of all pages formatted in markdown and endpoints in openapi. jump to content home documentation code samples api reference announcements models release notes faq github videos default german (germany) spanish (spain) french (france) italian (italy) japanese (japan) portuguese (brazil) turkish (turkey)"
+  },
+  "evidence_urls": [
+    "https://developer-docs.amazon/sp-api/page/404",
+    "https://developer-docs.amazon/sp-api",
+    "https://developer-docs.amazon/sp-api/reference/welcome-to-api-references",
+    "https://developer-docs.amazon/sp-api/",
+    "https://developer-docs.amazon/sp-api/docs/sp-api-models",
+    "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
+    "https://developer-docs.amazon/sp-api/docs/faq",
+    "https://developer-docs.amazon/sp-api/docs/welcome",
+    "https://developer-docs.amazon/sp-api/recipes",
+    "https://developer-docs.amazon/sp-api/docs/policies-and-agreements",
+    "https://developer-docs.amazon/sp-api/changelog.rss",
+    "https://developer-docs.amazon/sp-api/docs/tutorial-retrieve-and-pass-purchase-order-number-to-carrier",
+    "https://developer-docs.shipping.amazon.com/apis/docs/shipping-api-v2-reference"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

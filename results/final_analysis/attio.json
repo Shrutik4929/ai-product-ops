@@ -1,0 +1,79 @@
+{
+  "id": "4",
+  "app": "Attio",
+  "category": "CRM and Sales",
+  "website": "https://attio.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token",
+    "Basic authentication"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "ocs [ 0 1 ] create custom integrations with full read and write access. [ 0 2 ] listen for webhooks and take action programatically. [ 0 3 ] authenticate and authorize access with oauth 2.0. [ 0 1 ] create custom integrations with full read and write access. [ 0 2 ] listen for webhooks and take action programatically. [ 0 3 ] authenticate and authorize access with oa"
+      },
+      {
+        "signal": "API key",
+        "snippet": "er to make requests to the attio rest api, you need to generate an access token. there are two ways to generate an access token: by implementing an oauth 2.0 flow by generating an api key for your workspace you should prefer the oauth 2.0 flow if building an app for multiple workspaces. if you are building an app for a single workspace, you can manually generate an"
+      },
+      {
+        "signal": "Token",
+        "snippet": " assistant search... navigation guides authenticating requests overview app sdk rest api mcp sql share changelog guides authenticating requests copy page copy page how to generate access tokens and make requests copy page copy page in order to make requests to the attio rest api, you need to generate an access token. there are two ways to generate an access token: by im"
+      },
+      {
+        "signal": "Basic authentication",
+        "snippet": " access token are used in the same way. pass the value of the token in the authorization header of your requests like so. authorization: bearer <access_token> we also support http basic authentication , where the username is the token and the password is left blank. however, we recommend using bearer authentication where possible. ​ scopes both oauth access tokens and single-wo"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "ayout under src/app/ ; convert existing apps with the migration guide . attio docs home page search... ⌘ k ask assistant search... navigation get started overview overview app sdk rest api mcp sql share changelog get started overview copy page copy page start building attio apps copy page copy page attio is a revolutionary crm platform which is highly customisable, "
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ings pages, and the api. ​ creating using the api we offer a range of endpoints for creating, updating, deleting and viewing webhooks. you can find these endpoints in the webhooks api reference . creating webhooks over the api is essential for those building integrations for attio that will operate for many customers. the webhook apis also allow you to utilise our powerf"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "as <strong> ${ req . session . username } </strong>.</p> <p><a href=\"/logout\">logout</a></p> ` ) } else { return res . send ( ` <h1>you are not logged in</h1> <p><a href=\"/signup\">sign up</a></p> ` ) } }) app . get ( \"/signup\" , ( req , res ) => { if ( req . session . userid ) { return res . redirect ( \"/\" ) } res . send ( ` <h1>sign up</h1> <form method=\"post\" act"
+      }
+    ],
+    "mcp": "ip polished interfaces for your app. i really wanted to work with something hyper modern — the attio sdk gives me that. kacper cygan / sequence expose attio to ai clients. use the mcp server with coding agents, automation tools, or to integrate with your product. view docs [ 0 1 ] enable agent-driven workflows with full read and write access. [ 0 2 ] search, create, a",
+    "breadth": "ings pages, and the api. ​ creating using the api we offer a range of endpoints for creating, updating, deleting and viewing webhooks. you can find these endpoints in the webhooks api reference . creating webhooks over the api is essential for those building integrations for attio that will operate for many customers. the webhook apis also allow you to utilise our powerf"
+  },
+  "evidence_urls": [
+    "https://docs.attio.com/docs/overview",
+    "https://attio.com/platform/developers",
+    "https://docs.attio.com/rest-api/overview",
+    "https://attio.com/",
+    "https://docs.attio.com/rest-api/guides/authentication",
+    "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+    "https://docs.attio.com/rest-api/overview#content-area",
+    "https://docs.attio.com/rest-api/guides/rate-limiting",
+    "https://docs.attio.com/rest-api/guides/filtering-and-sorting",
+    "https://docs.attio.com/rest-api/guides/pagination",
+    "https://docs.attio.com/rest-api/guides/webhooks",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types-actor-reference",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types-checkbox",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types-currency",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types-date",
+    "https://docs.attio.com/rest-api/attribute-types/attribute-types-domain"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

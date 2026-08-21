@@ -1,0 +1,91 @@
+{
+  "id": "91",
+  "app": "NotebookLM",
+  "category": "AI, Research and Media-native",
+  "website": "https://cloud.google.com/gemini",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "s a number of services that host applications written by our customers; these applications also need to determine the identity of their users. google apis implement and extend the oauth 2.0 framework . how to get help with authentication action instructions authenticate to vertex ai in express mode ( preview ). use the api key created for you during the sign-on proce"
+      },
+      {
+        "signal": "API key",
+        "snippet": " the fast path for developers, students, and researchers who want to try gemini models and get started building with the gemini developer api. try gemini 3 get your no cost gemini api key gemini developer api quickstart gemini api in gemini enterprise agent platform access, customize, and deploy gemini models at scale with agent platform enterprise customers and de"
+      },
+      {
+        "signal": "Token",
+        "snippet": "oogle cloud services. use your user credentials to impersonate a service account . use your user credentials to sign in to the google cloud cli , and then use the tool to generate access tokens . for an overview of ways to configure identities for users in google cloud, see identities for users . service accounts service accounts are accounts that do not represent a hum"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "authenticate application users for a comparison of options. try out some gcloud commands in my local development environment. initialize the gcloud cli . try out some google cloud rest api requests in my local development environment. use a command-line tool such as curl to call the rest api . try out a code snippet included in my product documentation. set up adc f"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "our code is running in environments where compromised tokens might be a concern, such as mobile apps. the authorization scopes that are accepted by an api method are listed in the api reference documentation for each google cloud service. application default credentials application default credentials (adc) is a strategy used by the authentication libraries to automatica"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "gramming languages python go java javascript and node.js c# c++ quick-start resources use these quick-start resources to jumpstart your building process google cloud free tier and free trials within our free usage tier, you can use our latest models, deploy serverless apps, run a vm, perform continuous integration, and analyze data with bigquery. check out the free ti"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "ative partner that can act as a coach, thought partner, source of inspiration, and productivity booster—all while ensuring every user and organization has control over their data. sign up for your 14-day free trial of google workspace gemini developer api discover the power of gemini with google ai studio and start building start using gemini with google ai studio "
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": " your ai journey today try google cloud ai and machine learning products. new customers can get started with up to $300 in free credits. get started for free have a large project? contact sales continue browsing see all ai/ml products work with a trusted partner find a partner menu  search send docs support console sign in start free start free contact us close accelera"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": " menu  search send docs support console sign in start free developer center home for data engineers for cloud architects for database professionals developer use cases start free contact us close accelerate your digital transformation whether your business is early in its journey or well on its way to digital transformation, google cloud can help solve your toughest "
+      }
+    ],
+    "mcp": "ild a data-driven agent and test its ability to generate accurate sql and data insights. agent production patterns learn how to enhance your agent's capabilities with agentic rag, model context protocol (mcp) tools, and agent to agent (a2a) protocol. summary : building connected agents with mcp and a2a go to labs! getting started with mcp, adk and a2a objective : build a speciali",
+    "breadth": "our code is running in environments where compromised tokens might be a concern, such as mobile apps. the authorization scopes that are accepted by an api method are listed in the api reference documentation for each google cloud service. application default credentials application default credentials (adc) is a strategy used by the authentication libraries to automatica"
+  },
+  "evidence_urls": [
+    "https://docs.cloud.google.com/",
+    "https://cloud.google.com/developers",
+    "https://docs.cloud.google.com/docs",
+    "https://docs.cloud.google.com/docs/",
+    "https://cloud.google.com/ai/gemini",
+    "https://cloud.google.com/solutions/new-channels-using-apis",
+    "https://docs.cloud.google.com/docs/authentication",
+    "https://docs.cloud.google.com/docs/get-started/",
+    "https://cloud.google.com/developers#build-with-google-cloud",
+    "https://cloud.google.com/developers#learn-with-google-cloud",
+    "https://cloud.google.com/developers#connect-with-the-cloud-community",
+    "https://cloud.google.com/developers/use-cases",
+    "https://cloud.google.com/blog/topics/developers-practitioners/scaling-the-next-generation-of-global-innovation-how-google-supports-top-startups-around-the-world/",
+    "https://cloud.google.com/blog/topics/developers-practitioners/production-ready-ai-with-google-cloud-learning-path",
+    "https://cloud.google.com/blog/topics/developers-practitioners/next-26-hands-on-10-codelabs-to-build-featured-tech",
+    "https://cloud.google.com/developers/data-engineer",
+    "https://cloud.google.com/developers/cloud-architect",
+    "https://cloud.google.com/developers/database-professional",
+    "https://cloud.google.com/solutions/apis-and-applications"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "58",
+  "app": "Sherlock",
+  "category": "Data, SEO and Scraping",
+  "website": "https://github.com/sherlock-project/sherlock",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Available, breadth unclear",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "curity features that github enterprise offers: authentication and access controls: github enterprise includes two-factor authentication, ldap and active directory integration, and oauth authentication. this helps organizations ensure that only authorized users can access their repositories and data. encryption: all data in transit between the user's computer and "
+      },
+      {
+        "signal": "Token",
+        "snippet": " ssh using the ssh protocol, you can connect and authenticate to remote servers and services. with ssh keys, you can connect to github without supplying your username and personal access token at each visit. you can also use an ssh key to sign commits. learn about authentication about two-factor authentication two-factor authentication (2fa) is an extra layer of securit"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "sktop project management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing "
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "ject management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing electron"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "actor authentication with 2fa enabled, you'll be asked to provide your 2fa authentication code, as well as your password, when you sign in to github. showing 1-9 of 65 github rest api documentation - github docs skip to main content github docs version: free, pro, & team search or ask copilot search or ask copilot select language: current language is english search or ask co"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "free trial",
+        "snippet": "developer platform for the agent-ready enterprise bring your devops together on one secure platform built for speed, scale, and the agent-driven future of software. start a 30-day free trial contact sales /enterprise section - logo ford 3m procter and gamble american airlines kpmg stripe spotify ford 3m procter and gamble american airlines kpmg stripe spotify enterpri"
+      },
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "to github docs more docs codeql query writing electron npm github well-architected developers · github skip to content navigation menu sign in appearance settings search / sign in sign up appearance settings you signed in with another tab or window. reload to refresh your session. you signed out in another tab or window. reload to refresh your session. you switched"
+      },
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "latform for the agent-ready enterprise bring your devops together on one secure platform built for speed, scale, and the agent-driven future of software. start a 30-day free trial contact sales /enterprise section - logo ford 3m procter and gamble american airlines kpmg stripe spotify ford 3m procter and gamble american airlines kpmg stripe spotify enterprise-grade by de"
+      },
+      {
+        "type": "gating",
+        "signal": "contact our sales team",
+        "snippet": "r data. and now with github enterprise cloud with data residency , customers have enhanced control where certain data, like their code, resides. start a free 30 day trial today or contact our sales team for more information. who uses github enterprise? github enterprise is used by organizations of all sizes that require greater productivity, collaboration, and security capabiliti"
+      },
+      {
+        "type": "gating",
+        "signal": "enterprise plan",
+        "snippet": " choosing your plan how can organizations get started with github enterprise? to get started with github enterprise, try a free trial today or contact our sales team . what github enterprise plans are available? github enterprise offers several plans that vary in price and features. they are designed to accommodate different types of organizations and teams, from small sta"
+      }
+    ],
+    "mcp": "ession. dismiss alert connect models to the real world servers and tools from the community that connect models to files, apis, databases, and more. search mcp registry search all mcp servers 220 markitdown install convert various file formats (pdf, word, excel, images, audio) to markdown. netdata install real-time infrastructure monitoring with metrics, logs, alerts,",
+    "breadth": " project management github issues projects search on github enterprise and teams organizations secure at scale enterprise onboarding enterprise administrators developers apps rest api graphql api webhooks community building communities github sponsors github education github for nonprofits github support contribute to github docs more docs codeql query writing "
+  },
+  "evidence_urls": [
+    "https://developers.github.com/",
+    "https://docs.github.com/en",
+    "https://github.com/developers",
+    "https://github.com/docs",
+    "https://github.com/api-docs",
+    "https://docs.github.com/en/authentication",
+    "https://docs.github.com/en/rest",
+    "https://docs.github.com/en/graphql",
+    "https://github.com/developers#start-of-content",
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdevelopers",
+    "https://github.com/mcp",
+    "https://github.com/open-source/sponsors",
+    "https://github.com/enterprise",
+    "https://github.com/Developers",
+    "https://github.com/orgs/Developers/repositories",
+    "https://github.com/orgs/Developers/projects?query=is%3Aopen",
+    "https://github.com/orgs/Developers/packages",
+    "https://github.com/orgs/Developers/people",
+    "https://github.com/api-docs#start-of-content"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "85",
+  "app": "iPayX",
+  "category": "Finance and Fintech",
+  "website": "https://ipayx.ai/docs",
+  "auth_methods": [
+    "Unknown"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Unknown"
+  ],
+  "api_breadth": "Unknown",
+  "mcp_available": "Not confirmed",
+  "buildability": "Needs verification",
+  "main_blocker": "Insufficient API/authentication evidence.",
+  "evidence": {
+    "authentication": [],
+    "api": [],
+    "self_serve": [],
+    "mcp": null,
+    "breadth": null
+  },
+  "evidence_urls": [
+    "https://www.ipayx.ai/developers",
+    "https://www.ipayx.ai/developer",
+    "https://www.ipayx.ai/docs",
+    "https://www.ipayx.ai/api",
+    "https://www.ipayx.ai/api-docs"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

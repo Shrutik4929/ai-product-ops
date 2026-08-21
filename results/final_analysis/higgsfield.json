@@ -1,0 +1,45 @@
+{
+  "id": "97",
+  "app": "higgsfield",
+  "category": "AI, Research and Media-native",
+  "website": "https://higgsfield.ai/cli",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "oint, then poll for the result or receive a webhook when processing finishes. run your first request create credentials and complete a generation from submission to result. get an api key create and manage server-side credentials in higgsfield cloud. ​ make a request every model uses the same authentication and asynchronous request lifecycle. the json body depends "
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "but individual models may have separate access restrictions. a model unavailable to the authenticated account can return 404 , 423 , or 503 depending on its operational state. ⌘ i api reference - higgsfield api docs documentation index fetch the complete documentation index at: /docs/llms.txt use this file to discover all available pages before exploring further. skip to"
+      }
+    ],
+    "self_serve": [],
+    "mcp": ", consistent characters using soul training, and more. you can generate from text prompts, reference images, or a combination of both. do i need an api key? no. add the higgsfield mcp server url in your agent's settings and authenticate through your higgsfield account. no api keys to manage or configure. how does pricing work? higgsfield tools use the same credit syst",
+    "breadth": "but individual models may have separate access restrictions. a model unavailable to the authenticated account can return 404 , 423 , or 503 depending on its operational state. ⌘ i api reference - higgsfield api docs documentation index fetch the complete documentation index at: /docs/llms.txt use this file to discover all available pages before exploring further. skip to"
+  },
+  "evidence_urls": [
+    "https://docs.higgsfield.ai/docs",
+    "https://higgsfield.ai/cli",
+    "https://docs.higgsfield.ai/docs/authentication",
+    "https://docs.higgsfield.ai/docs/api-reference/overview",
+    "https://cloud.higgsfield.ai/",
+    "https://docs.higgsfield.ai/docs/api-reference/requests/get-request-status",
+    "https://docs.higgsfield.ai/docs/api-reference/requests/cancel-a-queued-request",
+    "https://higgsfield.ai/mcp"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

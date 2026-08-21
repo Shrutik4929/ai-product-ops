@@ -1,0 +1,77 @@
+{
+  "id": "65",
+  "app": "Supabase",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://supabase.com/docs",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Conditional / plan-dependent",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable with plan constraint",
+  "main_blocker": "API access depends on account/plan conditions.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "l auth # apple azure (microsoft) bitbucket discord facebook figma github gitlab google kakao keycloak linkedin notion slack spotify twitter twitch workos zoom you can also add any oauth2 or oidc-compatible identity provider using custom oauth/oidc providers . phone auth # messagebird twilio vonage pricing # charges apply to monthly active users (mau), monthly acti"
+      },
+      {
+        "signal": "API key",
+        "snippet": "wn api server (three-tier architecture). looking for your data api url and keys? you can find the api url in the integrations > data api section of the dashboard. you can find the api keys in the settings > api keys section of the dashboard. features # supabase provides a restful api using postgrest , a thin api layer on top of postgres. it exposes everything you n"
+      },
+      {
+        "signal": "Token",
+        "snippet": "valid.email@supabase.io ' , 8 user_metadata : { 9 full_name : ' foo bar ' , 10 }, 11 app_metadata : { 12 role : ' admin ' , 13 }, 14 } ) these fields will be exposed in the user's access token jwt so it is recommended not to store excessive metadata in these fields. these fields are stored as columns in the auth.users table using the jsonb type. both fields can be updat"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "closest to your users for the lowest latency. extend your database extend your database with built-in tools for ai, apis, scheduled jobs, and queues. ai & vectors cron queues data rest api graphql api use a client library use supabase from the language and framework your application is built with. javascript flutter python c# swift kotlin migrate to supabase bring y"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "o your users for the lowest latency. extend your database extend your database with built-in tools for ai, apis, scheduled jobs, and queues. ai & vectors cron queues data rest api graphql api use a client library use supabase from the language and framework your application is built with. javascript flutter python c# swift kotlin migrate to supabase bring your exis"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "ag pipelines, and other ai-powered features using pgvector is this helpful? no yes ai tools connect your ai agent copy as markdown ask chatgpt ask claude introduction | management api reference | supabase docs skip to content management api reference introduction management api manage your supabase organizations and projects programmatically. authentication # all api req"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "sign up",
+        "snippet": "e auth token scopes database access on a row-by-row level when used along with rls policies . get started # start here if you're new to supabase auth: auth with email and password sign up and sign in users with email and password. server-side rendering create a supabase client for ssr frameworks like next.js and sveltekit. which package to use supabase-js vs @supab"
+      },
+      {
+        "type": "gating",
+        "signal": "contact us",
+        "snippet": "ject the first time a user logs in, see the firebase-to-supabase repo . resources # supabase vs firebase firestore data migration firestore storage migration migrate to supabase # contact us if you need more help migrating your project. is this helpful? no yes ai tools connect your ai agent copy as markdown ask chatgpt ask claude migrate from firebase firestore to sup"
+      }
+    ],
+    "mcp": "ing. opencode mcp the open source ai coding agent. vs code plugin + mcp the open source ai code editor — your home for multi-agent development. warp mcp connect using the supabase mcp server or plugin. key concepts # mcp (model context protocol) : a live connection between your agent and your actual supabase project. once connected, your agent can call tools to query ",
+    "breadth": "ag pipelines, and other ai-powered features using pgvector is this helpful? no yes ai tools connect your ai agent copy as markdown ask chatgpt ask claude introduction | management api reference | supabase docs skip to content management api reference introduction management api manage your supabase organizations and projects programmatically. authentication # all api req"
+  },
+  "evidence_urls": [
+    "https://supabase.com/docs",
+    "https://supabase.com/docs/guides/auth",
+    "https://supabase.com/docs/guides/api",
+    "https://supabase.com/docs/guides/graphql",
+    "https://supabase.com/docs/guides/platform/migrating-to-supabase/auth0",
+    "https://supabase.com/docs/guides/platform/migrating-to-supabase/firebase-auth",
+    "https://supabase.com/docs/guides/platform/migrating-to-supabase/firestore-data",
+    "https://supabase.com/docs/guides/ai-tools",
+    "https://supabase.com/docs/reference/api/introduction",
+    "https://supabase.com/docs/reference/self-hosting-auth/introduction"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

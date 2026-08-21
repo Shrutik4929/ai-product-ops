@@ -1,0 +1,71 @@
+{
+  "id": "10",
+  "app": "DealCloud",
+  "category": "CRM and Sales",
+  "website": "https://api.docs.dealcloud.com",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Unknown",
+  "api_type": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "or the api. if a user lacks access to specific objects, fields, or records, those restrictions apply to their mcp connection as well. getting started available tools requesting an oauth2 bearer token - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 api reference getting started api keys authorization token pagination rate limits"
+      },
+      {
+        "signal": "API key",
+        "snippet": "dealcloud developer documentation - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 feedback (opens in a new tab) api reference getting started api keys authorization token pagination rate limits status codes and handling core schema entrytypes all entry types entry type by id fields all fields fields by entrytype field by id mul"
+      },
+      {
+        "signal": "Token",
+        "snippet": "api. if a user lacks access to specific objects, fields, or records, those restrictions apply to their mcp connection as well. getting started available tools requesting an oauth2 bearer token - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 api reference getting started api keys authorization token pagination rate limits status codes"
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "to function temporarily, but clients should migrate to the new site-specific domains as soon as possible. template report apis three new endpoints have been added to the dealcloud rest api which allow administrators to programmatically generate template reports, allowing for more robust workflow automation. these endpoints allow you to identify existing template rep"
+      },
+      {
+        "signal": "GraphQL",
+        "snippet": "lcloud record by name search search dealcloud records entry_details get dealcloud entry details get_current_user current user and tenant profile search_schema search the dealcloud graphql schema introspect inspect a dealcloud graphql type execute_query run a graphql query get_query_instructions graphql query-composition rules authentication sdks obtaining an api ke"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "dealcloud developer documentation - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 feedback (opens in a new tab) api reference getting started api keys authorization token pagination rate limits status codes and handling core schema entrytypes all entry types entry type by id fields all fields fields by e"
+      }
+    ],
+    "self_serve": [],
+    "mcp": "dealcloud developer documentation - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 feedback (opens in a new tab) api reference getting started api keys authorization token pagination rate limits status codes and handling core ",
+    "breadth": "dealcloud developer documentation - dealcloud api docs 🚀 new: dealcloud mcp server — client preview starting july 2026 feedback (opens in a new tab) api reference getting started api keys authorization token pagination rate limits status codes and handling core schema entrytypes all entry types entry type by id fields all fields fields by e"
+  },
+  "evidence_urls": [
+    "https://api.docs.dealcloud.com/",
+    "https://api.docs.dealcloud.com/mcp/authentication",
+    "https://api.docs.dealcloud.com/docs/token",
+    "https://api.docs.dealcloud.com/mcp/getting-started",
+    "https://api.docs.dealcloud.com/sdk/python/authentication",
+    "https://api.docs.dealcloud.com/sdk/csharp/authentication",
+    "https://api.docs.dealcloud.com/releases",
+    "https://api.docs.dealcloud.com/docs",
+    "https://api.docs.dealcloud.com/docs/publications/getting_started",
+    "https://api.docs.dealcloud.com/mcp",
+    "https://api.docs.dealcloud.com/mcp/tools",
+    "https://api.docs.dealcloud.com/docs/apikeys",
+    "https://api.docs.dealcloud.com/docs/pagination",
+    "https://api.docs.dealcloud.com/docs/limits",
+    "https://api.docs.dealcloud.com/docs/errors"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

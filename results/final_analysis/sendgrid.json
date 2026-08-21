@@ -1,0 +1,46 @@
+{
+  "id": "40",
+  "app": "SendGrid",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://sendgrid.com",
+  "auth_methods": [
+    "API key"
+  ],
+  "self_serve": "Likely gated",
+  "api_type": [
+    "Public API - type unclear"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Not confirmed",
+  "buildability": "Buildable with access constraint",
+  "main_blocker": "Credentials/API access are gated.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "API key",
+        "snippet": "ics and reporting get started with the event webhook review the event webhook reference use the email activity feed review the sendgrid engagement quality api account and settings api keys subusers teammates domain authentication single sign-on (sso) parsing email configure the inbound parse webhook review inbound parse api sdks and tools c# (link takes you to an e"
+      }
+    ],
+    "api": [
+      {
+        "signal": "API documentation",
+        "snippet": "ve email or integrate with a cloud partner for email processing. beyond sending your first email get started with the email api set up domain authentication review the sendgrid v3 api reference review the email glossary send email send email using smtp build an x-smtpapi header send email using microsoft azure templates and dynamic data send an email with dynamic templat"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "gating",
+        "signal": "contact sales",
+        "snippet": "ment customer data platform twilio sendgrid email and marketing campaigns twilio logo an icon of a search magnifying glass data is collected based on search terms.â privacy policy contact sales start for free data is collected based on search terms.â privacy policy contact sales start for free support an icon of a down chevron help center support plans partner solutions "
+      }
+    ],
+    "mcp": null,
+    "breadth": "ve email or integrate with a cloud partner for email processing. beyond sending your first email get started with the email api set up domain authentication review the sendgrid v3 api reference review the email glossary send email send email using smtp build an x-smtpapi header send email using microsoft azure templates and dynamic data send an email with dynamic templat"
+  },
+  "evidence_urls": [
+    "https://www.twilio.com:443/docs/sendgrid",
+    "https://app.sendgrid.com/",
+    "https://www.twilio.com/en-us/sendgrid"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}

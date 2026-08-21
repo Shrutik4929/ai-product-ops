@@ -1,0 +1,76 @@
+{
+  "id": "69",
+  "app": "Datadog",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.datadoghq.com/api",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "Token"
+  ],
+  "self_serve": "Likely self-serve",
+  "api_type": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_available": "Confirmed",
+  "buildability": "Buildable",
+  "main_blocker": "Public API and authentication mechanism identified.",
+  "evidence": {
+    "authentication": [
+      {
+        "signal": "OAuth 2.0",
+        "snippet": "mory consumption guides data security integrations guides client sdks setup advanced configuration data collected integrated libraries troubleshooting extend datadog authorization oauth2 in datadog authorization endpoints dogstatsd datagram format unix domain socket high throughput data data aggregation dogstatsd mapper custom checks writing a custom agent check w"
+      },
+      {
+        "signal": "API key",
+        "snippet": "nagement log processing and archival process, monitor, and archive your ingested logs sensitive data scanner pii detection and redaction detect and redact sensitive data like pii, api keys, and credit card numbers across your telemetry observability pipelines telemetry pipeline management manage and monitor your telemetry pipelines error tracking critical error res"
+      },
+      {
+        "signal": "Token",
+        "snippet": "ng saml certificates user group mapping active directory auth0 entra id google lastpass okta safenet troubleshooting scim okta microsoft entra id api and application keys personal access tokens service access tokens teams team management provision with github governance console controls multi-factor authentication audit trail events forwarding guides safety center plan "
+      }
+    ],
+    "api": [
+      {
+        "signal": "REST",
+        "snippet": "g live tail byoc logs introduction architecture network supported features quickstart install aws eks azure aks gcp gke docker (local) ingest datadog agent observability pipelines rest api configure indexes ingress lambda search offloading operate sizing monitoring search logs production best practices disk buffer durability releases and updates troubleshooting guid"
+      },
+      {
+        "signal": "API documentation",
+        "snippet": "sed settings, billing, and data access controls data security data protection practices learn how datadog protects your data request a personalized demo × get started with datadog api reference for ai agents: a markdown version of this page is available at https://docs.datadoghq.com/api/latest.md . a documentation index is available at /llms.txt . home docs api agents es"
+      }
+    ],
+    "self_serve": [
+      {
+        "type": "self_serve",
+        "signal": "create an app",
+        "snippet": "ira issue templates delete jira account list jira accounts key management get all api keys create an api key get api key edit an api key delete an api key get all application keys create an application key get an application key edit an application key delete an application key delete an application key owned by current user edit an application key owned by current user "
+      }
+    ],
+    "mcp": " runtimes migration guides reference terms and concepts trace context propagation trace ids otlp metric types administrator's guide getting started plan build run api command line mcp server setup mcp tools partners datadog mobile app enterprise configuration datadog for intune shortcut configurations push notifications widgets guides ddsql reference data directory co",
+    "breadth": "sed settings, billing, and data access controls data security data protection practices learn how datadog protects your data request a personalized demo × get started with datadog api reference for ai agents: a markdown version of this page is available at https://docs.datadoghq.com/api/latest.md . a documentation index is available at /llms.txt . home docs api agents es"
+  },
+  "evidence_urls": [
+    "https://developers.datadoghq.com/account/login?next=%2F",
+    "https://developer.datadoghq.com/account/login?next=%2F",
+    "https://docs.datadoghq.com/",
+    "https://docs.datadoghq.com/api/latest/",
+    "https://docs.datadoghq.com/api/latest/oauth2-client-public/get-an-oauth2-client-scopes-restriction/",
+    "https://docs.datadoghq.com/api/latest/oauth2-client-public/upsert-an-oauth2-client-scopes-restriction/",
+    "https://docs.datadoghq.com/api/latest/oauth2-client-public/delete-an-oauth2-client-scopes-restriction/",
+    "https://docs.datadoghq.com/api/latest/webhooks-integration/create-an-oauth2-client-credentials-auth-method/",
+    "https://docs.datadoghq.com/api/latest/webhooks-integration/get-an-oauth2-client-credentials-auth-method/",
+    "https://docs.datadoghq.com/api/latest/webhooks-integration/update-an-oauth2-client-credentials-auth-method/",
+    "https://docs.datadoghq.com/api/latest/webhooks-integration/delete-an-oauth2-client-credentials-auth-method/",
+    "https://docs.datadoghq.com/api/latest/authentication/",
+    "https://docs.datadoghq.com/api/latest/authentication/validate-api-key/",
+    "https://docs.datadoghq.com/api/latest/cloud-authentication/",
+    "https://docs.datadoghq.com/api/latest/cloud-authentication/list-aws-cloud-authentication-persona-mappings/",
+    "https://docs.datadoghq.com/api/latest/cloud-authentication/get-an-aws-cloud-authentication-persona-mapping/",
+    "https://docs.datadoghq.com/api/latest/cloud-authentication/create-an-aws-cloud-authentication-persona-mapping/",
+    "https://docs.datadoghq.com/api/latest/cloud-authentication/delete-an-aws-cloud-authentication-persona-mapping/",
+    "https://docs.datadoghq.com/api/latest/key-management/create-a-personal-access-token/"
+  ],
+  "analysis_method": "Version 3 signal-based rule analyzer"
+}
